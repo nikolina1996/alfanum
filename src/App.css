@@ -1531,23 +1531,23 @@ li::marker{
 @media (max-width: 700px) {
   #pocetni {
     display: flex;
-    flex-direction: column;
+    flex-direction: column; /* obavezno da bi levi i desni bili jedan ispod drugog */
+    width: 100%;
   }
 
   #leviPocetni,
   #desniPocetni {
     width: 100%;
-    text-align: center;
-    padding: 0;
-    margin: 0;
+    box-sizing: border-box;
   }
 
   #desniPocetni {
-    padding-bottom: 0;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
-    gap: 0;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
   }
 
   #naslov {
