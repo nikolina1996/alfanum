@@ -1664,10 +1664,12 @@ h4{
 .partneri {
   display: grid;
   height: 150px;
+  width: 70%;
   margin-top: 70px;
   grid-template-columns: repeat(3, 1fr);
   gap: 15px;
   place-items: center; 
+ 
 }
 .partner{
   width:100%;
