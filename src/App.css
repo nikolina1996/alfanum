@@ -1531,14 +1531,24 @@ li::marker{
 @media (max-width: 700px) {
   #pocetni {
     display: flex;
+    flex-direction: column;
   }
 
-  #leviPocetni, #desniPocetni {
-    width: 100%; 
+  #leviPocetni,
+  #desniPocetni {
+    width: 100%;
     text-align: center;
-    
-   
-    
+    padding: 0;
+    margin: 0;
+  }
+
+  #desniPocetni {
+    padding-bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* Dodaj ovo ako ima više elemenata unutra */
+    gap: 0;
   }
 
   #naslov {
@@ -2065,10 +2075,6 @@ ul {
 .my-button{
   font-size: 14px;
   padding: 8px 16px;  
-}
-#desniPocetni{
-  padding-bottom: 0px;
-  display: flex;
 }
 /*Sredjivanje skrolovanja*/
 .company-container {
