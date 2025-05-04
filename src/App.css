@@ -2068,6 +2068,7 @@ ul {
 }
 #desniPocetni{
   padding-bottom: 0px;
+  display: flex;
 }
 /*Sredjivanje skrolovanja*/
 .company-container {
