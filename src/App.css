@@ -1529,26 +1529,25 @@ li::marker{
 }
 
 @media (max-width: 700px) {
-   #pocetni {
+  #pocetni {
     display: flex;
-    flex-direction: column; /* obavezno da bi levi i desni bili jedan ispod drugog */
-    width: 100%;
+    flex-direction: column;
   }
 
   #leviPocetni,
   #desniPocetni {
     width: 100%;
-    box-sizing: border-box;
-    display: flex;
+    text-align: center;
+    padding: 0;
+    margin: 0;
   }
 
   #desniPocetni {
+    padding-bottom: 0;
     display: flex;
-    flex-direction: column;
-    align-items: center;
     justify-content: center;
-    padding: 0;
-    margin: 0;
+    align-items: center;
+    gap: 0;
   }
 
   #naslov {
