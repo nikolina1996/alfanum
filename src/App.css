@@ -1,6 +1,3 @@
-* {
-  outline: 1px solid green !important;
-}
 html {
   scroll-behavior: smooth;
 }
@@ -2064,9 +2061,7 @@ ul {
   font-size: 14px;
   padding: 8px 16px;  
 }
-#desniPocetni{
-  padding-bottom: 0px;
-}
+
 /*Sredjivanje skrolovanja*/
 .company-container {
  scroll-margin-top: 20px;
