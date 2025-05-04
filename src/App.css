@@ -1547,7 +1547,6 @@ li::marker{
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column; /* Dodaj ovo ako ima više elemenata unutra */
     gap: 0;
   }
 
