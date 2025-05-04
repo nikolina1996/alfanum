@@ -113,6 +113,7 @@ margin: 0;
   width: 100%;
   display: flex;
   flex-wrap: wrap;
+  max-width: 100%;
   
 }
 #leviPocetni{
@@ -1662,14 +1663,15 @@ h4{
 }
 
 .partneri {
-  display: grid;
+  flex-wrap: wrap;
   height: 150px;
   width: 70%;
+  padding-left: 15%;
+  padding-right: 15%;
   margin-top: 70px;
   grid-template-columns: repeat(3, 1fr);
   gap: 15px;
-  place-items: center; 
- 
+  place-items: center;
 }
 .partner{
   width:100%;
