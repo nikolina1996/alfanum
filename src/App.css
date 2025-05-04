@@ -1529,13 +1529,13 @@ li::marker{
 
 @media (max-width: 700px) {
   #pocetni {
-    flex-direction: column; 
+    display: flex;
   }
 
   #leviPocetni, #desniPocetni {
     width: 100%; 
     text-align: center;
-    position: relative;
+    
    
     
   }
@@ -2067,8 +2067,6 @@ ul {
 }
 #desniPocetni{
   padding-bottom: 0px;
-  flex-direction: column;
-  align-items: center;
 }
 /*Sredjivanje skrolovanja*/
 .company-container {
