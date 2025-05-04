@@ -1,6 +1,5 @@
 * {
   outline: 1px solid green !important;
-  box-sizing: border-box;
 }
 html {
   scroll-behavior: smooth;
@@ -1530,19 +1529,17 @@ li::marker{
 }
 
 @media (max-width: 700px) {
-  #pocetni {
+   #pocetni {
     display: flex;
     flex-direction: column; /* obavezno da bi levi i desni bili jedan ispod drugog */
     width: 100%;
-    flex-wrap: nowrap;
   }
 
   #leviPocetni,
   #desniPocetni {
     width: 100%;
-    max-width: 100%;
-    flex: 0 0 auto;
     box-sizing: border-box;
+    display: flex;
   }
 
   #desniPocetni {
