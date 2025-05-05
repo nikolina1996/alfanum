@@ -1550,6 +1550,7 @@ li::marker{
     height: 50px;
     padding-left: 10px;
     padding-top: 50px;
+    object-fit: cover;
   }
   #naslov {
     font-size: 30px; 
