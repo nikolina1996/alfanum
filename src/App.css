@@ -1531,12 +1531,7 @@ li::marker{
 @media (max-width: 700px) {
   
   #pocetni{
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    max-width: 100%;
-    height: auto;
-    
+    background-color: red;
   }
   #leviPocetni{
     width: 100%;
