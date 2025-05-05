@@ -1,6 +1,3 @@
-* {
-  outline: 1px solid green !important;
-}
 html {
   scroll-behavior: smooth;
 }
@@ -118,7 +115,6 @@ margin: 0;
   flex-wrap: wrap;
   max-width: 100%;
   height: auto;
-  background-color: red;
 }
 #veliki{
   width: 100%;
@@ -126,7 +122,6 @@ margin: 0;
   flex-wrap: wrap;
   max-width: 100%;
   height: auto;
-  background-color: red;
 }
 
 #leviPocetni{
@@ -1540,7 +1535,6 @@ li::marker{
 @media (max-width: 700px) {
   
   #pocetni{
-    background-color: red;
     position: relative;
   }
   #leviPocetni{
