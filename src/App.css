@@ -119,8 +119,16 @@ margin: 0;
   max-width: 100%;
   height: auto;
   background-color: red;
-  
 }
+#veliki{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 100%;
+  height: auto;
+  background-color: red;
+}
+
 #leviPocetni{
   width: 50%;
   height: 100%;

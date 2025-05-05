@@ -16,7 +16,7 @@ const MainContent = () => {
       }
     }, [location]);
   return (
-    <div>
+    <div id= "veliki">
     <div id= "pocetni">
         <div id= "leviPocetni">
             <p id= "naslov">Govorne tehnologije <span className="highlighted"> <br />AlfaNum.<br /></span> </p> 
