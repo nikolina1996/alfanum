@@ -1534,7 +1534,6 @@ li::marker{
   #pocetni{
     background-color: red;
     position: relative;
-    overflow: hidden;
   }
   #leviPocetni{
     width: 100%;
