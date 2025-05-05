@@ -1531,7 +1531,7 @@ li::marker{
 
 @media (max-width: 700px) {
   
-  #pocetni{
+ /* #pocetni{
     background-color: red;
     position: relative;
   }
@@ -1570,7 +1570,7 @@ li::marker{
     margin-right: auto; 
     clear: both;
     background-color: blue;
-  }
+  } */
   #oNama {
     flex-wrap: wrap;
     justify-content: center;
