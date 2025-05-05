@@ -1663,7 +1663,7 @@ h4{
 }
 .carousel-wrapper::before,
 .carousel-wrapper::after {
-  width: 50px;
+  width: 40px;
 }
 
 .carousel-container {
@@ -1673,11 +1673,11 @@ h4{
   
 }
 .logoKorisnik {
-  height: 30px;
+  height: 40px;
 }
 
 .logoKorisnik-link:hover .logoKorisnik {
-  transform: scale(1.05);
+  transform: scale(1.1);
 }
 #naslovPartner{
   margin-top: 0px;
