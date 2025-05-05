@@ -1553,6 +1553,11 @@ li::marker{
     margin-top: -170px;
     
   }
+  #pocetnaSlika{
+    
+    padding-left: 0px;
+   
+  }
 
   #naslov {
     font-size: 30px; 
