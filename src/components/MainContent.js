@@ -22,7 +22,7 @@ const MainContent = () => {
             <p id= "podnaslov"> <br />Kompanija sa iskustvom od preko 20 godina koja se bavi govornim tehnologijama za srpski i srodne jezike, bazira se na AI i dugogodišnjem iskustvu našeg tima. Nudimo najkvalitetnija rešenja za sintezu i prepoznavanje govora u domenima medicine, prava i za opštu namenu.</p>
         </div>
         <div id= "desniPocetni">
-        <img src="/images/main.png" alt="Logo" id="pocetnaSlika" />
+          <img src="/images/main.png" alt="Logo" id="pocetnaSlika" />
         </div>
     <AboutUs/>
     <div className= "naslovi" id='naslovProizvod'>

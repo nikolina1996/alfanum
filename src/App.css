@@ -1571,12 +1571,13 @@ li::marker{
 
   #pocetnaSlika {
     width: 250px; 
-    padding-top: 50px; 
+    height: auto;
+    /*padding-top: 50px; 
     display: block; 
     margin-left: auto; 
     margin-right: auto; 
     display: block; 
-    clear: both; 
+    clear: both; */
   }
   #oNama {
     flex-wrap: wrap;
