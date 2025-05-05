@@ -16,6 +16,7 @@ const MainContent = () => {
       }
     }, [location]);
   return (
+    <div>
     <div id= "pocetni">
         <div id= "leviPocetni">
             <p id= "naslov">Govorne tehnologije <span className="highlighted"> <br />AlfaNum.<br /></span> </p> 
@@ -24,6 +25,7 @@ const MainContent = () => {
         <div id= "desniPocetni">
           <img src="" alt="Logo" id="pocetnaSlika" />
         </div>
+    </div>
     <AboutUs/>
     <div className= "naslovi" id='naslovProizvod'>
       <h4> Ovo su samo neki od AlfaNum proizvoda.</h4>
