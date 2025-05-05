@@ -1667,11 +1667,13 @@ h4{
 }
 
 .carousel-container {
-  height: 110px;
+  height: 100px;
+  animation: scrollLogos 120s linear infinite; 
+  
   
 }
 .logoKorisnik {
-  height: 60px;
+  height: 30px;
 }
 
 .logoKorisnik-link:hover .logoKorisnik {
@@ -2083,9 +2085,6 @@ ul {
 .my-button{
   font-size: 14px;
   padding: 8px 16px;  
-}
-.carousel-container {
-  animation: scrollLogos 40s linear infinite; 
 }
 /*Sredjivanje skrolovanja*/
 .company-container {
