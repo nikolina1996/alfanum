@@ -1668,12 +1668,13 @@ h4{
 
 .carousel-container {
   height: 100px;
-  animation: scrollLogos 120s linear infinite; 
+  animation: scrollLogos 60s linear infinite; 
   
   
 }
 .logoKorisnik {
   height: 40px;
+  margin-left: -20px;
 }
 
 .logoKorisnik-link:hover .logoKorisnik {
