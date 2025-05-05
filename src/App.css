@@ -1550,6 +1550,7 @@ li::marker{
     flex-direction: column;
     justify-content: center;
     margin-top: -170px;
+    
   }
 
   #naslov {
@@ -1581,6 +1582,7 @@ li::marker{
     height: auto; 
     gap: 20px; 
     padding-top: 20px;
+    margin-top: 80px;
   }
 
   .oNamaDetalji {
@@ -1604,23 +1606,24 @@ li::marker{
     margin: 10px; 
   }
   .proizvodi {
-    flex-direction: column; 
-    align-items: center; 
-    height: auto; 
-    gap: 0px;
-    display: flex;
-    margin-top: 40px;
-
+    
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 80px;
+  padding-right: 10%;
+  padding-left: 10%;
+  gap: 5%;
+  height: auto;
   }
 
   .proizvod {
     width: 80%; 
     margin: 0 auto;
     margin-bottom: 25px;
-    margin-left: 5%;
     box-shadow: none;
     border: 1px solid #fbf7f7;
     height: 145px;
+
     
   }
   .proizvodTekst{
