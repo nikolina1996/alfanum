@@ -1530,21 +1530,29 @@ li::marker{
 
 @media (max-width: 700px) {
   
-
-  #leviPocetni,
-  #desniPocetni {
+  #pocetni{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+    height: auto;
+    
+  }
+  #leviPocetni{
     width: 100%;
     text-align: center;
     justify-content: center;
     padding: 0;
     margin: 0;
   }
-
   #desniPocetni {
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
     padding-bottom: 0;
     display: flex;
-    justify-content: center;
-    align-items: center;
     gap: 0;
   }
 
