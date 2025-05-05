@@ -40,7 +40,7 @@ const MainContent = () => {
     <div className= "naslovi" id="naslovPartner">
       <h4 > AlfaNum partneri.</h4>
       <p>Sarađujemo sa malim i velikim preduzećima u Srbiji i šire
-      i zajedno činimo <br/> govorne tehnologije dostupne svima.</p>
+      i zajedno činimo govorne tehnologije dostupne svima.</p>
     </div>
     <Partneri/>
     </div >

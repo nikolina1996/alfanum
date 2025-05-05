@@ -2081,6 +2081,9 @@ ul {
   font-size: 14px;
   padding: 8px 16px;  
 }
+.carousel-container {
+  animation: scrollLogos 60s linear infinite; 
+}
 /*Sredjivanje skrolovanja*/
 .company-container {
  scroll-margin-top: 20px;
