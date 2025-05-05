@@ -2022,6 +2022,7 @@ h4{
   cursor: pointer;
   z-index: 1001;
   margin-top: 20px;
+  color: black;
 }
 
 .hamburger-overlay {
