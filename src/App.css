@@ -1545,7 +1545,12 @@ li::marker{
     width: 40%;
     display: flex;
   }
-
+  #pocetnaSlika{
+    width: 50px;
+    height: auto;
+    padding-left: 10px;
+    padding-top: 50px;
+  }
   #naslov {
     font-size: 30px; 
     padding-top: 100px; 
