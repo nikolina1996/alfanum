@@ -14,15 +14,26 @@ const Slider = ({ data, cardsPerPage = 3 }) => {
     );
   };
 
+  const isAtStart = startIndex === 0;
+  const isAtEnd = startIndex + cardsPerPage >= data.length;
+
   return (
     <div className="slider">
-      <button onClick={handlePrev} className="slider-button">←</button>
+      {!isAtStart && (
+        <button onClick={handlePrev} className="slider-button">
+          &lt;
+        </button>
+      )}
       <div className="slider-cards">
         {data.slice(startIndex, startIndex + cardsPerPage).map((item, index) => (
           <Card key={index} title={item.title} description={item.description} />
         ))}
       </div>
-      <button onClick={handleNext} className="slider-button">→</button>
+      {!isAtEnd && (
+        <button onClick={handleNext} className="slider-button">
+          &gt;
+        </button>
+      )}
     </div>
   );
 };

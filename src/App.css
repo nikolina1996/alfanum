@@ -1933,7 +1933,7 @@ h4{
 
 .card {
   width: 200px;
-  height: 130px;
+  height: 160px;
 }
 .card-desc {
   font-size: 14px;
@@ -1943,7 +1943,7 @@ h4{
 }
 
 .subscription-heading {
-  font-size: 15px;
+  font-size: 17px;
   margin-bottom: 0.5rem;
 }
 
