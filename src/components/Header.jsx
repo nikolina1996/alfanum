@@ -23,7 +23,13 @@ function Header() {
   };
 
   const handleContactClick = () => {
-    navigate('/contact-us');
+    if (location.pathname === '/contact-us') {
+      // Refrešuj stranicu
+      navigate(0);
+      window.scrollTo({ top: 0, behavior: 'auto' });
+    } else {
+      navigate('/contact-us');
+    }
     setActiveItem(null);
   };
 
