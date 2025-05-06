@@ -841,29 +841,35 @@ li::marker{
   padding-bottom: 0rem;
   margin-left: 15%;
   margin-right: 15%;
-  border-bottom: 2px solid #7e2021;
+  text-align: center;
 }
 
 .hero-content {
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  gap: 2rem; 
-  text-align: left;
+  display: block;
 }
 
 .hero-logo {
-  width: 250px;
+  width: 350px;
   height: auto;
-  flex-shrink: 0;
+  margin: 0 auto;
+}
+
+.hero-line {
+  width: 100%;           /* povećaj širinu linije */
+  height: 1px;            /* tanja linija */
+  background-color: #7e2021; 
+  border: none;           /* ukloni default <hr> border */
+  margin: 1rem auto;      /* centriranje i razmak */
 }
 
 .hero-text {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 500;
   font-family: 'Segoe UI', sans-serif;
-  max-width: 800px;
+  max-width: 100%;
+  margin: 0 auto;
 }
+
 
 .primena {
   padding: 4rem 2rem;

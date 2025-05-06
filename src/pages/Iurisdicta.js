@@ -53,7 +53,7 @@ function Iurisdicta() {
   return (
     <div className="medicta-page">
       <Hero
-        imageSrc="/images/iurisdicta.png"
+        imageSrc="/images/iurisdicta2.png"
         altText="Iurisdicta Logo"
         text="Softver za diktiranje pravnih dokumenata od sada i na srpskom jeziku sa podržanim vlastitim imenima i skraćenicama"
       />

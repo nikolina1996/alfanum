@@ -52,7 +52,7 @@ function Medicta() {
   return (
     <div className="medicta-page">
       <Hero
-        imageSrc="/images/medicta.png"
+        imageSrc="/images/medicta2.png"
         altText="Medicta Logo"
         text="Softver za diktiranje medicinskih nalaza od sada i na srpskom jeziku sa podržanim latinskim izrazima i skraćenicama"
       />

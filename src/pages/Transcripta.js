@@ -47,7 +47,7 @@ function Transcripta() {
   return (
     <div className="medicta-page">
       <Hero
-        imageSrc="/images/transcripta.png"
+        imageSrc="/images/transcripta2.png"
         altText="Transcripta Logo"
         text="Softver za pretvaranje govora u tekst od sada i na srpskom jeziku za sve vrste audio i video snimaka"
       />
