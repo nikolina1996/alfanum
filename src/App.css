@@ -1616,11 +1616,11 @@ li::marker{
   display: flex;
   flex-wrap: wrap;
   margin-top: 80px;
-  padding-right: 3%;
-  padding-left: 3%;
+  padding-right: 5%;
+  padding-left: 5%;
   gap: 5%;
   height: auto;
-  width: 94%;
+  width: 90%;
   }
 
   .proizvod {
