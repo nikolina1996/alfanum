@@ -1616,14 +1616,14 @@ li::marker{
   display: flex;
   flex-wrap: wrap;
   margin-top: 80px;
-  padding-right: 10%;
-  padding-left: 10%;
+  padding-right: 3%;
+  padding-left: 3%;
   gap: 5%;
   height: auto;
   }
 
   .proizvod {
-    width: 80%; 
+    width: 94%; 
     margin: 0 auto;
     margin-bottom: 25px;
     box-shadow: none;
