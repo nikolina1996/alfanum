@@ -914,7 +914,6 @@ li::marker{
   cursor: pointer;
   border-radius: 6px;
 }
-.
 .slider-cards {
   display: flex;
   gap: 1rem;
@@ -1928,10 +1927,12 @@ h4{
   white-space: pre-line;
 }
 .slider-button {
-  font-size: 0.7rem;
-  padding: 0.2rem 0.7rem;
+  font-size: 0.8rem;
+  padding: 0.4rem 0.6rem;
 }
-
+.slider{
+  height: 220px;
+}
 .card {
   width: 200px;
   height: 160px;
