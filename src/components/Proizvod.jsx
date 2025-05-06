@@ -5,7 +5,9 @@ const Proizvod = ({ image, text, link }) => {
   return (
     <div className="proizvod">
         <div className="proizvodSlika">
+        <Link to={link}>
             <img src={image} alt="Proizvod Image" className="slikaProizvoda" />
+        </Link>
         </div>
         <div className="proizvodTekst">
             <p>{text}</p>
