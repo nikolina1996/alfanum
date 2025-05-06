@@ -206,7 +206,7 @@ h2{
 }
 h3{
   font-family: Segoe UI;
-  font-size: 14px;
+  font-size: 15px;
   font-weight: 400;
   text-align: justify;
   color: #342e2e;
@@ -236,6 +236,7 @@ h6{
   margin-left: 15px;
   margin-top: 10px;
   display: flex;
+  padding: 5px;
 }
 
 .proizvodi{
@@ -330,7 +331,7 @@ h6{
   
 }
 .slikaProizvoda{
-  width: 270px;
+  width: 290px;
   height: auto;
  
 }
@@ -530,16 +531,20 @@ footer p{
 }
 
 .contactForm button {
-  padding: 10px;
-  font-size: 16px;
-  background-color: #7e2021;
-  color: white;
+  margin-top: 1.5rem;
+  background-color: #93444c;
+  color: #fff;
+  padding: 0.6rem 1.2rem;
   border: none;
+  border-radius: 0.5rem;
   cursor: pointer;
+  font-weight: bold;
+  width: 100%;
+  transition: background-color 0.3s ease;
 }
 
 .contactForm button:hover {
-  background-color: #93444c;
+  background-color: #7e2021;
 }
 
 .right-column {
@@ -872,7 +877,7 @@ li::marker{
 
 .hero-text {
   font-size: 18px;
-  font-weight: 500;
+  font-weight: 700;
   font-family: 'Segoe UI', sans-serif;
   max-width: 100%;
   margin: 0 auto;
@@ -978,11 +983,12 @@ li::marker{
 
 .subscription-card {
   background-color: white;
-  padding: 2rem;
+  padding: 3rem;
   border-radius: 1rem;
   max-width: 350px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   text-align: left;
+  width: 15%;
 }
 
 .subscription-title {
