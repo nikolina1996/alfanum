@@ -1920,7 +1920,7 @@ h4{
 }
 
 .primena-text {
-  font-size: 12px;
+  font-size: 13px;
   line-height: 1.4;
   max-width: 800px;
   margin: 0 auto 3rem auto;
@@ -1936,7 +1936,7 @@ h4{
   height: 130px;
 }
 .card-desc {
-  font-size: 12px;
+  font-size: 13px;
 }
 .subscription-section {
   padding: 4rem 1rem;
@@ -2099,6 +2099,9 @@ ul {
 .my-button{
   font-size: 14px;
   padding: 8px 16px;  
+}
+.card-title {
+  font-size: 14px;
 }
 /*Sredjivanje skrolovanja*/
 .company-container {
