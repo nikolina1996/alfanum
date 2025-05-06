@@ -1915,12 +1915,12 @@ h4{
 }
 
 .section-title {
-  font-size: 15px;
+  font-size: 17px;
   margin-bottom: 1rem;
 }
 
 .primena-text {
-  font-size: 13px;
+  font-size: 14px;
   line-height: 1.4;
   max-width: 800px;
   margin: 0 auto 3rem auto;
@@ -1936,7 +1936,7 @@ h4{
   height: 130px;
 }
 .card-desc {
-  font-size: 13px;
+  font-size: 14px;
 }
 .subscription-section {
   padding: 4rem 1rem;
@@ -1948,7 +1948,7 @@ h4{
 }
 
 .subscription-description {
-  font-size: 12px;
+  font-size: 14px;
   line-height: 1.4;
   margin: 0 auto 2rem;
   margin-left: 3%;
