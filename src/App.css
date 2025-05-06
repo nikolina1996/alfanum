@@ -1468,14 +1468,18 @@ li::marker{
 }
 
 .subscription-card {
-  padding: 1rem;
+  padding: 1.5rem;
   border-radius: 1rem;
   width: 40%;
 }
 
 .subscription-title {
-  font-size: 16px;
+  font-size: 18px;
   margin-bottom: 1rem;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .subscription-price {
@@ -1963,14 +1967,18 @@ h4{
 }
 
 .subscription-card {
-  padding: 0.5rem;
+  padding: 1.5rem;
   border-radius: 1rem;
   width: 60%;
 }
 
 .subscription-title {
-  font-size: 14px;
+  font-size: 16px;
   margin-bottom: 0.5rem;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .subscription-price {
