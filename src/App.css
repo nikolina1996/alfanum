@@ -916,6 +916,7 @@ li::marker{
 }
 .slider-cards {
   display: flex;
+  flex-direction: row;
   gap: 1rem;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -2103,7 +2104,7 @@ ul {
   padding: 8px 16px;  
 }
 .card-title {
-  font-size: 14px;
+  font-size: 16px;
 }
 /*Sredjivanje skrolovanja*/
 .company-container {
