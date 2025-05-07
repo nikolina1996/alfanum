@@ -366,11 +366,11 @@ h6{
   display: flex;
   flex-wrap: nowrap;
   white-space: nowrap;
-  animation: scrollLogos 60s linear infinite; 
+  animation: scrollLogos 120s linear infinite; 
   height: 130px;
   position: relative;
   z-index: 0;
-
+  width: max-content;
 }
 
 .logoKorisnik-link {
@@ -1701,9 +1701,9 @@ h4{
 
 .carousel-container {
   height: 100px;
-  animation: scrollLogos 120s linear infinite;
+  animation: scrollLogos 30s linear infinite;
   background-color: blue;
-  
+  min-width: 300%;
   
 }
 .logoKorisnik {
