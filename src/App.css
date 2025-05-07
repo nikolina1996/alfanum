@@ -1695,21 +1695,20 @@ h4{
   text-align: center;
 }
 .carousel-wrapper::before,
-.carousel-wrapper::after {
-  width: 40px;
-}
+  .carousel-wrapper::after {
+    display: none;
+  }
 
-.carousel-container {
-  height: 100px;
-  animation: scrollLogos 80s linear infinite;
-  background-color: blue;
-  
-  
-}
-.logoKorisnik {
-  height: 40px;
-  margin-left: -20px;
-}
+  .carousel-container {
+    animation: none !important;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .logoKorisnik {
+    height: 40px;
+  }
 
 .logoKorisnik-link:hover .logoKorisnik {
   transform: scale(1.1);

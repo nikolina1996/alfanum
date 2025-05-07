@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect  } from 'react';
 
 const logos = [
   { src: '/images/rts.svg', link: 'https://www.rts.rs/sr/index.html' },
@@ -33,23 +33,38 @@ const logos = [
 
 const Korisnici = () => {
   const [paused, setPaused] = useState(false);
+  const [isMobile, setIsMobile] = useState(false);
   const repeatedLogos = [...logos, ...logos];
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth < 700);
+    };
+    handleResize(); // inicijalno postavljanje
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
 
   return (
     <div className="carousel-wrapper">
       <div
         className="carousel-container"
-        style={{ animationPlayState: paused ? 'paused' : 'running' }} 
+        style={{
+          animationPlayState: paused ? 'paused' : 'running',
+          animation: isMobile ? 'none' : 'scrollLogos 120s linear infinite',
+          overflowX: isMobile ? 'auto' : 'hidden',
+          cursor: isMobile ? 'grab' : 'default',
+        }}
       >
-        {repeatedLogos.map((logo, index) => (
+        {(isMobile ? logos : repeatedLogos).map((logo, index) => (
           <a
             key={index}
             href={logo.link}
             target="_blank"
             rel="noopener noreferrer"
             className="logoKorisnik-link"
-            onMouseEnter={() => setPaused(true)}  
-            onMouseLeave={() => setPaused(false)}  
+            onMouseEnter={() => !isMobile && setPaused(true)}
+            onMouseLeave={() => !isMobile && setPaused(false)}
           >
             <img
               src={logo.src}
