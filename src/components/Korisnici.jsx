@@ -34,7 +34,7 @@ const logos = [
 const Korisnici = () => {
   const [isMobile, setIsMobile] = useState(false);
   const [paused, setPaused] = useState(false);
-  const repeatedLogos = [...logos, ...logos];
+  const repeatedLogos = isMobile ? logos : [...logos, ...logos];
 
   useEffect(() => {
     const handleResize = () => {
