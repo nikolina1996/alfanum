@@ -1701,9 +1701,9 @@ h4{
 
 .carousel-container {
   height: 100px;
-  animation: scrollLogos 30s linear infinite;
+  animation: scrollLogos 60s linear infinite;
   background-color: blue;
-  min-width: 300%;
+  min-width: 1000%;
   
 }
 .logoKorisnik {
