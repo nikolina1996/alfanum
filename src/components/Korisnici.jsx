@@ -33,7 +33,7 @@ const logos = [
 
 const Korisnici = () => {
   const [paused, setPaused] = useState(false);
-  const repeatedLogos = [...logos, ...logos, ...logos, ...logos];
+  const repeatedLogos = [...logos, ...logos];
 
   return (
     <div className="carousel-wrapper">

@@ -400,7 +400,7 @@ h6{
     transform: translateX(0); 
   }
   100% {
-    transform: translateX(-25%);
+    transform: translateX(-50%);
   }
 }
 .naslovi p{
@@ -1701,7 +1701,7 @@ h4{
 
 .carousel-container {
   height: 100px;
-  animation: scrollLogos 60s linear infinite;
+  animation: scrollLogos 80s linear infinite;
   background-color: blue;
   
   
