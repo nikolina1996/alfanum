@@ -1701,7 +1701,8 @@ h4{
 
 .carousel-container {
   height: 100px;
-  animation: scrollLogos 100s linear infinite; 
+  animation: scrollLogos 100s linear infinite;
+  min-width: 200%;
   
   
 }
