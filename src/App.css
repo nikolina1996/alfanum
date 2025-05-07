@@ -423,8 +423,9 @@ h6{
   margin-top: 100px;
   padding-right: 15%;
   padding-left: 15%;
-  gap: 2%;
-  height: 300px;
+  column-gap: 2%;
+  row-gap: 20px;
+  height: auto;
   justify-content: center;
   display: grid;
   grid-template-columns: repeat(4, 1fr); 
@@ -1720,12 +1721,13 @@ h4{
 
 .partneri {
   flex-wrap: wrap;
-  height: 150px;
+  height: auto;
   width: 70%;
   padding-left: 15%;
   padding-right: 15%;
   margin-top: 70px;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center; 
   gap: 15px;
   place-items: center;
 }
@@ -1738,13 +1740,15 @@ h4{
 }
 
 .slikaPartner{
-  width: 80%;
+  width: 60%;
+  max-width: 300px;
   height: auto;
 }
-.partner.centered:nth-of-type(5),
-  .partner.centered:nth-of-type(6) {
-    grid-column: auto; 
-  }
+.partner:first-child .slikaPartner {
+  width: 25% !important;
+}
+
+
   footer {
     height: 40px;
     margin-top: 0px;
