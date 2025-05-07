@@ -366,11 +366,11 @@ h6{
   display: flex;
   flex-wrap: nowrap;
   white-space: nowrap;
-  animation: scrollLogos 120s linear infinite; 
+  animation: scrollLogos 60s linear infinite; 
   height: 130px;
   position: relative;
   z-index: 0;
-  width: 100%;
+  width: auto;
 }
 
 .logoKorisnik-link {
