@@ -31,16 +31,19 @@ const logos = [
   
 
 
+import React, { useState, useEffect } from 'react';
+
 const Korisnici = () => {
-  const [paused, setPaused] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
+  const [paused, setPaused] = useState(false);
   const repeatedLogos = [...logos, ...logos];
 
   useEffect(() => {
     const handleResize = () => {
       setIsMobile(window.innerWidth < 700);
     };
-    handleResize(); // inicijalno postavljanje
+
+    handleResize(); // postavi pri učitavanju
     window.addEventListener('resize', handleResize);
     return () => window.removeEventListener('resize', handleResize);
   }, []);
@@ -50,13 +53,12 @@ const Korisnici = () => {
       <div
         className="carousel-container"
         style={{
-          animationPlayState: paused ? 'paused' : 'running',
-          animation: isMobile ? 'none' : 'scrollLogos 120s linear infinite',
+          animationPlayState: paused || isMobile ? 'paused' : 'running',
           overflowX: isMobile ? 'auto' : 'hidden',
-          cursor: isMobile ? 'grab' : 'default',
+          WebkitOverflowScrolling: isMobile ? 'touch' : 'auto',
         }}
       >
-        {(isMobile ? logos : repeatedLogos).map((logo, index) => (
+        {repeatedLogos.map((logo, index) => (
           <a
             key={index}
             href={logo.link}
@@ -77,5 +79,3 @@ const Korisnici = () => {
     </div>
   );
 };
-
-export default Korisnici;
