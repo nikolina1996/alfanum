@@ -77,3 +77,4 @@ const Korisnici = () => {
     </div>
   );
 };
+export default Korisnici;
