@@ -10,11 +10,30 @@ const logos = [
   { src: '/images/pio.svg', link: 'https://www.pio.rs/' },
   { src: '/images/euprava2.png', link: 'https://euprava.gov.rs/' },
   { src: '/images/crveni.png', link: 'http://www.crvenitaxi.co.rs/' },
+  { src: '/images/ratel.png', link: 'https://www.ratel.rs/' },
+  { src: '/images/rtcg.png', link: 'https://rtcg.me/' },
+  { src: '/images/dan.png', link: 'https://www.dan.co.me/' },
+  { src: '/images/zeleznice.svg', link: 'https://www.zeleznicesrbije.com/' },
+  { src: '/images/nis.png', link: 'https://www.nis.rs/' },
+  { src: '/images/tigar.png', link: 'https://passenger-car.tigar-tyres.com/' },
+  { src: '/images/pink.png', link: 'https://www.pink.rs/' },
+  { src: '/images/kurir.png', link: 'https://www.kurir.rs/' },
+  { src: '/images/sudska.png', link: 'https://www.sudmednis.rs/' },
+  { src: '/images/ipbv.png', link: 'https://www.ipb-ild.edu.rs/' },
+  { src: '/images/mag.png', link: 'https://www.mag-medica.rs/' },
+  { src: '/images/raiffeisen.svg', link: 'https://www.raiffeisenbank.rs/' },
+  { src: '/images/uni.png', link: 'https://www.unicreditbank.rs/' },
+  { src: '/images/zmns.png', link: 'https://zenskimuzejns.org.rs/' },
+  { src: '/images/uniqa.svg', link: 'https://www.uniqa.rs/' },
+  { src: '/images/ems.png', link: 'https://ems.rs/' },
+  { src: '/images/nszz.png', link: 'https://www.nsz.gov.rs/' },
 ];
+  
+
 
 const Korisnici = () => {
   const [paused, setPaused] = useState(false);
-  const repeatedLogos = Array(10).fill(logos).flat();
+  const repeatedLogos = [...logos, ...logos];
 
   return (
     <div className="carousel-wrapper">
