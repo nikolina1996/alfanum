@@ -31,8 +31,6 @@ const logos = [
   
 
 
-import React, { useState, useEffect } from 'react';
-
 const Korisnici = () => {
   const [isMobile, setIsMobile] = useState(false);
   const [paused, setPaused] = useState(false);
