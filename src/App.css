@@ -2178,13 +2178,14 @@ ul {
 }
 .lang-button {
   margin-right: 0px;
-  margin-left: 5px;
+  margin-left: 0px;
   font-size: 14px;
   padding: 0px;
   border: none;
 }
 .lang-button:hover{
   border: none;
+  background-color: white;
 }
 .card-title {
   font-size: 16px;
