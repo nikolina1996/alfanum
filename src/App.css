@@ -1152,6 +1152,28 @@ li::marker{
 .resource-button:hover {
   background-color: #7e2021;
 }
+.lang-button {
+  font-family: 'Segoe UI', sans-serif;
+  font-size: 17px;
+  width: 50px;
+  padding: 10px 14px;  
+  background-color: transparent;
+  color: #5e1518;
+  font-weight: 400;
+  border: 1px solid transparent;
+  border-radius: 25px;  
+  cursor: pointer;
+  transition: background-color 0.4s ease;
+  text-decoration: none;
+  margin-left: 10px;
+  margin-right: -90px;
+  
+}
+.lang-button:hover {
+  background-color: white;
+  color: #7e2021;
+  border: 1px solid #7e2021;
+}
 
 
 
@@ -1565,6 +1587,10 @@ li::marker{
   font-size: 12px;
   margin-bottom: 10px;
 }
+.lang-button {
+  margin-right: 0px;
+}
+
 }
 
 @media (max-width: 700px) {
@@ -2149,6 +2175,11 @@ ul {
 .my-button{
   font-size: 14px;
   padding: 8px 16px;  
+}
+.lang-button {
+  margin-right: 0px;
+  font-size: 14px;
+  padding: 8px 10px; 
 }
 .card-title {
   font-size: 16px;

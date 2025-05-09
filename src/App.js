@@ -12,32 +12,35 @@ import Iurisdicta from './pages/Iurisdicta';
 import Ansintetizator from './pages/Ansintetizator';
 import Anreader from './pages/Anreader';
 import CitajMi from './pages/CitajMi';
-import ScrollToTop from './components/ScrollToTop'; 
+import ScrollToTop from './components/ScrollToTop';
+import { LanguageProvider } from './components/LanguageContext';
 
 function App() {
   const [activeItem, setActiveItem] = useState('O nama');
 
   return (
-    <Router>
-      <ScrollToTop /> {/* ⬅ Dodato ovde */}
-      <div className="App">
-        <Header setActiveItem={setActiveItem} />
-        <div className="content-container">
-          <Routes>
-            <Route path="/" element={<MainContent />} />
-            <Route path="/company" element={<Company />} />
-            <Route path="/medicta" element={<Medicta />} />
-            <Route path="/contact-us" element={<Contact />} />
-            <Route path="/transcripta" element={<Transcripta />} />
-            <Route path="/iurisdicta" element={<Iurisdicta />} />
-            <Route path="/an-sintetizator" element={<Ansintetizator />} />
-            <Route path="/an-reader" element={<Anreader />} />
-            <Route path="/citaj-mi" element={<CitajMi />} />
-          </Routes>
+    <LanguageProvider>
+      <Router>
+        <ScrollToTop /> {/* ⬅ Dodato ovde */}
+        <div className="App">
+          <Header setActiveItem={setActiveItem} />
+          <div className="content-container">
+            <Routes>
+              <Route path="/" element={<MainContent />} />
+              <Route path="/company" element={<Company />} />
+              <Route path="/medicta" element={<Medicta />} />
+              <Route path="/contact-us" element={<Contact />} />
+              <Route path="/transcripta" element={<Transcripta />} />
+              <Route path="/iurisdicta" element={<Iurisdicta />} />
+              <Route path="/an-sintetizator" element={<Ansintetizator />} />
+              <Route path="/an-reader" element={<Anreader />} />
+              <Route path="/citaj-mi" element={<CitajMi />} />
+            </Routes>
+          </div>
+          <Footer />
         </div>
-        <Footer />
-      </div>
-    </Router>
+      </Router>
+    </LanguageProvider>
   );
 }
 

@@ -1,8 +1,9 @@
-import React, { useState } from 'react';
+import React, { useState, useContext } from 'react';
 import Menu from './Menu';
 import HamburgerMenu from './HamburgerMenu';
 import useWindowWidth from './useWindowWidth';
 import { useLocation, useNavigate } from 'react-router-dom';
+import { useLanguage } from './LanguageContext';
 
 function Header() {
   const [activeItem, setActiveItem] = useState(null);
@@ -32,6 +33,7 @@ function Header() {
     }
     setActiveItem(null);
   };
+  const { language, toggleLanguage } = useLanguage();
 
   return (
     <header className="App-header">
@@ -91,6 +93,9 @@ function Header() {
       <div id="kontakt">
         <button onClick={handleContactClick} className="my-button">
           KONTAKT
+        </button>
+        <button onClick={toggleLanguage} className="lang-button">
+          {language === 'sr' ? 'EN' : 'SR'}
         </button>
       </div>
     </header>
