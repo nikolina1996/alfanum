@@ -94,9 +94,11 @@ function Header() {
         <button onClick={handleContactClick} className="my-button">
           KONTAKT
         </button>
+        {width > 700 && (
         <button onClick={toggleLanguage} className="lang-button">
-          {language === 'sr' ? 'EN' : 'SR'}
+            {language === 'sr' ? 'EN' : 'SR'}
         </button>
+        )}
       </div>
     </header>
   );
