@@ -19,22 +19,30 @@ const Slider = ({ data, cardsPerPage = 3 }) => {
 
   return (
     <div className="slider">
-      {!isAtStart && (
-        <button onClick={handlePrev} className="slider-button">
-          &lt;
-        </button>
-      )}
-      <div className="slider-cards">
-        {data.slice(startIndex, startIndex + cardsPerPage).map((item, index) => (
-          <Card key={index} title={item.title} description={item.description} />
-        ))}
-      </div>
-      {!isAtEnd && (
-        <button onClick={handleNext} className="slider-button">
-          &gt;
-        </button>
-      )}
-    </div>
+  <button
+    onClick={handlePrev}
+    className="slider-button"
+    style={{ visibility: isAtStart ? "hidden" : "visible" }}
+    disabled={isAtStart}
+  >
+    &lt;
+  </button>
+
+  <div className="slider-cards">
+    {data.slice(startIndex, startIndex + cardsPerPage).map((item, index) => (
+      <Card key={index} title={item.title} description={item.description} />
+    ))}
+  </div>
+
+  <button
+    onClick={handleNext}
+    className="slider-button"
+    style={{ visibility: isAtEnd ? "hidden" : "visible" }}
+    disabled={isAtEnd}
+  >
+    &gt;
+  </button>
+</div>
   );
 };
 

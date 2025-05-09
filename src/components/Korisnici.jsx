@@ -41,7 +41,7 @@ const Korisnici = () => {
       setIsMobile(window.innerWidth < 700);
     };
 
-    handleResize(); // postavi pri učitavanju
+    handleResize(); 
     window.addEventListener('resize', handleResize);
     return () => window.removeEventListener('resize', handleResize);
   }, []);
