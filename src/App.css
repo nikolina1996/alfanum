@@ -2141,6 +2141,7 @@ h4{
   padding-top: 30px;
   margin: 0;
   font-family: 'Segoe UI', sans-serif;
+  overflow-y: auto;
 }
 
 .hamburger-nav > li {
@@ -2202,7 +2203,7 @@ ul {
   height: 30px; /* Fiksna visina */
   background-color: #f0f0f0; /* Možeš promeniti boju */
   padding-left: 20px;
-  line-height: 40px; /* Centriranje teksta */
+  line-height: 70px; /* Centriranje teksta */
   cursor: pointer;
   border-top: 1px solid #ccc; /* Linija između menija i jezičke sekcije */
 }
