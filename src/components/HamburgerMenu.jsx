@@ -33,53 +33,60 @@ function HamburgerMenu({ handleClick, navigateToCompanySection, navigateToProduc
       </button>
 
       {isOpen && (
-  <div className="hamburger-overlay">
-    <div className="x-icon" onClick={closeMenu}>
-      <X size={22} style={{ strokeWidth: "1px" }} />
-    </div>
+        <div
+          className="hamburger-overlay"
+          onClick={(e) => e.stopPropagation()} // Sprečava klik sa strane da zatvori meni
+        >
+          <div
+            className="hamburger-content"
+            onClick={(e) => e.stopPropagation()} // Sprečava klik unutar menija da zatvori meni
+          >
+            <div className="x-icon" onClick={closeMenu}>
+              <X size={22} style={{ strokeWidth: "1px" }} />
+            </div>
 
-    <ul className="hamburger-nav">
-      <li>
-        <span onClick={() => handleAndClose(() => handleClick('O nama'))}>O nama</span>
-        <ul>
-          <li onClick={() => handleAndClose(() => navigateToCompanySection('oKompaniji'))}>O kompaniji</li>
-          <li onClick={() => handleAndClose(() => navigateToCompanySection('directors'))}>Direktori</li>
-        </ul>
-      </li>
-      <li>
-        <span onClick={() => handleAndClose(() => handleClick('Proizvodi'))}>Proizvodi</span>
-        <ul>
-          <li onClick={() => handleAndClose(() => navigateToProduct('/medicta'))}>Medicta</li>
-          <li onClick={() => handleAndClose(() => navigateToProduct('/iurisdicta'))}>Iurisdicta</li>
-          <li onClick={() => handleAndClose(() => navigateToProduct('/transcripta'))}>Transcripta</li>
-          <li onClick={() => handleAndClose(() => navigateToProduct('/an-sintetizator'))}>AN-sintetizator</li>
-          <li onClick={() => handleAndClose(() => navigateToProduct('/an-reader'))}>AN-reader</li>
-          <li onClick={() => handleAndClose(() => navigateToProduct('/citaj-mi'))}>Čitaj mi!</li>
-        </ul>
-      </li>
-      <li>
-        <span onClick={() => handleAndClose(() => handleClick('Reference'))}>Reference</span>
-        <ul>
-          <li onClick={() => handleAndClose(() => navigateToCompanySection('korisnici'))}>Korisnici</li>
-          <li onClick={() => handleAndClose(() => navigateToCompanySection('naslovPartner'))}>Partneri</li>
-        </ul>
-      </li>
-    </ul>
+            <ul className="hamburger-nav">
+              <li>
+                <span onClick={() => handleAndClose(() => handleClick('O nama'))}>O nama</span>
+                <ul>
+                  <li onClick={() => handleAndClose(() => navigateToCompanySection('oKompaniji'))}>O kompaniji</li>
+                  <li onClick={() => handleAndClose(() => navigateToCompanySection('directors'))}>Direktori</li>
+                </ul>
+              </li>
+              <li>
+                <span onClick={() => handleAndClose(() => handleClick('Proizvodi'))}>Proizvodi</span>
+                <ul>
+                  <li onClick={() => handleAndClose(() => navigateToProduct('/medicta'))}>Medicta</li>
+                  <li onClick={() => handleAndClose(() => navigateToProduct('/iurisdicta'))}>Iurisdicta</li>
+                  <li onClick={() => handleAndClose(() => navigateToProduct('/transcripta'))}>Transcripta</li>
+                  <li onClick={() => handleAndClose(() => navigateToProduct('/an-sintetizator'))}>AN-sintetizator</li>
+                  <li onClick={() => handleAndClose(() => navigateToProduct('/an-reader'))}>AN-reader</li>
+                  <li onClick={() => handleAndClose(() => navigateToProduct('/citaj-mi'))}>Čitaj mi!</li>
+                </ul>
+              </li>
+              <li>
+                <span onClick={() => handleAndClose(() => handleClick('Reference'))}>Reference</span>
+                <ul>
+                  <li onClick={() => handleAndClose(() => navigateToCompanySection('korisnici'))}>Korisnici</li>
+                  <li onClick={() => handleAndClose(() => navigateToCompanySection('naslovPartner'))}>Partneri</li>
+                </ul>
+              </li>
+            </ul>
 
-    <div className="language-section" onClick={toggleLanguage}>
-      <Globe
-        size={25}
-        style={{
-          marginRight: '8px',
-          color: '#7e2021',
-          strokeWidth: '1px'
-        }}
-      />
-      {language === 'sr' ? 'EN' : 'SR'}
-    </div>
-  </div>
-)}
-
+            <div className="language-section" onClick={toggleLanguage}>
+              <Globe
+                size={25}
+                style={{
+                  marginRight: '8px',
+                  color: '#7e2021',
+                  strokeWidth: '1px'
+                }}
+              />
+              {language === 'sr' ? 'EN' : 'SR'}
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   );
 }
