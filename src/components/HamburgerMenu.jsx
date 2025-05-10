@@ -71,7 +71,6 @@ function HamburgerMenu({ handleClick, navigateToCompanySection, navigateToProduc
         size={25}
         style={{
           marginRight: '8px',
-          marginTop: '15px',
           color: '#7e2021',
           strokeWidth: '1px'
         }}
