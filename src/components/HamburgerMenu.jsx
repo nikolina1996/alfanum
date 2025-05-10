@@ -66,7 +66,7 @@ function HamburgerMenu({ handleClick, navigateToCompanySection, navigateToProduc
       </li>
     </ul>
 
-    <div className="language-section" onClick={() => handleAndClose(toggleLanguage)}>
+    <div className="language-section" onClick={toggleLanguage}>
       <Globe
         size={25}
         style={{
