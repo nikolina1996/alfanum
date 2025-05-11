@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
+import { useLanguage } from './LanguageContext';
 
 function Menu({ activeItem, setActiveItem }) {
   const [pendingItem, setPendingItem] = useState(null);
@@ -8,6 +9,7 @@ function Menu({ activeItem, setActiveItem }) {
   const navigate = useNavigate();
   const location = useLocation();
   const autoScrollRef = useRef(false);
+  const { texts } = useLanguage(); 
 
   const handleClick = (item) => {
     setActiveItem(item);
@@ -157,10 +159,10 @@ function Menu({ activeItem, setActiveItem }) {
           onMouseEnter={() => toggleDropdown('onama')}
           onMouseLeave={closeDropdowns}
         >
-          <span onClick={() => handleClick('O nama')}>O nama</span>
+          <span onClick={() => handleClick('O nama')}>{texts.header.aboutus.key}</span>
           <ul className="dropdown">
-            <li onClick={() => navigateToCompanySection('oKompaniji')}>O kompaniji</li>
-            <li onClick={() => navigateToCompanySection('directors')}>Direktori</li>
+            <li onClick={() => navigateToCompanySection('oKompaniji')}>{texts.header.aboutus.company}</li>
+            <li onClick={() => navigateToCompanySection('directors')}>{texts.header.aboutus.directors}</li>
           </ul>
         </li>
 
@@ -169,7 +171,7 @@ function Menu({ activeItem, setActiveItem }) {
           onMouseEnter={() => toggleDropdown('proizvodi')}
           onMouseLeave={closeDropdowns}
         >
-          <span onClick={() => handleClick('Proizvodi')}>Proizvodi</span>
+          <span onClick={() => handleClick('Proizvodi')}>{texts.header.products}</span>
           <ul className="dropdown">
             <li onClick={() => { navigateToProduct('/medicta'); }}>Medicta</li>
             <li onClick={() => { navigateToProduct('/iurisdicta');  }}>Iurisdicta</li>
@@ -185,10 +187,10 @@ function Menu({ activeItem, setActiveItem }) {
           onMouseEnter={() => toggleDropdown('reference')}
           onMouseLeave={closeDropdowns}
         >
-          <span onClick={() => handleClick('Reference')}>Reference</span>
+          <span onClick={() => handleClick('Reference')}>{texts.header.references.key}</span>
           <ul className="dropdown">
-            <li onClick={() => navigateToCompanySection('korisnici')}>Korisnici</li>
-            <li onClick={() => navigateToCompanySection('naslovPartner')}>Partneri</li>
+            <li onClick={() => navigateToCompanySection('korisnici')}>{texts.header.references.users}</li>
+            <li onClick={() => navigateToCompanySection('naslovPartner')}>{texts.header.references.partners}</li>
           </ul>
         </li>
       </ul>

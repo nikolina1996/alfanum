@@ -1,1 +1,58 @@
-{}
+{
+    "header": {
+        "aboutus": {
+            "key": "O nama",
+            "company": "O kompaniji",
+            "directors": "Direktori"
+        },
+        "products": "Proizvodi",
+        "references": {
+        "key": "Reference",
+        "users": "Korisnici",
+        "partners": "Partneri"
+    },
+    "contact": "KONTAKT"
+    },
+    "footer": {
+        "text": "© 2025 AlfaNum. Sva prava zadržana."
+    },
+    "aboutus": {
+        "iskustvo": {
+            "key": "Iskustvo",
+            "value": "Domaća kompanija koja preko 20 godina razvija svoje proizvode. Zahvaljujući dugogodišnjem radu, posedujemo ogromne resurse za srpski i njemu srodne jezike koji nam omogućuju da imamo najkvalitetnija rešenja."
+        },
+        "uspeh": {
+            "key": "Uspeh",
+            "value": "Činjenica da je kompanija opstala već 20 godina radeći isključivo na svojim proizvodima, vrlo je jasan pokazatelj uspešnosti i kvaliteta proizvoda koje nudi."
+        },
+        "sigurnost": {
+            "key": "Sigurnost",
+            "value": "Sa svojim resursima, svojim data centrom i timom, pruža apsolutnu sigurnost svojim klijentima. U ponudi imamo i \"in-house\" rešenja za sve kako Vaši podaci ne moraju izlaziti na internet."
+        },
+        "prilagodljivost": {
+            "key": "Prilagodljivost",
+            "value": "Prepoznavanje i sinteza govora su tehnologije koje uspešno razvijamo, a proizvodi su ugradnja istih - stoga tehnologiju možemo da prilagodimo kako Vašim proizvodima tako i Vašim potrebama."
+        }
+    },
+    "main": {
+        "naslovjedan": "Govorne tehnologije",
+        "naslovdva": "AlfaNum.",
+        "podnaslov": "Kompanija sa iskustvom od preko 20 godina koja se bavi govornim tehnologijama za srpski i srodne jezike, bazira se na AI i dugogodišnjem iskustvu našeg tima. Nudimo najkvalitetnija rešenja za sintezu i prepoznavanje govora u domenima medicine, prava i za opštu namenu."
+},
+    "proizvodiNaslov": "Ovo su samo neki od AlfaNum proizvoda.",
+    "proizvodi":{
+        "saznajVise": "Saznaj više",
+        "medicta": "Softver za diktiranje medicinskih nalaza prilagođen za srpski jezik.",
+        "iurisdicta": "Softver za diktiranje pravnih dokumenata prilagođen za srpski jezik.",
+        "transcripta": "Prepoznavač govora opšte namene na srpskom i drugim jezicima.",
+        "ansintetizator": "Visokokvalitetan sintetizator govora na srpskom jeziku.",
+        "anreader": "Čitač ekrana za slepe i slabovide osobe.",
+        "citajmi": "Ugradnja opcije \"Čitaj mi\" na web sajtove."
+    },
+    "korisniciNaslov": "Korisnici naših usluga su privatne i državne institucije:",
+    "partneri": {
+        "naslov": "AlfaNum partneri.",
+        "podnaslov": "Sarađujemo sa malim i velikim preduzećima u Srbiji i šire i zajedno činimo govorne tehnologije dostupne svima."
+}
+    
+}

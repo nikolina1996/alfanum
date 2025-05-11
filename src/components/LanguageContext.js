@@ -1,14 +1,19 @@
-import React, { createContext, useState, useContext } from 'react';
-import srTexts from '../locales/sr.json';  // Srpski prevodi
-import enTexts from '../locales/en.json';  // Engleski prevodi
+import React, { createContext, useState, useContext, useEffect } from 'react';
+import srTexts from '../locales/sr.json';
+import enTexts from '../locales/en.json';
 
 const LanguageContext = createContext();
 
 export const LanguageProvider = ({ children }) => {
-  const [language, setLanguage] = useState('sr'); // Početni jezik sr
+  // Inicijalizuj jezik iz localStorage ili podrazumevani (sr)
+  const savedLanguage = localStorage.getItem('language');
+  const [language, setLanguage] = useState(savedLanguage || 'sr'); 
 
+  // Kada promeniš jezik, sačuvaj ga u localStorage
   const toggleLanguage = () => {
-    setLanguage((prevLang) => (prevLang === 'sr' ? 'en' : 'sr'));
+    const newLanguage = language === 'sr' ? 'en' : 'sr';
+    setLanguage(newLanguage);
+    localStorage.setItem('language', newLanguage); // Sačuvaj novi jezik
   };
 
   const texts = language === 'sr' ? srTexts : enTexts;

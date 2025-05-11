@@ -1,4 +1,60 @@
-{
+{   
+    "header": {
+        "aboutus": {
+        "key": "About Us",
+        "company": "About company",
+        "directors": "Directors"
+        },
+    "products": "Products",
+    "references": {
+      "key": "References",
+      "users": "Users",
+      "partners": "Partners"
+    },
+    "contact": "CONTACT"
+    },
     "footer": {
-        "text": "&copy; 2025 AlfaNum.  All rights reserved."}
+        "text": "© 2025 AlfaNum. All rights reserved."
+    },
+    "aboutus": {
+            "iskustvo": {
+                "key": "Experience",
+                "value": "A domestic company that has been developing its products for over 20 years. Thanks to many years of work, we have enormous resources for Serbian and related languages ​​that allow us to have the highest quality solutions."
+            },
+            "uspeh": {
+                "key": "Accomplishment",
+                "value": "The fact that the company has survived for 20 years working exclusively on its products is a very clear indicator of the success and quality of the products it offers."
+            },
+            "sigurnost": {
+                "key": "Security",
+                "value": "With its resources, its data center and its team, it provides absolute security to its clients. We also offer in-house solutions for everything so that your data does not have to go online."
+            },
+            "prilagodljivost": {
+                "key": "Adaptability",
+                "value": "Speech recognition and synthesis are technologies that we successfully develop, and products are the incorporation of them - therefore, we can adapt the technology to both your products and your needs."
+            }
+        },
+    "main": {
+        "naslovjedan": "Speech technologies",
+        "naslovdva": "AlfaNum.",
+        "podnaslov": "A company with over 20 years of experience that deals with speech technologies for Serbian and related languages, is based on AI and the long-term experience of our team. We offer the highest quality solutions for speech synthesis and recognition in the domains of medicine, law and general purpose."
+    },
+     "proizvodiNaslov": "These are just some of the AlfaNum products.",
+     "proizvodi": {
+        "saznajVise": "Learn more",
+        "medicta": "Software for dictating medical findings tailored for the Serbian language.",
+        "iurisdicta": "Software for dictating legal documents tailored for the Serbian language.",
+        "transcripta": "Speech recognition software for general purposes in Serbian and other languages.",
+        "ansintetizator": "High-quality speech synthesizer in Serbian.",
+        "anreader": "Screen reader for blind and visually impaired individuals.",
+        "citajmi": "Integration of the 'Read Aloud' option on websites."
+},
+    "korisniciNaslov": "Users of our services are private and state institutions:",
+    "partneri": {
+        "naslov": "AlfaNum partners.",
+        "podnaslov": "We cooperate with small and large companies in Serbia and beyond and together we make speech technologies accessible to everyone."
+}
+
+
+   
 }

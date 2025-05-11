@@ -34,6 +34,7 @@ function Header() {
     setActiveItem(null);
   };
   const { language, toggleLanguage } = useLanguage();
+  const { texts } = useLanguage(); 
 
   return (
     <header className="App-header">
@@ -92,7 +93,7 @@ function Header() {
 
       <div id="kontakt">
         <button onClick={handleContactClick} className="my-button">
-          KONTAKT
+          {texts.header.contact}
         </button>
         {width > 700 && (
         <button onClick={toggleLanguage} className="lang-button">

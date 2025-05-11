@@ -1,37 +1,39 @@
 import React from 'react';
-import Proizvod from './Proizvod'; 
+import Proizvod from './Proizvod';
+import { useLanguage } from './LanguageContext';
+ 
 
 const Proizvodi = () => {
-  
+  const { texts } = useLanguage(); 
   const divData = [
     { 
-      image: '/images/medicta.png',
-      text: 'Softver za diktiranje medicinskih nalaza prilagođen za srpski jezik.',
+      image: '/images/medicta2.png',
+      text: [texts.proizvodi.medicta],
       link: '/medicta', 
     },
     {
-      image: '/images/iurisdicta.png',
-      text: 'Softver za diktiranje pravnih dokumenata prilagođen za srpski jezik.',
+      image: '/images/iurisdicta2.png',
+      text: [texts.proizvodi.iurisdicta],
       link: '/iurisdicta', 
     },
     {
-      image: '/images/transcripta.png',
-      text: 'Prepoznavač govora opšte namene na srpskom i drugim jezicima.',
+      image: '/images/transcripta2.png',
+      text: [texts.proizvodi.transcripta],
       link: '/transcripta', 
     },
     {
       image: '/images/ansintetizator.png',
-      text: 'Visokokvalitetan sintetizator govora na srpskom jeziku.',
+      text: [texts.proizvodi.ansintetizator],
       link: '/an-sintetizator', 
     },
     {
       image: '/images/anreader.png',
-      text: 'Čitač ekrana za slepe i slabovide osobe.',
+      text: [texts.proizvodi.anreader],
       link: '/an-reader', 
     },
     {
       image: '/images/citajmi.png',
-      text: 'Ugradnja opcije "Čitaj mi" na web sajtove.',
+      text: [texts.proizvodi.citajmi],
       link: '/citaj-mi', 
     },
   ];

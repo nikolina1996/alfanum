@@ -5,8 +5,10 @@ import AboutUs from "./AboutUs";
 import Proizvodi from "./Proizvodi";
 import Korisnici from "./Korisnici";
 import Partneri from "./Partneri";
+import { useLanguage } from './LanguageContext';
 const MainContent = () => {
   const location = useLocation();
+  const { texts } = useLanguage(); 
   useEffect(() => {
       if (location.state && location.state.scrollTo) {
         const element = document.getElementById(location.state.scrollTo) || document.querySelector(`.${location.state.scrollTo}`);
@@ -19,8 +21,8 @@ const MainContent = () => {
     <div id= "veliki">
     <div id= "pocetni">
         <div id= "leviPocetni">
-            <p id= "naslov">Govorne tehnologije <span className="highlighted"> <br />AlfaNum.<br /></span> </p> 
-            <p id= "podnaslov"> <br />Kompanija sa iskustvom od preko 20 godina koja se bavi govornim tehnologijama za srpski i srodne jezike, bazira se na AI i dugogodišnjem iskustvu našeg tima. Nudimo najkvalitetnija rešenja za sintezu i prepoznavanje govora u domenima medicine, prava i za opštu namenu.</p>
+            <p id= "naslov">{texts.main.naslovjedan} <span className="highlighted"> <br />{texts.main.naslovdva}<br /></span> </p> 
+            <p id= "podnaslov"> <br />{texts.main.podnaslov}</p>
         </div>
         <div id= "desniPocetni">
           <img src="/images/main.png" alt="Logo" id="pocetnaSlika" />
@@ -28,19 +30,18 @@ const MainContent = () => {
     </div>
     <AboutUs/>
     <div className= "naslovi" id='naslovProizvod'>
-      <h4> Ovo su samo neki od AlfaNum proizvoda.</h4>
+      <h4> {texts.proizvodiNaslov}</h4>
     </div>
     <div >
       <Proizvodi/>
     </div>
     <div className= "naslovi" id='naslovKorisnik'>
-      <h4> Korisnici naših usluga su privatne i državne institucije:</h4>
+      <h4> {texts.korisniciNaslov}</h4>
     </div>
     <Korisnici/>
     <div className= "naslovi" id="naslovPartner">
-      <h4 > AlfaNum partneri.</h4>
-      <p>Sarađujemo sa malim i velikim preduzećima u Srbiji i šire
-      i zajedno činimo govorne tehnologije dostupne svima.</p>
+      <h4 >{texts.partneri.naslov}</h4>
+      <p id= "partnerOpis">{texts.partneri.podnaslov}</p>
     </div>
     <Partneri/>
     </div >

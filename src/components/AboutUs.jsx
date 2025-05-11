@@ -1,11 +1,13 @@
 import React, { useState, useEffect } from 'react';
 import bgImage from '../bg.png'; 
+import { useLanguage } from './LanguageContext'; 
 
 const AboutUs = () => {
   
   const [isVisible, setIsVisible] = useState([false, false, false, false]);
   
   const [screenWidth, setScreenWidth] = useState(window.innerWidth);
+  const { texts } = useLanguage(); 
 
   const checkVisibility = (index) => {
     const element = document.querySelectorAll('.oNamaDetalji')[index];
@@ -52,10 +54,10 @@ const AboutUs = () => {
       > 
         <div className="headerONama">
           <img src="/images/iskustvo.png" alt="Logo" className="oNamaSlika" />
-          <h2>Iskustvo</h2>
+          <h2>{texts.aboutus.iskustvo.key}</h2>
         </div>
         <div>
-          <h3>Domaća kompanija koja preko 20 godina razvija svoje proizvode. Zahvaljujući dugogodišnjem radu, posedujemo ogromne resurse za srpski i njemu srodne jezike koji nam omogućuju da imamo najkvalitetnija rešenja.</h3>
+          <h3>{texts.aboutus.iskustvo.value}</h3>
         </div>
       </div>
       <div
@@ -64,10 +66,10 @@ const AboutUs = () => {
       >
         <div className="headerONama">
           <img src="/images/uspeh.png" alt="Logo" className="oNamaSlika" />
-          <h2>Uspeh</h2>
+          <h2>{texts.aboutus.uspeh.key}</h2>
         </div>
         <div>
-          <h3>Činjenica da je kompanija opstala već 20 godina radeći isključivo na svojim proizvodima, vrlo je jasan pokazatelj uspešnosti i kvaliteta proizvoda koje nudi.</h3>
+          <h3>{texts.aboutus.iskustvo.value}</h3>
         </div>
       </div>
       <div
@@ -76,10 +78,10 @@ const AboutUs = () => {
       >
         <div className="headerONama">
           <img src="/images/sigurnost.png" alt="Logo" className="oNamaSlika" />
-          <h2>Sigurnost</h2>
+          <h2>{texts.aboutus.sigurnost.key}</h2>
         </div>
         <div>
-          <h3>Sa svojim resursima, svojim data centrom i timom, pruža apsolutnu sigurnost svojim klijentima. U ponudi imamo i "in-house" rešenja za sve kako Vaši podaci ne moraju izlaziti na internet.</h3>
+          <h3>{texts.aboutus.sigurnost.value}</h3>
         </div>
       </div>
       <div
@@ -88,10 +90,10 @@ const AboutUs = () => {
       >
         <div className="headerONama">
           <img src="/images/prilagodljivost.png" alt="Logo" className="oNamaSlika" />
-          <h2>Prilagodljivost</h2>
+          <h2>{texts.aboutus.prilagodljivost.key}</h2>
         </div>
         <div>
-          <h3>Prepoznavanje i sinteza govora su tehnologije koje uspešno razvijamo, a proizvodi su ugradnja istih - stoga tehnologiju možemo da prilagodimo kako Vašim proizvodima tako i Vašim potrebama.</h3>
+          <h3>{texts.aboutus.prilagodljivost.value}</h3>
         </div>
       </div>
     </div>

@@ -3,7 +3,6 @@ import { useLanguage } from './LanguageContext';
 
 function Footer() {
   const { texts } = useLanguage(); // Dobijamo prevode za footer
-  console.log('Footer texts:', texts);
 
   return (
     <footer>

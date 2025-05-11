@@ -1,7 +1,9 @@
 import React from 'react';
-import { Link } from 'react-router-dom'; 
+import { Link } from 'react-router-dom';
+import { useLanguage } from './LanguageContext';
 
 const Proizvod = ({ image, text, link }) => {
+  const { texts } = useLanguage(); 
   return (
     <div className="proizvod">
         <div className="proizvodSlika">
@@ -12,7 +14,7 @@ const Proizvod = ({ image, text, link }) => {
         <div className="proizvodTekst">
             <p>{text}</p>
             <h5>
-              <Link to={link}>Saznaj više</Link> {/* Dodajemo link */}
+              <Link to={link}>{texts.proizvodi.saznajVise}</Link> {/* Dodajemo link */}
             </h5>
         </div>
     </div>
