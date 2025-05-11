@@ -1,9 +1,13 @@
 import React from 'react';
+import { useLanguage } from './LanguageContext'; 
 
 function Footer() {
+  const { texts } = useLanguage(); // Dobijamo prevode za footer
+  console.log('Footer texts:', texts);
+
   return (
     <footer>
-      <p>&copy; 2025 AlfaNum. Sva prava zadržana.</p>
+      <p>{texts.footer.text}</p>
     </footer>
   );
 }
