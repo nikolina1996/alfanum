@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Menu, X, Globe } from 'lucide-react';
-import { useLanguage } from './LanguageContext'; 
+import { useLanguage } from './LanguageContext';
 
 function HamburgerMenu({ handleClick, navigateToCompanySection, navigateToProduct }) {
   const [isOpen, setIsOpen] = useState(false);
@@ -13,7 +13,7 @@ function HamburgerMenu({ handleClick, navigateToCompanySection, navigateToProduc
     fn();
     closeMenu();
   };
-
+  const { texts } = useLanguage(); 
   useEffect(() => {
     if (isOpen) {
       document.body.style.overflow = 'hidden';
@@ -47,14 +47,14 @@ function HamburgerMenu({ handleClick, navigateToCompanySection, navigateToProduc
 
             <ul className="hamburger-nav">
               <li>
-                <span onClick={() => handleAndClose(() => handleClick('O nama'))}>O nama</span>
+                <span onClick={() => handleAndClose(() => handleClick('O nama'))}>{texts.header.aboutus.key}</span>
                 <ul>
-                  <li onClick={() => handleAndClose(() => navigateToCompanySection('oKompaniji'))}>O kompaniji</li>
-                  <li onClick={() => handleAndClose(() => navigateToCompanySection('directors'))}>Direktori</li>
+                  <li onClick={() => handleAndClose(() => navigateToCompanySection('oKompaniji'))}>{texts.header.aboutus.company}</li>
+                  <li onClick={() => handleAndClose(() => navigateToCompanySection('directors'))}>{texts.header.aboutus.directors}</li>
                 </ul>
               </li>
               <li>
-                <span onClick={() => handleAndClose(() => handleClick('Proizvodi'))}>Proizvodi</span>
+                <span onClick={() => handleAndClose(() => handleClick('Proizvodi'))}>{texts.header.products}</span>
                 <ul>
                   <li onClick={() => handleAndClose(() => navigateToProduct('/medicta'))}>Medicta</li>
                   <li onClick={() => handleAndClose(() => navigateToProduct('/iurisdicta'))}>Iurisdicta</li>
@@ -65,10 +65,10 @@ function HamburgerMenu({ handleClick, navigateToCompanySection, navigateToProduc
                 </ul>
               </li>
               <li>
-                <span onClick={() => handleAndClose(() => handleClick('Reference'))}>Reference</span>
+                <span onClick={() => handleAndClose(() => handleClick('Reference'))}>{texts.header.references.key}</span>
                 <ul>
-                  <li onClick={() => handleAndClose(() => navigateToCompanySection('korisnici'))}>Korisnici</li>
-                  <li onClick={() => handleAndClose(() => navigateToCompanySection('naslovPartner'))}>Partneri</li>
+                  <li onClick={() => handleAndClose(() => navigateToCompanySection('korisnici'))}>{texts.header.references.users}</li>
+                  <li onClick={() => handleAndClose(() => navigateToCompanySection('naslovPartner'))}>{texts.header.references.partners}</li>
                 </ul>
               </li>
             </ul>
@@ -79,7 +79,8 @@ function HamburgerMenu({ handleClick, navigateToCompanySection, navigateToProduc
                 style={{
                   marginRight: '8px',
                   color: '#7e2021',
-                  strokeWidth: '1px'
+                  strokeWidth: '1px',
+                  paddingTop: '-6px'
                 }}
               />
               {language === 'sr' ? 'EN' : 'SR'}
