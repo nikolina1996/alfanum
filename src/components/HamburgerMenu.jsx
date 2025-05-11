@@ -80,7 +80,7 @@ function HamburgerMenu({ handleClick, navigateToCompanySection, navigateToProduc
                   marginRight: '8px',
                   color: '#7e2021',
                   strokeWidth: '1px',
-                  paddingTop: '-6px'
+                  marginTop: '-1px'
                 }}
               />
               {language === 'sr' ? 'EN' : 'SR'}
