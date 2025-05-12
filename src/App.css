@@ -601,6 +601,7 @@ footer p{
 }
 .left-text {
   margin-bottom: 20px;
+  width: 100%;
 }
 
 .left-text .title {

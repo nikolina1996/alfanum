@@ -102,6 +102,21 @@
         "ime": "Goran Đaković",
         "biografija": "Goran Đaković (1961) enrolled at the University of Belgrade School of Electrical Engineering after completing American high school in The Hague (Netherlands). He founded the company Saga in 1989, which under his leadership has been the number one system integrator in Serbia for nearly a decade (according to official financial reports). Mr. Đaković has extensive experience working with prominent multinational companies and cooperates with top-level executives, as well as government and political officials. He is a member of the Serbian Association of Managers, chairman of the Board of Directors of the IT Industry Association of the Belgrade Chamber of Commerce, a board member of the Belgrade Chamber of Commerce and the Serbian Chamber of Commerce, as well as numerous other professional and business associations."
     }
+},
+"kontakt": {
+    "tekst1": "Do you have a different idea for applying",
+    "tekst2": "speech technologies?",
+    "podnaslov": "Feel free to contact us!",
+    "forma": {
+        "ime": "First Name",
+        "prezime": "Last Name",
+        "email": "Email",
+        "poruka": "Message",
+        "posalji": "Send",
+        "prodaja": "Sales",
+        "podrska": "Support",
+        "mreze": "Follow us on social media."
+    }
 }
 
 

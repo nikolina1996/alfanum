@@ -1,9 +1,11 @@
 import React, { useEffect, useState } from 'react';
 import { FaHome, FaPhone, FaFacebook, FaLinkedin, FaYoutube } from 'react-icons/fa';
 import bgImage from '../bg.png';
+import { useLanguage } from '../components/LanguageContext';
 
 const Contact = () => {
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+  const { texts } = useLanguage();
 
   useEffect(() => {
     const handleResize = () => {
@@ -46,16 +48,15 @@ const Contact = () => {
           >
             <div className="left-text">
               <p className="title">
-                Imate drugačiju ideju za primenu<br />
-                govornih tehnologija?
+                {texts.kontakt.tekst1} {texts.kontakt.tekst2}
               </p>
-              <p>Slobodno nas kontaktirajte!</p>
+              <p>{texts.kontakt.podnaslov}</p>
             </div>
-            <input type="text" name="ime" placeholder="Ime" required />
-            <input type="text" name="prezime" placeholder="Prezime" required />
-            <input type="email" name="email" placeholder="Email" required />
-            <textarea name="poruka" placeholder="Poruka" rows="5" required></textarea>
-            <button type="submit">Pošalji</button>
+            <input type="text" name="ime" placeholder={texts.kontakt.forma.ime} required />
+            <input type="text" name="prezime" placeholder={texts.kontakt.forma.prezime} required />
+            <input type="email" name="email" placeholder={texts.kontakt.forma.email} required />
+            <textarea name="poruka" placeholder={texts.kontakt.forma.poruka} rows="5" required></textarea>
+            <button type="submit">{texts.kontakt.forma.posalji}</button>
           </form>
         </div>
 
@@ -64,14 +65,14 @@ const Contact = () => {
             <div className="contactInfo">
               <p><strong>AlfaNum d.o.o</strong></p>
               <p><FaHome className="icon" /> Krajiška 41, 21132 Petrovaradin</p>
-              <p><FaPhone className="icon" /> Prodaja: 064/809-5758</p>
-              <p><FaPhone className="icon" /> Podrška: 066/809-6324</p>
+              <p><FaPhone className="icon" /> {texts.kontakt.forma.prodaja}: 064/809-5758</p>
+              <p><FaPhone className="icon" /> {texts.kontakt.forma.podrska}: 066/809-6324</p>
             </div>
           </div>
 
           <div className="bottom-right">
             <div className="social-section">
-              <p className="social-text">Pratite nas i na društvenim mrežama.</p>
+              <p className="social-text">{texts.kontakt.forma.mreze}</p>
               <div className="social-icons">
                 <a href="https://www.facebook.com/alfanum.serbia" target="_blank" rel="noopener noreferrer"><FaFacebook /></a>
                 <a href="https://www.linkedin.com/company/alfanum-d-o-o-/" target="_blank" rel="noopener noreferrer"><FaLinkedin /></a>

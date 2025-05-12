@@ -96,25 +96,37 @@
   
     "direktori": {
       "naslov": "Bord direktora",
-  
       "direktor1": {
         "ime": "Vlado Delić",
-        "biografija": "Dr Vlado Delić (1964) je redovni profesor na Fakultetu tehničkih nauka Univerziteta u Novom Sadu i rukovodilac je na nekoliko razvojno-istraživačkih projekata na ovom fakultetu. Uža oblast rada profesora Delića je akustika, audio inženjerstvo i obrada signala, kao i razvoj govornih tehnologija. Okupio je tim izuzetnih mladih stručnjaka i sa njima izgradio poziciju regionalnog lidera u razvoju i primeni govornih tehnologija. Autor je i koautor više knjiga, 4 patenta i 10 tehničkih rešenja, kao i više od 250 naučnih radova objavljenih u naučnim časopisima i na konferencijama."
+        "biografija": "Dr Vlado Delić (1964)..."
       },
-  
       "direktor2": {
         "ime": "Darko Pekar",
-        "biografija": "Dr Darko Pekar (1972), diplomirao je na Fakultetu tehničkih nauka Univerziteta u Novom Sadu. Jedan je od vodećih eksperata uspešnog razvojnog tima iz oblasti govornih tehnologija na FTN, u kojem je stekao bogato iskustvo u razvoju aplikacija, kao i u menadžmentu naučno-tehnoloških projekata. Od 2003. godine je na poziciji direktora AlfaNuma, i u saradnji sa timom sa FTN upravlja zajedničkim radom i razvojem aplikacija iz oblasti govornih tehnologija. Autor je nekoliko uspešnih proizvoda i usluga zasnovanih na govornim tehnologijama. Iako je fokusiran na praktičan razvoj i izlazak na tržište ASR i TTS proizvoda, ima i bogatu naučnu produkciju - objavio je preko 70 radova na konferencijama i u naučnim časopisima, preko 20 tehničkih rešenja i 5 patenata."
+        "biografija": "Dr Darko Pekar (1972)..."
       },
-  
       "direktor3": {
         "ime": "Milan Sečujski",
-        "biografija": "Dr Milan Sečujski (1975) je vanredni profesor i istraživač na Fakultetu tehničkih nauka u Novom Sadu. Bavi se razvojem govornih tehnologija, posebno sa lingvističkog aspekta. Već više od 15 godina predvodi istraživačko-razvojni tim na FTN i u AlfaNumu u oblasti sinteze govora, a radi i na razvoju govorno-jezičkih resursa na koje se oslanjaju brojna razvijena rešenja u oblasti govornih tehnologija. Njegovo poznavanje fonetike, morfologije, sintakse i prozodije južnoslovenskih jezika predstavlja važan oslonac tima sa FTN. Autor je i koautor preko 100 radova objavljenih u naučnim časopisima i na konferencijama, uključujući i 10 realizovanih tehničkih rešenja. Dobitnik je prestižne Pupinove nagrade Matice srpske za svoj magistarski rad u oblasti sinteze govora na srpskom jeziku."
+        "biografija": "Dr Milan Sečujski (1975)..."
       },
-  
       "direktor4": {
         "ime": "Goran Đaković",
-        "biografija": "Goran Đaković (1961) je po završetku američke srednje škole u Hagu (Holandija) upisao Elektrotehnički fakultet Univerziteta u Beogradu. Kompaniju Saga osnovao je 1989. godine, koja je pod njegovim vođstvom već skoro čitavu deceniju sistem integrator broj jedan u Srbiji (prema zvaničnim finansijskim izveštajima). Gospodin Đaković poseduje dugogodišnje iskustvo u poslovanju sa istaknutim multinacionalnim kompanijama i sarađuje sa rukovodiocima najvišeg nivoa, kao i sa vladinim i političkim zvaničnicima. Član je Srpske asocijacije menadžera, predsednik je Upravnog odbora Udruženja informatičke delatnosti Privredne komore Beograda, član je Upravnog odbora Privredne komore Beograda i Privredne komore Srbije, kao i mnogih drugih poslovnih i stručnih udruženja."
+        "biografija": "Goran Đaković (1961)..."
+      }
+    },
+  
+    "kontakt": {
+      "tekst1": "Imate drugačiju ideju za primenu",
+      "tekst2": "govornih tehnologija?",
+      "podnaslov": "Slobodno nas kontaktirajte!",
+      "forma": {
+        "ime": "Ime",
+        "prezime": "Prezime",
+        "email": "Email",
+        "poruka": "Poruka",
+        "posalji": "Pošalji",
+        "prodaja": "Prodaja",
+        "podrska": "Podrška",
+        "mreze": "Pratite nas i na društvenim mrežama."
       }
     }
   }
