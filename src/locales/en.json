@@ -53,8 +53,57 @@
     "partneri": {
         "naslov": "AlfaNum partners.",
         "podnaslov": "We cooperate with small and large companies in Serbia and beyond and together we make speech technologies accessible to everyone."
+},
+"kompanija": {
+    "naslov": "Company Profile",
+    "tekst1": "AlfaNum is an innovative company that brings together a team of experts who, since 2003, have been striving to bring the world of modern speech technologies closer to a wide range of users.",
+    "tekst2": "During this period, software components for high-quality speech recognition and synthesis in Serbian, Croatian, and Montenegrin have been developed. AlfaNum was the first in the region in the development of these speech technologies, which were initially intended for blind and visually impaired individuals. More information about our components can be found on the products and services pages, and you can see how they work through demonstrations.",
+    "tekst3": "In addition to speech technologies, AlfaNum is also involved in the development and implementation of products for people with disabilities (PWD), as well as call centers, information centers, and databases. If you are thinking about improving your system using modern speech technologies or need another professional service, feel free to contact us. We will fully honor the trust you place in us.",
+    "tekst4": "The advancement of computer technology in the past decade has enabled even regular PCs to achieve the required efficiency for successful speech recognition and synthesis. Moreover, their relatively low cost has made the benefits of speech technologies available to an increasing number of users. The specific characteristics of South Slavic languages are significant, making the development of speech technologies for each of them a very challenging task. Additionally, the potential markets are not large, which is another reason why no global company had until recently decided to venture into the development of speech recognition and synthesis for Serbian and related languages. AlfaNum recognized this strategic advantage in time and began its own development, achieving the following main goals and activities:",
+    "li1": "Development of a high-quality flexible text-to-speech (TTS) synthesizer",
+    "li2": "Development of automatic speech recognition (ASR) with large vocabulary",
+    "li3": "Development of speech conversion systems",
+    "li4": "Development of natural language processing modules including dialogue management",
+    "li5": "Applications of developed speech technologies in the Western Balkans:",
+    "li51": "in multimodal human-machine dialogue systems (interactive voice systems, smartphones, smart homes, ...)",
+    "li52": "in applications such as: text reading, text dictation, speech transcription",
+    "li53": "as assistive technologies: aids for people with visual, speech or hearing impairments.",
+    "bold": "The AlfaNum team conducts scientific research in collaboration with professors and associates from the Department of Telecommunications and Signal Processing at the Faculty of Technical Sciences in Novi Sad. More details can be found on the AlfaNum project pages."
+    },
+"kartice": {
+    "misija": {
+        "naslov": "Mission",
+        "tekst": "Our mission is to deliver high-quality, secure, and innovative IT solutions and services for clients across various domains."
+    },
+    "vizija": {
+        "naslov": "Vision",
+        "tekst": "Our vision is to remain a regional leader in speech technologies for Serbian and related languages, continuously improving our products and services."
+    },
+    "rezultati": {
+        "naslov": "Results",
+        "tekst": "For our results, ask our clients – from individuals and small businesses to government institutions."
+    }
+},
+"direktori": {
+    "naslov": "Board of Directors",
+    "direktor1": {
+        "ime": "Vlado Delić",
+        "biografija": "Dr. Vlado Delić (1964) is a full professor at the Faculty of Technical Sciences, University of Novi Sad, and leads several research and development projects at the faculty. His main areas of expertise are acoustics, audio engineering, signal processing, and speech technology development. He has gathered a team of outstanding young experts and together they have built a leading regional position in speech technology development and application. He is the author and co-author of several books, 4 patents, 10 technical solutions, and over 250 scientific papers published in journals and conferences."
+    },
+    "direktor2": {
+        "ime": "Darko Pekar",
+        "biografija": "Dr. Darko Pekar (1972) graduated from the Faculty of Technical Sciences, University of Novi Sad. He is one of the leading experts in the successful development team in the field of speech technologies at FTN, where he gained extensive experience in application development and in managing scientific and technological projects. Since 2003, he has held the position of director at AlfaNum, managing joint work and application development in the field of speech technologies in cooperation with the FTN team. He is the author of several successful products and services based on speech technologies. Although focused on practical development and market introduction of ASR and TTS products, he also has a strong scientific background – he has published over 70 papers at conferences and in scientific journals, over 20 technical solutions, and 5 patents."
+    },
+    "direktor3": {
+        "ime": "Milan Sečujski",
+        "biografija": "Dr. Milan Sečujski (1975) is an associate professor and researcher at the Faculty of Technical Sciences in Novi Sad. He specializes in the development of speech technologies, especially from a linguistic perspective. For over 15 years, he has led research and development teams at FTN and AlfaNum in the field of speech synthesis, and he also works on the development of language resources that support many developed speech technology solutions. His knowledge of phonetics, morphology, syntax, and prosody of South Slavic languages is a vital asset to the FTN team. He is the author and co-author of over 100 scientific papers published in journals and conferences, including 10 implemented technical solutions. He is a recipient of the prestigious Pupin Award from Matica Srpska for his master's thesis on speech synthesis in the Serbian language."
+    },
+    "direktor4": {
+        "ime": "Goran Đaković",
+        "biografija": "Goran Đaković (1961) enrolled at the University of Belgrade School of Electrical Engineering after completing American high school in The Hague (Netherlands). He founded the company Saga in 1989, which under his leadership has been the number one system integrator in Serbia for nearly a decade (according to official financial reports). Mr. Đaković has extensive experience working with prominent multinational companies and cooperates with top-level executives, as well as government and political officials. He is a member of the Serbian Association of Managers, chairman of the Board of Directors of the IT Industry Association of the Belgrade Chamber of Commerce, a board member of the Belgrade Chamber of Commerce and the Serbian Chamber of Commerce, as well as numerous other professional and business associations."
+    }
 }
 
 
-   
-}
+}  
+
