@@ -3,70 +3,68 @@ import Hero from "../components/Hero";
 import Primena from "../components/Primena";
 import SubscriptionSection from "../components/SubscriptionSection";
 import useCardsPerPage from "../components/useCardsPerPage";
-
-const tekstPrimena = `TRANSCRIPTA je proizvod namenjen transkripciji govora bez ograničenja na specifičan domen. Ovaj sistem pogodan je za transkripciju različitih vrsta audio-zapisa, od telefonskih razgovora i sastanaka, preko intervjua i emisija, do ročišta i sednica. Odlikuje ga izuzetna fleksibilnost u transkripciji, odnosno, praktično neograničen vokabular. Pored mogućnosti transkripcije, TRANSCRIPTA poseduje i mogućnost dijarizacije (razdvajanja teksta po govornicima) uz tačnu identifikaciju položaja svake prepoznate reči u odgovarajućem audiosnimku. Odgovarajući postprocesing automatski otklanja deo grešaka u transkriptu, dok efikasan korisnički interfejs omogućuje preslušavanje radi eventualne korekcije transkripta.`;
-
-const tekstPrednosti = `TRANSCRIPTA funkcioniše u okviru klijent-server arhitekture. Konverzija govora u tekst vrši se na serveru, a klijentske aplikacije mogu da se postave na više računara, pri čemu se sve obraćaju serveru za uslugu konverzije. Samo server zahteva specifičan hardver, dok računari sa kojih se koriste klijentske aplikacije mogu da budu proizvoljnih konfiguracija. 
-                        Sistem se realizuje kao cloud ili on-premise rešenje. Cloud rešenje podrazumeva da se sama konverzija govora u tekst vrši na udaljenim serverima, što iziskuje da se audio podaci šalju van istitucije, što je izuzetno rizično kada je reč o poverljivim podacima, pogotovo kada su u pitanju serveri u drugim država i u vlasništvu drugih institucija. Zato je AlfaNum jedno od retkih preduzeća koje nudi i on-premise rešenje, što znači da se server instalira u instituciji korisnika. Samim tim, konverzija govora u tekst izvršava se na hardveru korisnika i podaci ne izlaze na javnu mrežu, što znači da je njihova privatnost apsolutno garantovana.`;
-const featuresPrimena = [
-  { title: "Pojedinci", description: "Transkripcija podkasta, emisija i ostalih audio i video materijala - povećajte SEO, unapredite vidljivost i povećajte svoju publiku." },
-  { title: "Preduzeća", description: "Snimanje sastanaka, predavanja i drugih događaja omogućava da sve ostane zabeleženo - transkripcija Vam omogućava kasnije brzo i jednostavno pretraživanje i analizu sadržaja." },
-  { title: "Medijske kuće", description: "Omogućava titlovanje, lakši prevod i pravljenje arhiva koje se mogu jednostavno pretraživati." },
-  { title: "Sudovi", description: "Brza i jednostavna transkripcija ročišta uz automatsko razdvajanje transkripcije po govorniku." },
-  { title: "Ostali", description: "Transkripcija intervjua, različitih uviđaja, nastavnih materijala i još mnogo toga." },
-];
-const featuresPrednosti = [
-    { title: "Tačnost", description: "Tačnost sistema je 90% na nivou reči, a preko 95% na nivou karaktera (slova)." },
-    { title: "Interpukcija", description: "Sistem postavlja znakove interpunkcije i velika slova na logična mesta." },
-    { title: "Jezik", description: "Podržava srpski jezik (ekavski i ijekavski izgovor), hrvatski i srodne jezike, ali i engleski, ruski i mnoge druge." },
-    { title: "Brzina", description: "Zavisno od hardvera, može da radi i znatno brže od realnog vremena (npr. da transkribuje snimak od 1h za nekoliko minuta)." },
-    { title: "Editor", description: "Poseduje i grafički korisnički interfejs za jednostavnu korekciju transkripcije." },
-  ];
-const subscriptionPackages = [
-{
-    title: "Osnovni paket",
-    price: "30e / mes",
-    features: ["30h mesečno", "1.2e/h nakon 30h", "Dijarizacija", "Online editor"],
-    buttonText: "Izaberi"
-},
-{
-    title: "Premium paket",
-    price: "50e / mes",
-    features: ["60h mesečno", "1e/h nakon 30h", "Dijarizacija", "Online editor"],
-    buttonText: "Izaberi"
-},
-{
-    title: "Poslovni paket",
-    features: ["Mogućnost in-house servera", "Kastomizacija aplikacije", "Prilagođeni paketi", "Dostupan API"],
-    buttonText: "Pošalji upit"
-}
-];
+import { useLanguage } from '../components/LanguageContext';
 
 function Transcripta() {
+  const { texts } = useLanguage();
+  const tekstPrimena = [texts.transcripta.tekstPrimena];
+  const tekstPrednosti = [texts.transcripta.tekstPrednosti];
+  const featuresPrimena = [
+    { title: [texts.transcripta.featuresPrimena.pojedinci.key], description: [texts.transcripta.featuresPrimena.pojedinci.value]},
+    { title: [texts.transcripta.featuresPrimena.preduzeca.key], description: [texts.transcripta.featuresPrimena.preduzeca.value] },
+    { title: [texts.transcripta.featuresPrimena.medijskekuce.key], description: [texts.transcripta.featuresPrimena.medijskekuce.value]  },
+    { title: [texts.transcripta.featuresPrimena.sudovi.key], description: [texts.transcripta.featuresPrimena.sudovi.value] },
+    { title: [texts.transcripta.featuresPrimena.ostali.key], description: [texts.transcripta.featuresPrimena.ostali.value]}
+  ];
+  const featuresPrednosti = [
+    { title: [texts.transcripta.featuresPrednosti.tacnost.key], description: [texts.transcripta.featuresPrednosti.tacnost.value] },
+    { title: [texts.transcripta.featuresPrednosti.integracija.key], description: [texts.transcripta.featuresPrednosti.integracija.value] },
+    { title: [texts.transcripta.featuresPrednosti.jezik.key], description: [texts.transcripta.featuresPrednosti.jezik.value] },
+    { title: [texts.transcripta.featuresPrednosti.brzina.key], description: [texts.transcripta.featuresPrednosti.brzina.value] },
+    { title: [texts.transcripta.featuresPrednosti.editor.key], description: [texts.transcripta.featuresPrednosti.editor.value] },
+  ];
+  const subscriptionPackages = [
+    {
+        title: [texts.osnovni.naslov],
+        price:  [`30e / ${texts.mesecna.mesec}`],
+        features: [texts.osnovni.h30, texts.osnovni.nakonh30, texts.osnovni.dijarizacija, texts.osnovni.online],
+        buttonText: [texts.dugme.izaberi]
+    },
+    {
+        title: [texts.premium.naslov],
+        price: [`50e / ${texts.mesecna.mesec}`],
+        features: [texts.premium.h60, texts.premium.nakonh60, texts.premium.dijarizacija, texts.premium.online],
+        buttonText: [texts.dugme.izaberi]
+    },
+    {
+        title: [texts.poslovni.naslov],
+        features: [texts.poslovni.inhouse, texts.poslovni.kastomizacija, texts.poslovni.paket, texts.poslovni.api],
+        buttonText: [texts.dugme.upit]
+      }
+    ];
   const cardsPerPage = useCardsPerPage();
   return (
     <div className="medicta-page">
       <Hero
         imageSrc="/images/transcripta2.png"
         altText="Transcripta Logo"
-        text="Softver za pretvaranje govora u tekst od sada i na srpskom jeziku za sve vrste audio i video snimaka"
+        text={texts.transcripta.naslov}
       />
       <Primena
-        title="Primena"
+        title={texts.velikinaslovi.primena}
         text={tekstPrimena}
         sliderData={featuresPrimena}
         cardsPerPage={cardsPerPage}
       />
       <Primena
-        title="Karakteristike sistema"
+        title={texts.velikinaslovi.karakteristikeSistema}
         text={tekstPrednosti}
         sliderData={featuresPrednosti}
         cardsPerPage={cardsPerPage}
       />
       <SubscriptionSection
-        title="Paketi pretplate za TRANSCRIPTA web portal"
-        description={`Za privatne korisnike nudimo dva paketa pretplate za korišćenje Transcripte putem web portala sa dostupnim svim funkcionalnostima - transkripcija, dijarizacija i online tekst editor. Prvih 10 minuta je besplatno, pa napravite nalog i isprobajte portal pre same pretplate. Prepoznavanje se vrši na našim serverima, stoga je moguće portalu pristupiti sa bilo kog uređaja putem browser-a.
-        Za poslovne korisnike postoje razne mogućnosti - od raznih specijalno kreiranih cloud-based paketa prema potrebama korisnika, do kastomizovanih aplikacija i on-premise rešenja. Budite slobodni da nam pošaljete upit, kako bismo pripremili ponudu koja će Vam odgovarati.`}
+        title={texts.velikinaslovi.pretplate.transcripta}
+        description={texts.pretplata.transcripta}
         packages={subscriptionPackages}
       />
     </div>

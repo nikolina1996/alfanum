@@ -117,8 +117,324 @@
         "podrska": "Support",
         "mreze": "Follow us on social media."
     }
+},
+
+"medicta": {
+    "naslov": "Medical report dictation software now available in Serbian with supported Latin terms and abbreviations",
+    "tekstPrimena": "The MEDICTA system for dictating medical reports, i.e., automatic generation of written reports based on dictated text, aims to increase the efficiency of medical staff and enable them to focus on more important aspects of their work.\nThe system is specialized in medical terminology and recognizes naturally spoken text with virtually no errors on an average-performance computer in real time. A free trial period is available for every user.",
+    "featuresPrimena": {
+    "akronim": {
+        "key": "Akronimi",
+        "value": "Recognizes and interprets acronyms, measurement units, etc."
+    },
+    "latinski": {
+    "key": "Latinski",
+    "value": "Successfully combines Latin terms with the Serbian language."
+},
+    "formatiranje": {
+        "key": "Formatiranje",
+        "value": "Dictate punctuation and format text by voice."
+    },
+    "komande": {
+        "key": "Komande",
+        "value": "Supports special voice commands."
+    },
+    "ispravke": {
+        "key": "Ručne ispravke",
+        "value": "Allows efficient manual corrections."
+    },
+    "sabloni": {
+        "key": "Šabloni",
+        "value": "Supports the use of templates to avoid dictating standard parts of reports."
+    },
+    "personalizacija": {
+        "key": "Personalizacija",
+        "value": "Builds a dictionary based on your previous reports."
+    },
+    "recnik": {
+        "key": "Rečnik",
+        "value": "You can add or remove words from the dictionary, especially if they are frequently misrecognized."
+    },
+    "rezim": {
+        "key": "Režim trake",
+        "value": "You can dictate into any external application that supports text."
+    }
+    },
+    "tekstPrednosti": "You can learn much more about the system and how to adapt it to your needs from the user manual. In addition to all the listed advantages, using the MEDICTA system does not require a particularly powerful or expensive computer, since speech-to-text conversion is not performed on your machine but on the connected server. For individual users and small practices, it is recommended to use AlfaNum’s server, connected via the internet, while larger institutions are advised to install a dedicated MEDICTA server on-site, which can be used by multiple employees.\nThanks to the most advanced noise reduction techniques and voice adaptation, the MEDICTA system can be used with an average-quality microphone under standard office noise conditions. MEDICTA also successfully recognizes very quiet speech, as long as it is reasonably intelligible, which is particularly useful for doctors who share offices with colleagues. In such situations, special microphones (directional and/or headset) offered by AlfaNum at very affordable prices can be very helpful.",
+    "featuresPrednosti": {
+    "prilagodjenja": {
+        "key": "Prilagođenja",
+        "value": "The system can be adapted to the medical vocabulary of any medical field."
+    },
+    "integracija": {
+        "key": "Integracija",
+        "value": "Easily integrates into any existing system or application already in use."
+    },
+    "klijentserver": {
+        "key": "Klijent-server",
+        "value": "This architecture allows recognition to be done on a centralized server, either cloud-based or locally hosted."
+    },
+    "sigurnost": {
+        "key": "Sigurnost",
+        "value": "With a server located in the institution, audio files do not go over public networks, ensuring complete data security."
+    },
+    "racunari": {
+        "key": "Računari",
+        "value": "The server requires specific hardware, but client computers can be average with no need for upgrades."
+    }
+    }
+},
+"pretplata": {
+    "medicta": "For individual users, we offer two subscription plans for using the Medicta application. The first two weeks are free, so register and you'll receive the application and installation instructions via email. Try it out before subscribing. Recognition is performed on our servers, so the application can be used from any Windows computer.\nFor business users, there are many possibilities—from specially designed cloud-based packages tailored to user needs, to customized applications and on-premise solutions. Feel free to send us an inquiry so we can prepare an offer that suits you."
+},
+"mesecna": {
+    "naslov": "Monthly subscription",
+    "mesec": "month",
+    "koriscenje": "Unlimited usage",
+    "govornik": "For one speaker",
+    "podrska": "Online support"
+},
+"godisnja": {
+    "naslov": "Annual subscription",
+    "godina": "year",
+    "koriscenje": "Unlimited usage",
+    "govornik": "For one speaker",
+    "podrska": "Online support"
+},
+"poslovni": {
+    "naslov": "Business package",
+    "inhouse": "In-house server option",
+    "kastomizacija": "Application customization",
+    "paket": "Tailored packages"
+},
+"dugme": {
+    "izaberi": "Choose",
+    "upit": "Send inquiry"
+},
+"velikinaslovi": {
+    "primena": "Usage",
+    "prednostiInstitucije": "Benefits for institutions",
+    "pretplate": {
+        "medicta": "Subscription plans for the MEDICTA application"
+    }
+},
+"iurisdicta": {
+    "naslov": "Software for dictating legal documents now available in Serbian with supported proper names and abbreviations",
+    "tekstPrimena": "IURISDICTA is a system for dictating legal documents, i.e., automatic generation of textual documents based on dictated speech. Its goal is to increase the efficiency of legal professionals (judges, lawyers, and others) and allow them to focus on more important aspects of their work.\nThe system is specialized in legal vocabulary, recognizing naturally spoken text almost flawlessly on an average computer in real-time. A free trial period is available for every user.",
+    "tekstVideo": "A short video demonstrates how IURISDICTA works in a real environment. Watch the video how it is used and what results it produces and evaluate how this tool could improve your work.",
+    "featuresPrimena": {
+        "akronim": {
+            "key": "Abbreviations",
+            "value": "Recognizes and interprets abbreviations, units of measurement, legal terminology, etc."
+        },
+        "imena": {
+            "key": "Names",
+            "value": "The dictionary is enriched with a large number of proper names characteristic of the Serbian region."
+        },
+        "formatiranje": {
+            "key": "Formatting",
+            "value": "Dictate punctuation and format the text using your voice."
+        },
+        "komande": {
+            "key": "Commands",
+            "value": "Supports special commands such as: \"delete word\", \"end dictation\", etc."
+        },
+        "ispravke": {
+            "key": "Manual corrections",
+            "value": "Allows efficient manual correction input."
+        },
+        "sabloni": {
+            "key": "Templates",
+            "value": "Supports using templates to avoid dictating standard parts of legal documents."
+        },
+        "personalizacija": {
+            "key": "Personalization",
+            "value": "Builds a dictionary based on your previously dictated documents."
+        },
+        "recnik": {
+            "key": "Dictionary",
+            "value": "You can manually add or remove words from the dictionary, especially those frequently misrecognized."
+        },
+        "rezim": {
+            "key": "Floating bar mode",
+            "value": "You can dictate into any external application that supports text input."
+        }
+    },
+    "tekstPrednosti": "You can learn more about the system and how to tailor it to your needs from the user manual. In addition to all listed advantages, using the IURISDICTA system does not require a powerful or expensive computer, because the speech-to-text conversion is performed by the server it is connected to. For individual users, it is recommended to use the AlfaNum company's server, which your computer connects to via the internet. For larger institutions, installing a dedicated IURISDICTA server on-site is recommended, which can be used by multiple employees.\nThanks to advanced noise reduction techniques and the ability to adapt to the user's voice, the IURISDICTA system can be used with an average-quality microphone in standard office noise conditions. It successfully recognizes even very quiet speech, as long as it is reasonably intelligible, which is particularly important for those sharing offices. In such cases, directional or headset microphones—offered by AlfaNum at very affordable prices—can be very useful.",
+    "featuresPrednosti": {
+        "integracija": {
+            "key": "Integration",
+            "value": "Can be easily integrated into any existing system and application already in use."
+        },
+        "klijentserver": {
+            "key": "Client-server",
+            "value": "This architecture enables recognition to be performed on a centralized server, either cloud-based or physically located within the institution."
+        },
+        "sigurnost": {
+            "key": "Security",
+            "value": "With the server located on-site, recordings do not leave the local network, ensuring complete security."
+        },
+        "racunari": {
+            "key": "Computers",
+            "value": "The server requires specific hardware, but end-user computers can be average machines — no need for new or powerful computers."
+        }
+    }
+},"transcripta": {
+  "naslov": "Speech-to-text software now available in Serbian for all types of audio and video recordings",
+  "tekstPrimena": "TRANSCRIPTA is designed for transcription of speech without domain restrictions. It is suitable for transcribing various types of audio recordings—from phone calls and meetings to interviews and broadcasts, as well as court hearings and sessions. It is characterized by exceptional flexibility and an almost unlimited vocabulary. In addition to transcription, TRANSCRIPTA features speaker diarization with precise word-level timestamps in the corresponding audio. Post-processing automatically corrects part of the transcript, while the efficient user interface enables review and manual correction if needed.",
+  "featuresPrimena": {
+    "pojedinci": {
+      "key": "Individuals",
+      "value": "Transcription of podcasts, shows, and other audio/video content – boost SEO, improve visibility, and expand your audience."
+    },
+    "preduzeca": {
+      "key": "Enterprises",
+      "value": "Recording meetings, lectures, and other events ensures everything is documented – transcription allows for fast and easy content search and analysis."
+    },
+    "medijskekuce": {
+      "key": "Media companies",
+      "value": "Enables subtitling, easier translation, and creation of searchable archives."
+    },
+    "sudovi": {
+      "key": "Courts",
+      "value": "Fast and simple transcription of hearings with automatic speaker separation."
+    },
+    "ostali": {
+      "key": "Others",
+      "value": "Transcription of interviews, various inspections, educational content, and much more."
+    }
+  },
+  "tekstPrednosti": "TRANSCRIPTA works in a client-server architecture. Speech-to-text conversion is performed on the server, while client applications can be installed on multiple computers, all communicating with the server for transcription service. Only the server requires specific hardware, while client machines can be of any configuration.\nThe system can be deployed as a cloud or on-premise solution. Cloud means conversion happens on remote servers, requiring audio data to leave the institution – a major risk for confidential information, especially if servers are abroad or third-party owned. That’s why AlfaNum is one of the rare companies offering on-premise deployment, meaning the server is installed within the user's institution. Thus, all processing occurs locally, ensuring absolute data privacy.",
+  "featuresPrednosti": {
+    "tacnost": {
+      "key": "Accuracy",
+      "value": "System accuracy is 90% at word level and over 95% at character level."
+    },
+    "integracija": {
+      "key": "Integration",
+      "value": "The system places punctuation and capitalization at logical positions."
+    },
+    "jezik": {
+      "key": "Language",
+      "value": "Supports Serbian (Ekavian and Ijekavian), Croatian and related languages, as well as English, Russian, and many others."
+    },
+    "brzina": {
+      "key": "Speed",
+      "value": "Depending on hardware, it can operate much faster than real time (e.g. transcribe a 1-hour recording in just a few minutes)."
+    },
+    "editor": {
+      "key": "Editor",
+      "value": "Includes a graphical user interface for easy transcript correction."
+    }
+  }
+},"ansintetizator": {
+    "naslov": "Text-to-speech software that sounds completely natural, available in Serbian, Croatian, and Montenegrin",
+    "tekstPrimena": "AlfaNum TTS is a text-to-speech system with built-in elements of natural intonation and is considered the best synthesizer in the former Yugoslavia region. It supports Serbian, Croatian, and Montenegrin languages with several available voices (male and female). The built-in intonation elements (accentuation) significantly improve the intelligibility of the generated speech. This is also one of the core software components that sets AlfaNum apart from others. It can be used independently or integrated into various end-user solutions and applications. It is available via a web portal as well as through an API. The synthesis can be performed in the cloud or on a dedicated server installed within your institution. Key features of the AlfaNum TTS software include:",
+    "featuresPrimena": {
+        "kvalitet": {
+            "key": "Quality",
+            "value": "Voice quality is close to natural human speech."
+        },
+        "dijakritike": {
+            "key": "Diacritics",
+            "value": "Correctly pronounces words even without diacritical marks."
+        },
+        "stranereci": {
+            "key": "Foreign words",
+            "value": "Capable of correctly pronouncing many foreign words."
+        },
+        "platforme": {
+            "key": "Platforms",
+            "value": "Available on PC and Android platforms."
+        }
+    }
+},"anreader": {
+  "naslov": "Speech synthesis system in Serbian, primarily intended for blind and visually impaired users",
+  "tekstPrimena": "AnReader is a speech synthesis system primarily designed for blind and visually impaired individuals. The software supports Microsoft SAPI4 and SAPI5 interfaces, making it compatible with all major screen reader programs (NVDA, JAWS, Window-Eyes, Dolphin ScreenReader, etc.). It includes all functionalities of the AlfaNum TTS system.\nAnReader can also be used by people with other types of disabilities. Individuals with multiple sclerosis or cerebral palsy often struggle to read on their own due to the effort it requires. Mute individuals can type what they want the computer to say instead. People with dyslexia face challenges in reading, both in terms of speed and accuracy, which also affects their reading comprehension. All of this impacts their independence in life and work, particularly affecting children and youth during their development.\nAnReader can be extremely useful in the educational process and for others as well. It enables lessons and other textual materials to be converted into audio files and made available to everyone. Thanks to this, anyone can learn (via mobile phone or MP3 player), even in situations where it would otherwise be impossible (while traveling, during physical activity, etc.).\n\nYou can download the program from the",
+  "strana": "AnReader download page"
+},"citajmi": {
+  "naslov": "Enable listening to the content of your website in Serbian by adding the \"Read to Me\" option",
+  "tekstPrimena": "Blind people use screen readers to operate computers, which also allow them to navigate and listen to web pages. However, the quality of speech in such cases depends on the synthesizer that the screen reader relies on. Thanks to its high-quality speech synthesis in Serbian and other South Slavic languages, AlfaNum is the only one able to offer a solution that provides users with complete comfort while browsing the Internet in the South Slavic language area.\nThe solution is designed so that by simply clicking the \"Read to Me\" button, a player opens and reads the text content of the selected page. This solution is primarily intended for reading news, and by selecting the options \"what’s new\" or \"what’s important,\" the user shortens the time needed to browse the news, thereby improving the efficiency of this information service.\nIt should be emphasized that, in addition to being very useful for blind and visually impaired people, this functionality also helps people with other types of disabilities. People with multiple sclerosis or with cerebral palsy often find it extremely difficult to read on their own. Also, people with dyslexia have difficulties in reading, both in terms of speed and accuracy, which affects their understanding of the text.\nAudio-enabled websites also provide great advantages to everyone else, as people in modern life have less and less time and are often forced to multitask. Now it is possible to listen to selected news while simultaneously performing other tasks. Audio-enabling websites would make up-to-date information more accessible to citizens—such as how to obtain essential documents (e.g., birth certificates or citizenship records), road condition reports, service news from public companies, and so on.",
+  "ozvuceniSajtovi": "Examples of audio-enabled websites"
+},
+
+"pretplata": {
+    "medicta": "We offer two subscription packages for individual users of the Medicta app. The first two weeks are free—sign up and receive the app and installation instructions by email. Try it before subscribing. Speech recognition is performed on our servers, so the app can be used from any Windows computer.\nFor business users, various options are available—from specially tailored cloud-based packages to customized applications and on-premise solutions. Feel free to contact us so we can prepare a suitable offer.",
+    "iurisdicta": "We offer two subscription packages for individual users of the Iurisdicta app. The first two weeks are free—sign up and receive the app and installation instructions by email. Try it before subscribing. Speech recognition is performed on our servers, so the app can be used from any Windows computer.\nFor business users, various options are available—from specially tailored cloud-based packages to customized applications and on-premise solutions. Feel free to contact us so we can prepare a suitable offer.",
+    "transcripta": "For private users, we offer two subscription plans for using Transcripta via the web portal, with all functionalities available – transcription, speaker diarization, and an online text editor. The first 10 minutes are free, so create an account and try out the portal before subscribing. Recognition is performed on our servers, making the portal accessible from any device via a browser.\nFor business users, various options are available – from specially tailored cloud-based packages to customized applications and on-premise solutions. Feel free to send us an inquiry so we can prepare an offer that suits your needs.",
+    "ansintetizator": "For individual users, we offer two subscription plans for using the TTS web portal. The first 10 minutes are free, so create an account and try the portal before subscribing. The synthesis is performed on our servers, so the portal can be accessed from any device via a browser.\nFor business users, there are various options – from specially tailored cloud-based packages to customized applications and on-premise solutions. Feel free to send us an inquiry so we can prepare an offer that suits your needs.",
+    "anreader": "AnReader software can be obtained through RFZO as a basic aid for the blind and partially sighted. If you need the software for personal use, and you do not exercise the right through RFZO, you can buy it through several different packages."
+
+
+},
+"mesecna": {
+    "naslov": "Monthly subscription",
+    "mesec": "mo",
+    "koriscenje": "Unlimited usage",
+    "govornik": "For one speaker",
+    "podrska": "Online support",
+    "h30": "Up to 30h dictation/mo"
+},
+"godisnja": {
+    "naslov": "Annual subscription",
+    "godina": "yr",
+    "koriscenje": "Unlimited usage",
+    "govornik": "For one speaker",
+    "podrska": "Online support",
+    "h30": "Up to 30h dictation/mo"
+},
+"poslovni": {
+    "naslov": "Business Package",
+    "inhouse": "In-house server option",
+    "kastomizacija": "Application customization",
+    "paket": "Custom packages",
+    "api": "API available"
+},
+"osnovni": {
+    "naslov": "Basic Package",
+    "h30": "30h per month",
+    "nakonh30": "€1.2/h after that",
+    "dijarizacija": "Speaker diarization",
+    "online": "Online editor"
+},
+"premium": {
+    "naslov": "Premium Package",
+    "h60": "60h per month",
+    "nakonh60": "€1/h after that",
+    "dijarizacija": "Speaker diarization",
+    "online": "Online editor"
+},
+"paket1": {
+    "naslov": "Package 1",
+    "karakteri": "200,000 characters/month",
+    "karakterinakon": "€0.25/1,000 characters after that",
+    "glas": "Voice selection"
+},
+"paket2": {
+    "naslov": "Package 2",
+    "karakteri": "600,000 characters/month",
+    "karakterinakon": "€0.17/1,000 characters after that",
+    "glas": "Voice selection"
+},
+"tromesecni": "Three-month package",
+"godisnjaLicenca": "Annual license",
+"dugme": {
+    "izaberi": "Select",
+    "upit": "Send inquiry"
+},
+"velikinaslovi": {
+    "primena": "Application",
+    "prednostiInstitucije": "Benefits for institutions",
+    "videoIurisdicta": "See how IURISDICTA works",
+    "karakteristikeSistema": "System features",
+    "pretplate": {
+        "medicta": "Subscription packages for the MEDICTA application",
+        "iurisdicta": "Subscription packages for the IURISDICTA application",
+        "transcripta": "Subscription packages for the TRANSCRIPTA web portal",
+        "ansintetizator": "Subscription packages for the TTS web portal",
+        "anreader": "AnReader Software Subscription Packages"
+    }
 }
-
-
-}  
+}
+  
 

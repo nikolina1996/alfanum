@@ -1,6 +1,6 @@
 import React from "react";
 
-const Hero = ({ imageSrc, altText, text }) => {
+const Hero = ({ imageSrc, altText, text}) => {
   return (
     <section className="hero">
       <div className="hero-content">
