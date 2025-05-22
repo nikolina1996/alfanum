@@ -15,6 +15,7 @@ import CitajMi from './pages/CitajMi';
 import ScrollToTop from './components/ScrollToTop';
 import { LanguageProvider } from './components/LanguageContext';
 
+
 function App() {
   const [activeItem, setActiveItem] = useState('O nama');
 
@@ -25,7 +26,7 @@ function App() {
         <div className="App">
           <Header setActiveItem={setActiveItem} />
           <div className="content-container">
-            <Routes>
+            <Routes >
               <Route path="/" element={<MainContent />} />
               <Route path="/company" element={<Company />} />
               <Route path="/medicta" element={<Medicta />} />

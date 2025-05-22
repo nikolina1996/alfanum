@@ -39,7 +39,8 @@
         "naslovdva": "AlfaNum.",
         "podnaslov": "A company with over 20 years of experience that deals with speech technologies for Serbian and related languages, is based on AI and the long-term experience of our team. We offer the highest quality solutions for speech synthesis and recognition in the domains of medicine, law and general purpose."
     },
-     "proizvodiNaslov": "These are just some of the AlfaNum products.",
+     "proizvodiNaslov": "Products based on ASR.",
+     "proizvodiNaslovTts": "Products based on TTS.",
      "proizvodi": {
         "saznajVise": "Learn more",
         "medicta": "Software for dictating medical findings tailored for the Serbian language.",
@@ -55,7 +56,7 @@
         "podnaslov": "We cooperate with small and large companies in Serbia and beyond and together we make speech technologies accessible to everyone."
 },
 "kompanija": {
-    "naslov": "Company Profile",
+    "naslov": "Company Profile.",
     "tekst1": "AlfaNum is an innovative company that brings together a team of experts who, since 2003, have been striving to bring the world of modern speech technologies closer to a wide range of users.",
     "tekst2": "During this period, software components for high-quality speech recognition and synthesis in Serbian, Croatian, and Montenegrin have been developed. AlfaNum was the first in the region in the development of these speech technologies, which were initially intended for blind and visually impaired individuals. More information about our components can be found on the products and services pages, and you can see how they work through demonstrations.",
     "tekst3": "In addition to speech technologies, AlfaNum is also involved in the development and implementation of products for people with disabilities (PWD), as well as call centers, information centers, and databases. If you are thinking about improving your system using modern speech technologies or need another professional service, feel free to contact us. We will fully honor the trust you place in us.",
@@ -85,7 +86,7 @@
     }
 },
 "direktori": {
-    "naslov": "Board of Directors",
+    "naslov": "Board of Directors.",
     "direktor1": {
         "ime": "Vlado Delić",
         "biografija": "Dr. Vlado Delić (1964) is a full professor at the Faculty of Technical Sciences, University of Novi Sad, and leads several research and development projects at the faculty. His main areas of expertise are acoustics, audio engineering, signal processing, and speech technology development. He has gathered a team of outstanding young experts and together they have built a leading regional position in speech technology development and application. He is the author and co-author of several books, 4 patents, 10 technical solutions, and over 250 scientific papers published in journals and conferences."

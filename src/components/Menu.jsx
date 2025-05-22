@@ -10,7 +10,6 @@ function Menu({ activeItem, setActiveItem }) {
   const location = useLocation();
   const autoScrollRef = useRef(false);
   const { texts } = useLanguage(); 
-
   const handleClick = (item) => {
     setActiveItem(item);
     autoScrollRef.current = true;
@@ -64,7 +63,7 @@ function Menu({ activeItem, setActiveItem }) {
       'Proizvodi': document.querySelector('#naslovProizvod'),
       'Reference': document.querySelector('#naslovKorisnik'),
     };
-
+    
     const observer = new IntersectionObserver(
       (entries) => {
         if (autoScrollRef.current) return;
@@ -107,7 +106,7 @@ function Menu({ activeItem, setActiveItem }) {
 
   const navigateToCompanySection = (sectionKey) => {
     autoScrollRef.current = true;
-
+  
     let targetSection = 'company-container'; // default za o kompaniji
     let targetPage = '/company'; // default stranica
     let parentItem = 'O nama'; // defaultno roditelj koji treba da bude aktivan
@@ -128,9 +127,22 @@ function Menu({ activeItem, setActiveItem }) {
       targetSection = 'company-container';
       targetPage = '/company';
       parentItem = 'O nama';
+    } else if (sectionKey === 'naslovProizvodTts') {
+      targetSection = 'naslovProizvodTts';
+      targetPage = '/';
+      parentItem = 'Proizvodi';
+    } else if (sectionKey === 'naslovProizvod') {
+      targetSection = 'naslovProizvod';
+      targetPage = '/';
+      parentItem = 'Proizvodi';
     }
   
-    setActiveItem(parentItem); // <<< Dodajemo ovde da se roditeljska stavka aktivira
+    // 🔧 OVDE JE KLJUČNO:
+   
+  
+  
+    setActiveItem(parentItem);
+    closeDropdowns();
   
     if (location.pathname !== targetPage) {
       navigate(targetPage, { state: { scrollTo: targetSection } });
@@ -140,10 +152,8 @@ function Menu({ activeItem, setActiveItem }) {
         el.scrollIntoView({ behavior: 'smooth' });
       }
     }
-  
-    closeDropdowns();
+    console.log("Scrolling to", targetSection);
   };
-  
 
   return (
     <div className="meni">
@@ -170,17 +180,23 @@ function Menu({ activeItem, setActiveItem }) {
           className={`nav-item ${activeItem === 'Proizvodi' ? 'active' : ''} ${activeDropdown === 'proizvodi' ? 'active-dropdown' : ''}`}
           onMouseEnter={() => toggleDropdown('proizvodi')}
           onMouseLeave={closeDropdowns}
-        >
+          >
           <span onClick={() => handleClick('Proizvodi')}>{texts.header.products}</span>
           <ul className="dropdown">
+            {/* ASR grupa */}
+            <li className="dropdown-group-title" onClick={() => navigateToCompanySection('naslovProizvod')}>ASR</li>
+
             <li onClick={() => { navigateToProduct('/medicta'); }}>Medicta</li>
-            <li onClick={() => { navigateToProduct('/iurisdicta');  }}>Iurisdicta</li>
-            <li onClick={() => { navigateToProduct('/transcripta');  }}>Transcripta</li>
-            <li onClick={() => { navigateToProduct('/an-sintetizator');  }}>AN-sintetizator</li>
-            <li onClick={() => { navigateToProduct('/an-reader');  }}>AN-reader</li>
-            <li onClick={() => { navigateToProduct('/citaj-mi');  }}>Čitaj mi!</li>
+            <li onClick={() => { navigateToProduct('/iurisdicta'); }}>Iurisdicta</li>
+            <li onClick={() => { navigateToProduct('/transcripta'); }}>Transcripta</li>
+
+            {/* TTS grupa */}
+            <li className="dropdown-group-title" onClick={() => navigateToCompanySection('naslovProizvodTts')}>TTS</li>
+            <li onClick={() => { navigateToProduct('/an-sintetizator'); }}>AN-sintetizator</li>
+            <li onClick={() => { navigateToProduct('/an-reader'); }}>AN-reader</li>
+            <li onClick={() => { navigateToProduct('/citaj-mi'); }}>Čitaj mi!</li>
           </ul>
-        </li>
+  </li>
 
         <li
           className={`nav-item ${activeItem === 'Reference' ? 'active' : ''} ${activeDropdown === 'reference' ? 'active-dropdown' : ''}`}

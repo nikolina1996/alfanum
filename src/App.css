@@ -246,18 +246,22 @@ h6{
   margin-top: 80px;
   padding-right: 10%;
   padding-left: 10%;
-  gap: 5%;
-  height: 600px;
+  gap: 6.5%;
+  height: 230px;
   scroll-margin-top: 300px;
 
 }
 
 #naslovProizvod{
-  scroll-margin-top: 300px;
+  scroll-margin-top: 120px;
   font-size: 16px;
   font-weight: 400;
 }
-
+#naslovProizvodTts{
+  scroll-margin-top: 120px;
+  font-size: 16px;
+  font-weight: 400;
+}
 #naslovKorisnik{
   scroll-margin-top: 180px;
   font-size: 16px;
@@ -652,8 +656,8 @@ footer p{
 }
 
 .dropdown li:hover {
-  background-color: #f3eeee;
   color: #7e2021;
+  font-weight: 700;
 }
 
 .dropdown::before {
@@ -1175,7 +1179,13 @@ li::marker{
   color: #7e2021;
   border: 1px solid #7e2021;
 }
-
+.dropdown-group-title {
+  font-weight: bold;
+  padding: 6px 12px;
+  color: #444;
+  cursor: default;
+  background-color: #f3eeee;
+}
 
 
 
@@ -1718,7 +1728,7 @@ li::marker{
 .naslovi{
   width:100% ;
   height: 30px;
-  margin-top: 60px;
+  margin-top: 70px;
   text-align: center;
   
 }
@@ -2196,20 +2206,34 @@ ul {
 }
 
 .language-section {
-  position: fixed; /* Fiksira sekciju na dnu */
+  position: fixed; 
   display: flex;
   bottom: 0;
   left: 0;
   width: 100%;
-  height: 60px; /* Fiksna visina */
-  background-color: #f0f0f0; /* Možeš promeniti boju */
+  height: 60px; 
+  background-color: #f0f0f0; 
   margin-top: 5px;
   padding-left: 20px;
   padding-top: 15px;
   cursor: pointer;
-  border-top: 1px solid #ccc; /* Linija između menija i jezičke sekcije */
+  border-top: 1px solid #ccc; 
 }
-
+.dropdown-group-title {
+  font-weight: bold;
+  padding: 6px 12px;
+  color: #444;
+  cursor: default;
+  margin-left: -20px;
+  background-color: transparent;
+}
+#naslovProizvod{
+  scroll-margin-top: 50px;
+  
+}
+#naslovProizvodTts{
+  scroll-margin-top: 50px;
+}
 /*Sredjivanje skrolovanja*/
 .company-container {
  scroll-margin-top: 20px;

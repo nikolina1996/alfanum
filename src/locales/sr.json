@@ -43,7 +43,8 @@
       "podnaslov": "Kompanija sa iskustvom od preko 20 godina koja se bavi govornim tehnologijama za srpski i srodne jezike, bazira se na AI i dugogodišnjem iskustvu našeg tima. Nudimo najkvalitetnija rešenja za sintezu i prepoznavanje govora u domenima medicine, prava i za opštu namenu."
     },
   
-    "proizvodiNaslov": "Ovo su samo neki od AlfaNum proizvoda.",
+    "proizvodiNaslov": "Proizvodi bazirani na ASR.",
+    "proizvodiNaslovTts": "Proizvodi bazirani na TTS.",
   
     "proizvodi": {
       "saznajVise": "Saznaj više",
@@ -63,7 +64,7 @@
     },
   
     "kompanija": {
-      "naslov": "Profil kompanije",
+      "naslov": "Profil kompanije.",
       "tekst1": "AlfaNum je inovativno preduzeće koje okuplja tim eksperata koji od 2003. godine nastoji da približi svet savremenih govornih tehnologija širokom krugu korisnika.",
       "tekst2": "U dosadašnjem periodu realizovane su softverske komponente za visoko kvalitetno prepoznavanje i sintezu govora na srpskom, hrvatskom i crnogorskom jeziku. U razvoju ovih govornih tehnologija, koje su inicijalno bile namenjene slepima i slabovidima, AlfaNum je prvi u regionu. Više informacija o našim komponentama možete naći na stranama o proizvodima i uslugama, a kako one rade, možete videti kroz demonstracije.",
       "tekst3": "Pored govornih tehnologija, AlfaNum se bavi razvojem i implementacijom proizvoda za osobe sa invaliditetom (OSI), kao i pozivnih centara, informacionih centara i baza podataka. Ako razmišljate o unapređenju svog sistema korišćenjem savremenih govornih tehnologija ili vam je potrebna neka druga stručna usluga, slobodno nam se obratite. Poverenje koje nam ukažete ispoštovaćemo u potpunosti.",
@@ -95,7 +96,7 @@
     },
   
     "direktori": {
-      "naslov": "Bord direktora",
+      "naslov": "Bord direktora.",
       "direktor1": {
         "ime": "Vlado Delić",
         "biografija": "Dr Vlado Delić (1964)..."

@@ -56,9 +56,11 @@ function HamburgerMenu({ handleClick, navigateToCompanySection, navigateToProduc
               <li>
                 <span onClick={() => handleAndClose(() => handleClick('Proizvodi'))}>{texts.header.products}</span>
                 <ul>
+                  <li className="dropdown-group-title" onClick={() => handleAndClose(() => navigateToCompanySection('naslovProizvod'))}>ASR</li>
                   <li onClick={() => handleAndClose(() => navigateToProduct('/medicta'))}>Medicta</li>
                   <li onClick={() => handleAndClose(() => navigateToProduct('/iurisdicta'))}>Iurisdicta</li>
                   <li onClick={() => handleAndClose(() => navigateToProduct('/transcripta'))}>Transcripta</li>
+                  <li className="dropdown-group-title" onClick={() => handleAndClose(() => navigateToCompanySection('naslovProizvodTts'))}>TTS</li>
                   <li onClick={() => handleAndClose(() => navigateToProduct('/an-sintetizator'))}>AN-sintetizator</li>
                   <li onClick={() => handleAndClose(() => navigateToProduct('/an-reader'))}>AN-reader</li>
                   <li onClick={() => handleAndClose(() => navigateToProduct('/citaj-mi'))}>Čitaj mi!</li>

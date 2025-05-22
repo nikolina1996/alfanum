@@ -35,7 +35,7 @@ function Header() {
   };
   const { language, toggleLanguage } = useLanguage();
   const { texts } = useLanguage(); 
-
+  
   return (
     <header className="App-header">
       <div id="logoPolje" onClick={handleLogoClick} style={{ cursor: 'pointer' }}>
@@ -66,14 +66,19 @@ function Header() {
               korisnici: 'naslovKorisnik',
               naslovPartner: 'naslovPartner',
               oKompaniji: 'company-container',
+              naslovProizvod: 'naslovProizvod',
+              naslovProizvodTts: 'naslovProizvodTts'
             };
             const pageMap = {
               directors: '/company',
               oKompaniji: '/company',
               korisnici: '/',
               naslovPartner: '/',
+              naslovProizvod: '/',
+              naslovProizvodTts: '/'
             };
-            const parentItem = key === 'korisnici' || key === 'naslovPartner' ? 'Reference' : 'O nama';
+            const parentItem =
+            key === 'korisnici' || key === 'naslovPartner'? 'Reference': key === 'naslovProizvod' || key === 'naslovProizvodTts'? 'Proizvodi': 'O nama';
             setActiveItem(parentItem);
             const sectionId = sectionMap[key];
             const targetPage = pageMap[key];
