@@ -39,7 +39,7 @@ function Header() {
   return (
     <header className="App-header">
       <div id="logoPolje" onClick={handleLogoClick} style={{ cursor: 'pointer' }}>
-        <img src="/images/alfanum-logo.png" alt="Logo" className="logo" />
+        <img src="/images/alfanum-logo.jpg" alt="Logo" className="logo" />
       </div>
 
       {width > 700 ? (

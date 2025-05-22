@@ -1686,7 +1686,7 @@ li::marker{
     
   display: flex;
   flex-wrap: wrap;
-  margin-top: 80px;
+  margin-top: 40px;
   padding-right: 5%;
   padding-left: 5%;
   gap: 5%;
@@ -2228,11 +2228,11 @@ ul {
   background-color: transparent;
 }
 #naslovProizvod{
-  scroll-margin-top: 50px;
+  scroll-margin-top: 80px;
   
 }
 #naslovProizvodTts{
-  scroll-margin-top: 50px;
+  scroll-margin-top: 80px;
 }
 /*Sredjivanje skrolovanja*/
 .company-container {
