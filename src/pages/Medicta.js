@@ -56,13 +56,13 @@ function Medicta() {
       />
       <Primena
         title={texts.velikinaslovi.primena}
-        text={texts.tekstPrimena}
+        text={tekstPrimena}
         sliderData={featuresPrimena}
         cardsPerPage={cardsPerPage}
       />
       <Primena
         title={texts.velikinaslovi.prednostiInstitucije}
-        text={texts.tekstPrednosti}
+        text={tekstPrednosti}
         sliderData={featuresPrednosti}
         cardsPerPage={cardsPerPage}
       />

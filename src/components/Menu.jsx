@@ -137,9 +137,6 @@ function Menu({ activeItem, setActiveItem }) {
       parentItem = 'Proizvodi';
     }
   
-    // 🔧 OVDE JE KLJUČNO:
-   
-  
   
     setActiveItem(parentItem);
     closeDropdowns();
