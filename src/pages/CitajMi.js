@@ -7,7 +7,6 @@ import { useLanguage } from '../components/LanguageContext';
 
 function CitajMi() {
   const { texts } = useLanguage();
-  const tekstPrimena = [texts.citajmi.tekstPrimena];
   return (
     <div className="medicta-page">
       <Hero
@@ -16,8 +15,8 @@ function CitajMi() {
         text={texts.citajmi.naslov}
       />
       <Primena
-        title={texts.velikinaslovi.primena}
-        text={tekstPrimena}
+        title={texts.velikinaslovi.citajmi}
+        text1={texts.citajmi.tekstPrimena}
       />
       <ResourceCard
         title={texts.citajmi.ozvuceniSajtovi}

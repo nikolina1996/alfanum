@@ -4,10 +4,11 @@ import Primena from "../components/Primena";
 import SubscriptionSection from "../components/SubscriptionSection";
 import useCardsPerPage from "../components/useCardsPerPage";
 import { useLanguage } from '../components/LanguageContext';
+import PrimenaSaVideom from "../components/PrimenaSaVideom";
+import ResourceCard from "../components/ResourceCard";
 
 function Transcripta() {
   const { texts } = useLanguage();
-  const tekstPrimena = [texts.transcripta.tekstPrimena];
   const tekstPrednosti = [texts.transcripta.tekstPrednosti];
   const featuresPrimena = [
     { title: [texts.transcripta.featuresPrimena.pojedinci.key], description: [texts.transcripta.featuresPrimena.pojedinci.value]},
@@ -23,24 +24,27 @@ function Transcripta() {
     { title: [texts.transcripta.featuresPrednosti.brzina.key], description: [texts.transcripta.featuresPrednosti.brzina.value] },
     { title: [texts.transcripta.featuresPrednosti.editor.key], description: [texts.transcripta.featuresPrednosti.editor.value] },
   ];
+
   const subscriptionPackages = [
     {
         title: [texts.osnovni.naslov],
-        price:  [`30e / ${texts.mesecna.mesec}`],
+        price:  [`30€ / ${texts.mesecna.mesec}`, `300€ / ${texts.godisnja.godina}` ],
         features: [texts.osnovni.h30, texts.osnovni.nakonh30, texts.osnovni.dijarizacija, texts.osnovni.online],
-        buttonText: [texts.dugme.izaberi]
+        buttonText: [texts.dugme.izaberi, texts.dugme.izaberi],
+        subtitle: [texts.mesecna.naslov, texts.godisnja.naslov],
+        layoutOrder: ["title", "features","subtitle", "price", "button","subtitle","price", "button"],
+        buttonVariants: ["small", "small"]
     },
     {
         title: [texts.premium.naslov],
-        price: [`50e / ${texts.mesecna.mesec}`],
+        price: [`50€ / ${texts.mesecna.mesec}`, `500€ / ${texts.godisnja.godina}`],
         features: [texts.premium.h60, texts.premium.nakonh60, texts.premium.dijarizacija, texts.premium.online],
-        buttonText: [texts.dugme.izaberi]
+        buttonText: [texts.dugme.izaberi, texts.dugme.izaberi],
+        subtitle: [texts.mesecna.naslov, texts.godisnja.naslov],
+        layoutOrder: ["title", "features","subtitle", "price", "button","subtitle","price", "button"],
+        buttonVariants: ["small", "small"]
     },
-    {
-        title: [texts.poslovni.naslov],
-        features: [texts.poslovni.inhouse, texts.poslovni.kastomizacija, texts.poslovni.paket, texts.poslovni.api],
-        buttonText: [texts.dugme.upit]
-      }
+   
     ];
   const cardsPerPage = useCardsPerPage();
   return (
@@ -51,14 +55,21 @@ function Transcripta() {
         text={texts.transcripta.naslov}
       />
       <Primena
-        title={texts.velikinaslovi.primena}
-        text={tekstPrimena}
+        title={texts.velikinaslovi.transcripta}
+        text1={texts.transcripta.tekstPrimena1}
+        imageSrc="/images/anSintetizator_img.jpg"
         sliderData={featuresPrimena}
         cardsPerPage={cardsPerPage}
+        text2={texts.transcripta.tekstPrimena2}
       />
+      <PrimenaSaVideom
+        title={texts.velikinaslovi.videoTranscripta}
+        text={texts.transcripta.tekstVideo}
+        videoUrl="https://www.youtube.com/embed/uBeCkWphY_o?start=152"
+        />
       <Primena
         title={texts.velikinaslovi.karakteristikeSistema}
-        text={tekstPrednosti}
+        text1={tekstPrednosti}
         sliderData={featuresPrednosti}
         cardsPerPage={cardsPerPage}
       />
@@ -66,6 +77,12 @@ function Transcripta() {
         title={texts.velikinaslovi.pretplate.transcripta}
         description={texts.pretplata.transcripta}
         packages={subscriptionPackages}
+      />
+      <ResourceCard
+        title={texts.transcripta.naslovResource}
+        description={texts.transcripta.description}
+        buttonText={texts.dugme.upit}
+        noStyle={true}
       />
     </div>
   );

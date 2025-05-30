@@ -136,18 +136,10 @@ const Company = () => {
 
 {texts.kompanija.tekst4} <br/>
 
-<ul>
+        <ul>
           <li>{texts.kompanija.li1}</li>
           <li>{texts.kompanija.li2}</li>
           <li>{texts.kompanija.li3}</li>
-          <li>{texts.kompanija.li4}</li>
-          <li>{texts.kompanija.li5}
-            <ul>
-              <li>{texts.kompanija.li51}</li>
-              <li>{texts.kompanija.li52}</li>
-              <li>{texts.kompanija.li53}</li>
-            </ul>
-          </li>
         </ul>
 
 <b>{texts.kompanija.bold}</b> </p>

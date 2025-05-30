@@ -5,6 +5,7 @@ import SubscriptionSection from "../components/SubscriptionSection";
 import PrimenaSaVideom from "../components/PrimenaSaVideom";
 import useCardsPerPage from "../components/useCardsPerPage";
 import { useLanguage } from '../components/LanguageContext';
+import ResourceCard from "../components/ResourceCard";
 
 
 function Iurisdicta() {
@@ -32,19 +33,14 @@ function Iurisdicta() {
     {
         title: [texts.mesecna.naslov],
         price:  [`60e / ${texts.mesecna.mesec}`],
-        features: [texts.mesecna.h30, texts.mesecna.govornik, texts.mesecna.podrska],
+        features: [texts.mesecna.koriscenje, texts.mesecna.govornik, texts.mesecna.podrska],
         buttonText: [texts.dugme.izaberi]
     },
     {
         title: [texts.godisnja.naslov],
         price:  [`600e / ${texts.godisnja.godina}`],
-        features: [texts.godisnja.h30, texts.godisnja.govornik, texts.godisnja.podrska],
+        features: [texts.mesecna.koriscenje, texts.godisnja.govornik, texts.godisnja.podrska],
         buttonText: [texts.dugme.izaberi]
-    },
-    {
-        title:  [texts.poslovni.naslov],
-        features: [texts.poslovni.inhouse, texts.poslovni.kastomizacija, texts.poslovni.paket],
-        buttonText: [texts.dugme.upit]
     }
     ];
   const cardsPerPage = useCardsPerPage();
@@ -56,26 +52,32 @@ function Iurisdicta() {
         text={texts.iurisdicta.naslov}
       />
       <Primena
-        title={texts.velikinaslovi.primena}
-        text={tekstPrimena}
+        title={texts.velikinaslovi.iurisdicta}
+        text1={tekstPrimena}
         sliderData={featuresPrimena}
         cardsPerPage={cardsPerPage}
       />
-      <Primena
-        title={texts.velikinaslovi.prednostiInstitucije}
-        text={tekstPrednosti}
-        sliderData={featuresPrednosti}
-        cardsPerPage={cardsPerPage}
-      />
       <PrimenaSaVideom
-        title={texts.velikinaslovi.videoIurisdicta}
+        title={texts.velikinaslovi.iurisdicta}
         text={texts.iurisdicta.tekstVideo}
         videoUrl="https://www.youtube.com/embed/uBeCkWphY_o?start=152"
         />
+      <Primena
+        title={texts.velikinaslovi.prednostiInstitucije}
+        text1={tekstPrednosti}
+        sliderData={featuresPrednosti}
+        cardsPerPage={cardsPerPage}
+      />
       <SubscriptionSection
         title={texts.velikinaslovi.pretplate.iurisdicta}
         description={texts.pretplata.iurisdicta}
         packages={subscriptionPackages}
+      />
+      <ResourceCard
+        title={texts.iurisdicta.naslovResource}
+        description={texts.iurisdicta.description}
+        buttonText={texts.dugme.upit}
+        noStyle={true}
       />
     </div>
   );

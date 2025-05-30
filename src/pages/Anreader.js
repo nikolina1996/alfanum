@@ -1,34 +1,20 @@
 import React from "react";
 import Hero from "../components/Hero";
 import Primena from "../components/Primena";
-import SubscriptionSection from "../components/SubscriptionSection";
 import { useLanguage } from '../components/LanguageContext';
+import ResourceCard from "../components/ResourceCard";
 
 
 function Anreader() {
   const { texts } = useLanguage();
-  const tekstPrimena = (
+  const tekstPrimena2 = (
     <>
-      {texts.anreader.tekstPrimena}{" "}
+      {texts.anreader.tekstPrimena2}{" "}
       <a href="https://anreader.alfanum.co.rs/" target="_blank" rel="noopener noreferrer" className="download-link">
         {texts.anreader.strana}
       </a>.
     </>
   );
-  const subscriptionPackages = [
-    {
-        title: [texts.tromesecni],
-        price: [`30e / ${texts.mesecna.mesec}`],
-        features: [texts.osnovni.h30, texts.osnovni.nakonh30, texts.osnovni.dijarizacija, texts.osnovni.online],
-        buttonText: [texts.dugme.izaberi]
-    },
-    {
-        title:  [texts.godisnjaLicenca],
-        price: [`50e / ${texts.mesecna.mesec}`],
-        features: [texts.premium.h60, texts.premium.nakonh60, texts.premium.dijarizacija, texts.premium.online],
-        buttonText: [texts.dugme.izaberi]
-    },
-    ];
   return (
     <div className="medicta-page">
       <Hero
@@ -37,13 +23,15 @@ function Anreader() {
         text={texts.anreader.naslov}
       />
       <Primena
-        title={texts.velikinaslovi.primena}
-        text={tekstPrimena}
+        title={texts.velikinaslovi.anreader}
+        text1={texts.anreader.tekstPrimena1}
+        imageSrc="/images/anReader_img.jpg"
+        text2={tekstPrimena2}
       />
-      <SubscriptionSection
-        title={texts.velikinaslovi.pretplate.anreader}
-        description={texts.pretplata.anreader}
-        packages={subscriptionPackages}
+      <ResourceCard
+        title={texts.anreader.naslovResource}
+        description={texts.anreader.description}
+        buttonText={texts.dugme.upit}
       />
     </div>
   );

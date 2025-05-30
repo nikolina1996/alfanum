@@ -4,11 +4,19 @@ import Primena from "../components/Primena";
 import SubscriptionSection from "../components/SubscriptionSection";
 import useCardsPerPage from "../components/useCardsPerPage";
 import { useLanguage } from '../components/LanguageContext';
+import PrimenaSaVideom from "../components/PrimenaSaVideom";
+import ResourceCard from "../components/ResourceCard";
 
 function Medicta() {
   const { texts } = useLanguage();
-  const tekstPrimena = [texts.medicta.tekstPrimena];
-  const tekstPrednosti = [texts.medicta.tekstPrednosti];
+  const tekstPrednosti1 = (
+  <>
+    {texts.medicta.tekstPrednosti1}
+    <a href=" https://www.alfanum.co.rs/images/medicta_korisnicko_uputstvo.pdf" target="_blank" rel="noopener noreferrer" className="download-link">
+      {texts.medicta.strana}
+    </a>{texts.medicta.tekstPrednosti2}{" "}
+  </>
+  );
   const featuresPrimena = [
     { title: [texts.medicta.featuresPrimena.akronim.key], description: [texts.medicta.featuresPrimena.akronim.value]},
     { title: [texts.medicta.featuresPrimena.latinski.key], description: [texts.medicta.featuresPrimena.latinski.value] },
@@ -39,11 +47,6 @@ function Medicta() {
         price: [`600e / ${texts.godisnja.godina}`],
         features: [texts.godisnja.koriscenje, texts.godisnja.govornik, texts.godisnja.podrska],
         buttonText: [texts.dugme.izaberi]
-    },
-    {
-        title:  [texts.poslovni.naslov],
-        features: [texts.poslovni.inhouse, texts.poslovni.kastomizacija, texts.poslovni.paket],
-        buttonText: [texts.dugme.upit]
     }
     ];
   const cardsPerPage = useCardsPerPage();
@@ -55,14 +58,21 @@ function Medicta() {
         text={texts.medicta.naslov}
       />
       <Primena
-        title={texts.velikinaslovi.primena}
-        text={tekstPrimena}
+        title={texts.velikinaslovi.medicta}
+        text1={texts.medicta.tekstPrimena1}
+        imageSrc="/images/medicta_img.jpg"
+        text2={texts.medicta.tekstPrimena2}
         sliderData={featuresPrimena}
         cardsPerPage={cardsPerPage}
       />
+      <PrimenaSaVideom
+        title={texts.velikinaslovi.videoMedicta}
+        text={texts.medicta.tekstVideo}
+        videoUrl="https://www.youtube.com/embed/uBeCkWphY_o?start=152"
+        />
       <Primena
         title={texts.velikinaslovi.prednostiInstitucije}
-        text={tekstPrednosti}
+        text1={tekstPrednosti1}
         sliderData={featuresPrednosti}
         cardsPerPage={cardsPerPage}
       />
@@ -70,6 +80,12 @@ function Medicta() {
         title={texts.velikinaslovi.pretplate.medicta}
         description={texts.pretplata.medicta}
         packages={subscriptionPackages}
+      />
+      <ResourceCard
+        title={texts.medicta.naslovResource}
+        description={texts.medicta.description}
+        buttonText={texts.dugme.upit}
+        noStyle={true}
       />
     </div>
   );
