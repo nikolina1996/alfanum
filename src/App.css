@@ -2101,7 +2101,7 @@ h4{
 .resource-description{
   font-size: 14px;
   line-height: 1.4;
-  margin: 0 auto 3rem auto;
+  margin: 0 3% 3rem 3%;
 }
 
 .slider{
@@ -2180,7 +2180,7 @@ h4{
 .video-text {
   font-size: 14px;
   line-height: 1.4;
-  margin: 0 auto 3rem auto;
+  margin: 0 3% 3rem 3%;
 }
 .resource-card {
   background-color: white;

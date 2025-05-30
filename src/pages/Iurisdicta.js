@@ -10,7 +10,6 @@ import ResourceCard from "../components/ResourceCard";
 
 function Iurisdicta() {
   const { texts } = useLanguage();
-  const tekstPrimena = [texts.iurisdicta.tekstPrimena];
   const tekstPrednosti = [texts.iurisdicta.tekstPrednosti];
   const featuresPrimena = [
     { title: [texts.iurisdicta.featuresPrimena.akronim.key], description: [texts.iurisdicta.featuresPrimena.akronim.value]},
@@ -53,7 +52,9 @@ function Iurisdicta() {
       />
       <Primena
         title={texts.velikinaslovi.iurisdicta}
-        text1={tekstPrimena}
+        text1={texts.iurisdicta.tekstPrimena1}
+        imageSrc="/images/iurisdicta_img.jfif"
+        text2={texts.iurisdicta.tekstPrimena2}
         sliderData={featuresPrimena}
         cardsPerPage={cardsPerPage}
       />

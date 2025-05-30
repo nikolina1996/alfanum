@@ -134,11 +134,11 @@
         "description": {
             "intro": "U zavisnosti od potreba ustanove, Medicta se isporučuje u više varijanti:",
             "list": [
-                "Cloud-based paketi, optimizovani za udaljeni rad i brzu implementaciju",
-                "On-premise rešenje, idealno za ustanove koje zahtevaju potpunu kontrolu i bezbednost podataka"
+                "<b>Cloud-based paketi</b>, optimizovani za udaljeni rad i brzu implementaciju",
+                "<b>On-premise rešenje</b>, idealno za ustanove koje zahtevaju potpunu kontrolu i bezbednost podataka"
                 
         ],
-            "middle": "Zbog osetljivosti medicinskih podataka, mnoge zdravstvene ustanove biraju on-premise varijantu. U tom slučaju, aplikacija se instalira na namenski računar (server) unutar vaše interne mreže. Snimci diktata se sa bilo kog računara u mreži automatski šalju na taj server radi prepoznavanja, čime se podaci nikada ne izlažu internetu, čime je privatnost je u potpunosti zagarantovana.\n\nBez obzira na to da li vaša ustanova zapošljava nekoliko lekara ili više stotina, Medicta se prilagođava vašim kapacitetima. Naš tim će vam pripremiti optimalnu ponudu u skladu sa potrebama vaše ustanove. Iako Medicta poseduje moderan i intuitivan korisnički interfejs, kao i rad u tzv. režimu trake, koji omogućava unos transkripta direktno u bilo koji tekstualni editor (npr. zdravstveni informacioni sistem, Word, itd.), nudimo i mogućnost funkcionalnih i vizuelnih prilagođavanja, u skladu sa internim procedurama i radnim tokovima korisnika.",
+            "middle": "Zbog osetljivosti medicinskih podataka, mnoge zdravstvene ustanove biraju on-premise varijantu. U tom slučaju, aplikacija se instalira na namenski računar (server) unutar vaše interne mreže. Snimci diktata se sa bilo kog računara u mreži automatski šalju na taj server radi prepoznavanja, čime se podaci nikada ne izlažu internetu, čime je privatnost je u potpunosti zagarantovana.\n\nBez obzira na to da li vaša ustanova zapošljava nekoliko lekara ili više stotina, Medicta se prilagođava vašim <b>kapacitetima</b>. Naš tim će vam pripremiti optimalnu ponudu u skladu sa potrebama vaše ustanove. Iako Medicta poseduje moderan i intuitivan korisnički interfejs, kao i rad u tzv. režimu trake, koji omogućava unos transkripta direktno u bilo koji tekstualni editor (npr. zdravstveni informacioni sistem, Word, itd.), nudimo i mogućnost funkcionalnih i vizuelnih prilagođavanja, u skladu sa internim procedurama i radnim tokovima korisnika.",
             "conclusion": "Kontaktirajte nas i pošaljite upit – sa zadovoljstvom ćemo pripremiti rešenje koje u potpunosti odgovara vašim zahtevima."
    
 },
@@ -209,7 +209,8 @@
         }
 }, "iurisdicta": {
         "naslov": "Softver za diktiranje pravnih dokumenata od sada i na srpskom jeziku sa podržanim vlastitim imenima i skraćenicama",
-        "tekstPrimena": "IURISDICTA je specijalizovani sistem za automatsko sastavljanje pravnih dokumenata na osnovu diktiranog teksta. Osmišljen je da poveća efikasnost pravnika – sudija, advokata, javnih beležnika i drugih – i omogući im da se fokusiraju na suštinu svog posla, umesto na dugotrajan unos teksta.Sistem koristi rečnik prilagođen pravu, što omogućava da sa visokom preciznošću prepoznaje prirodno izgovoren pravni jezik u realnom vremenu, čak i na računarima prosečnih karakteristika.\nBesplatan test period dostupan je svim korisnicima, kako bi se lično uverili u efikasnost i tačnost sistema. Isprobajte IURISDICTA aplikaciju i otkrijte kako govor može postati najbrži način za sastavljanje pravnih akata, podnesaka i zapisnika.",
+        "tekstPrimena1": "IURISDICTA je specijalizovani sistem za automatsko sastavljanje pravnih dokumenata na osnovu diktiranog teksta. Osmišljen je da poveća efikasnost pravnika – sudija, advokata, javnih beležnika i drugih – i omogući im da se fokusiraju na suštinu svog posla, umesto na dugotrajan unos teksta. Sistem koristi rečnik prilagođen pravu, što omogućava da sa visokom preciznošću prepoznaje prirodno izgovoren pravni jezik u realnom vremenu, čak i na računarima prosečnih karakteristika.\n",
+        "tekstPrimena2": "\n\nBesplatan test period dostupan je svim korisnicima, kako bi se lično uverili u efikasnost i tačnost sistema. Isprobajte IURISDICTA aplikaciju i otkrijte kako govor može postati najbrži način za sastavljanje pravnih akata, podnesaka i zapisnika.",
         "tekstVideo": "Ovaj kratak video prikazuje rad IURISDICTA sistema u realnim uslovima. Upoznajte se sa njegovim ključnim funkcionalnostima, pogledajte kako izgleda diktiranje i automatsko kreiranje pravnih dokumenata i procenite kako ovaj alat može unaprediti vašu svakodnevnu praksu.\n\nBrže sastavite podnesak - imajte više vremena za pravnu analizu.",
         "featuresPrimena": {
             "akronim": {
@@ -250,6 +251,18 @@
             }
 
         },
+        "naslovResource": "Fleksibilna rešenja za poslovne korisnike.",
+         "description": {
+            "intro": "U zavisnosti od potreba vaše organizacije, <b>IURISDICTA</b> je dostupna u više konfiguracija koje omogućavaju jednostavnu integraciju u postojeće radne tokove:",
+            "list": [
+                "<b>Cloud-based paketi</b> – idealni za brzu implementaciju i udaljeni rad pojedinaca i manjih kancelarija",
+                "<b>On-premise rešenje</b> – preporučeno za institucije koje zahtevaju potpunu kontrolu nad poverljivim podacima"
+                
+        ],
+            "middle": "Zbog osetljivosti pravnih informacija, mnoge ustanove biraju on-premise varijantu, u kojoj se aplikacija instalira na namenski server unutar vaše interne mreže. Diktati sa bilo kog računara u mreži šalju se direktno na taj server radi transkripcije, bez ikakvog izlaganja podataka internetu, što obezbeđuje maksimalnu bezbednost i poverljivost.\n\nBez obzira na to da li vaša kancelarija ima nekoliko korisnika ili čitav pravni tim sa više stotina zaposlenih, IURISDICTA se skalira prema vašim potrebama. Naš tim će pripremiti tehnički i cenovno optimalnu ponudu, u skladu sa vašom infrastrukturom i organizacijom rada.\n\nPored modernog i intuitivnog interfejsa, IURISDICTA omogućava rad u tzv. režimu trake, što znači da transkript diktata možete direktno unositi u bilo koji tekstualni editor (npr. Word, dokumentacioni softver, interni CMS). Takođe, nudimo i vizuelna i funkcionalna prilagođavanja za lakšu integraciju u postojeće interne procedure.",
+            "conclusion": "Kontaktirajte nas i pošaljite upit – sa zadovoljstvom ćemo pripremiti rešenje koje u potpunosti odgovara potrebama vašim zahtevima."
+   
+},
         "tekstPrednosti": "IURISDICTA aplikacija je osmišljena tako da se lako prilagođava različitim organizacionim i tehničkim okruženjima – od pojedinačnih korisnika do velikih pravnih institucija. Više detalja o funkcionalnostima i opcijama prilagođavanja dostupno je u korisničkom uputstvu.\n\nZa korišćenje sistema nije potreban računar visokih performansi, jer se konverzija govora u tekst ne vrši lokalno već na serveru sa kojim je korisnikov uređaj povezan. Pojedinačnim korisnicima i manjim kancelarijama preporučuje se korišćenje AlfaNum cloud servera, uz jednostavno povezivanje preko interneta. Većim institucijama (sudovi, advokatske kancelarije, pravne službe) preporučuje se postavljanje internog IURISDICTA servera u okviru sopstvene mreže, koji može istovremeno služiti velikom broju korisnika – uz potpunu kontrolu nad podacima.\n\nIURISDICTA koristi najsavremenije algoritme za uklanjanje buke i personalizaciju po glasu korisnika, što omogućava pouzdan rad čak i sa mikrofonima prosečnog kvaliteta, korišćenje u uslovima standardne kancelarijske buke i precizno prepoznavanje i tihog govora, što je naročito važno u prostorijama koje dele više zaposlenih. Kompanija AlfaNum nudi i specijalizovane mikrofone (usmerene ili naglavne) po povoljnim cenama, kako bi se postigla dodatna preciznost i udobnost u radu.",
         "featuresPrednosti": {
             "integracija": {
@@ -276,12 +289,12 @@
         "tekstPrimena2": "\n\nTRANSCRIPTA se odlikuje izuzetnom fleksibilnošću u radu sa govorom raznih stilova i tematika, što je čini pogodnom za raznolike profesionalne i medijske potrebe. Sistem podržava transkripciju govora bez tematskih ograničenja, dijarizaciju – automatsko razdvajanje govornika unutar snimka i preciznu vremensku lokalizaciju svake izgovorene reči. Sistem automatski primenjuje postprocesing mehanizme koji koriguju tipične greške u transkriptu, poboljšavajući čitljivost i tačnost rezultata. Za dodatnu kontrolu, korisnicima je na raspolaganju intuitivan online tekstualni editor koji omogućava pregled i preslušavanje snimka i jednostavno uređivanje prepoznatog teksta.\n\nTRANSCRIPTA vam omogućava da brzo i pouzdano pretvorite zvuk u tekst – bez obzira na kontekst, govornike ili okruženje.",
         "tekstVideo": "Ovaj kratak video demonstrira rad TRANSCRIPTA web portala. Upoznajte se sa ključnim funkcionalnostima portala: od otpremanja audio fajlova i automatske transkripcije, preko dijarizacije i do jednostavnog uređivanja transkripta putem preglednog online editora.\n\nOd snimka do struktuiranog teksta – bez ograničenja, bez čekanja, bez komplikacija.",
         "description": {
-        "intro": "TRANSCRIPTA je osmišljena kao profesionalno rešenje za automatsku transkripciju, koje se u potpunosti prilagođava potrebama vaše organizacije – bilo da se radi o medijskoj kući, kontakt centru, privatnoj ili državnoj instituciji. Sistem je dostupan u više varijanti implementacije:",
+        "intro": "<b>TRANSCRIPTA</b> je osmišljena kao profesionalno rešenje za automatsku transkripciju, koje se u potpunosti prilagođava potrebama vaše organizacije – bilo da se radi o medijskoj kući, kontakt centru, privatnoj ili državnoj instituciji. Sistem je dostupan u više varijanti implementacije:",
         "list": [
-            "Cloud-based paketi, idealni za brzu implementaciju",
-            "On-premise rešenje, namenjeno organizacijama koje zahtevaju punu kontrolu nad podacima i infrastrukturom"
+            "<b>Cloud-based paket</b>, idealni za brzu implementaciju",
+            "<b>On-premise rešenje</b>, namenjeno organizacijama koje zahtevaju <b>punu kontrolu nad podacima i infrastrukturom</b>"
     ],
-        "middle": "Zbog osetljivosti sadržaja koji se transkribuje (sudski zapisi, intervjui, poslovni sastanci, korisnički pozivi), mnoge institucije biraju on-premise varijantu. U tom slučaju, TRANSCRIPTA se instalira na lokalni server unutar vaše mreže, a svi podaci se obrađuju interno, bez izlaska na internet, čime je privatnost u potpunosti zagarantovana.\n\nBez obzira na to da li dnevno transkribujete nekoliko minuta ili više stotina sati snimaka, naš tim kreira ponudu u skladu sa očekivanim opterećenjem sistema, potrebnim brojem paralelnih linija za obradu i specifičnostima vašeg radnog toka. Na osnovu ovih parametara, formira se cena softvera, ali i hardverska specifikacija servera, uz opcionalno balansiranje opterećenja za visoko opterećene sisteme. TRANSCRIPTA je dostupna i kroz API, što omogućava potpunu integraciju sa postojećim sistemima – bilo da je reč o voicebot rešenjima, pozivnim centrima, CRM, helpdesk ili internim platformama. Naš tim pruža punu podršku za integraciju u vaše poslovno okruženje.\n\nTRANSCRIPTA podržava više modela licenciranja u zavisnosti od tipa primene, pa tako postoje godišnje ili trajne licence, tarifiranje po broju istovremenih linija i tarifiranje po utrošku. Bez obzira na obim, delatnost ili strukturu vašeg tima – TRANSCRIPTA se prilagođava vašem poslovanju.\n\n",
+        "middle": "Zbog osetljivosti sadržaja koji se transkribuje (sudski zapisi, intervjui, poslovni sastanci, korisnički pozivi), mnoge institucije biraju <b>on-premise</b> varijantu. U tom slučaju, TRANSCRIPTA se instalira na lokalni server unutar vaše mreže, a svi podaci se obrađuju interno, bez izlaska na internet, čime je privatnost u potpunosti zagarantovana.\n\nBez obzira na to da li dnevno transkribujete nekoliko minuta ili više stotina sati snimaka, naš tim kreira ponudu u skladu sa očekivanim opterećenjem sistema, potrebnim brojem paralelnih linija za obradu i specifičnostima vašeg radnog toka. Na osnovu ovih parametara, formira se cena softvera, ali i hardverska specifikacija servera, uz opcionalno balansiranje opterećenja za visoko opterećene sisteme. TRANSCRIPTA je dostupna i kroz API, što omogućava potpunu integraciju sa postojećim sistemima – bilo da je reč o voicebot rešenjima, pozivnim centrima, CRM, helpdesk ili internim platformama. Naš tim pruža punu podršku za integraciju u vaše poslovno okruženje.\n\nTRANSCRIPTA podržava više modela licenciranja u zavisnosti od tipa primene, pa tako postoje godišnje ili trajne licence, tarifiranje po broju istovremenih linija i tarifiranje po utrošku. Bez obzira na obim, delatnost ili strukturu vašeg tima – TRANSCRIPTA se prilagođava vašem poslovanju.\n\n",
         "conclusion": "Kontaktirajte nas kako bismo pripremili optimalno rešenje za vaše potrebe – sa fokusom na efikasnost, bezbednost i jednostavnu integraciju."
     },
         "featuresPrimena": {
@@ -338,8 +351,8 @@
     "description": {
     "intro": "AlfaNum TTS je napredno rešenje za automatsku sintezu govora na osnovu teksta, koje se u potpunosti prilagođava potrebama vaše organizacije – bilo da se radi o maloj privatnoj firmi, kontakt centru, medijskoj kući, obrazovnoj platformi ili državnoj instituciji. Sistem je dostupan u više modela implementacije:",
     "list": [
-        "Cloud-based paketi, idealni za brzu implementaciju",
-        "On-premise rešenje, namenjeno organizacijama koje zahtevaju punu kontrolu nad podacima, performansama i odzivom sistema"
+        "<b>Cloud-based paketi</b>, idealni za brzu implementaciju",
+        "<b>On-premise rešenje</b>, namenjeno organizacijama koje zahtevaju punu kontrolu nad podacima, performansama i odzivom sistema"
   ],
     "middle": "Zbog potreba za real-time sintezom, čuvanjem poverljivih podataka i zahtevima visokog kapaciteta, brojne institucije biraju on-premise varijantu. U tom slučaju, TTS sistem se instalira na lokalni server unutar vaše mreže, čime se sinteza odvija interno, bez slanja podataka van institucije. Ovakav pristup obezbeđuje maksimalnu privatnost, brzinu i pouzdanost.\n\nBez obzira na to da li svakodnevno sintetizujete kraće poruke ili hiljade rečenica u realnom vremenu, naš tim izrađuje rešenje prilagođeno vašem poslovnom modelu:",
     "extraList": ["Optimizacija prema količini sadržaja za sintezu", "Real-time obrada sa više istovremenih linija za potrebe pozivnih centara i voicebotova", "Balansiranje opterećenja i prilagođavanje hardverskih zahteva"],
@@ -389,8 +402,8 @@
     "pretplata": {
         "medicta": "Za individualne korisnike, Medicta je dostupna kroz mesečnu ili godišnju pretplatu, uz neograničeno korišćenje aplikacije tokom trajanja pretplatnog perioda.\nPrve dve nedelje su besplatne – dovoljno da isprobate sve funkcionalnosti i uverite se u kvalitet pre nego što se odlučite za pretplatu. Nakon prijave, aplikaciju i uputstvo za instalaciju dobićete na mejl u roku od 24h.\nPrepoznavanje govora se obavlja na našim serverima, što znači da aplikaciju možete koristiti sa bilo kog Windows računara, bez potrebe za dodatnom infrastrukturom. Ova pretplata je namenjena pojedinačnim korisnicima, tj. jednom lekaru. Možete je instalirati na više računara (npr. kod kuće i na poslu), ali korišćenje od strane više osoba nije dozvoljeno. U slučaju detekcije višekorisničkog pristupa, nalog će biti trajno deaktiviran. Online podrška dostupna je svakodnevno 8-17h.\n\nBudite brži, precizniji i efikasniji u svom svakodnevnom radu uz podršku savremenih govornih tehnologija. Isprobajte Medicta aplikaciju već danas!",
         "iurisdicta": "Za individualne korisnike, Iurisdicta je dostupna kroz mesečnu ili godišnju pretplatu, uz neograničeno korišćenje aplikacije tokom trajanja pretplatnog perioda.\nPrve dve nedelje su besplatne – dovoljno da isprobate sve funkcionalnosti i uverite se u kvalitet pre nego što se odlučite za pretplatu. Nakon prijave, aplikaciju i uputstvo za instalaciju dobićete na mejl u roku od 24h.\nPrepoznavanje govora se obavlja na našim serverima, što znači da aplikaciju možete koristiti sa bilo kog Windows računara, bez potrebe za dodatnom infrastrukturom. Ova pretplata je namenjena pojedinačnim korisnicima, tj. jednom pravniku. Možete je instalirati na više računara (npr. kod kuće i na poslu), ali korišćenje od strane više osoba nije dozvoljeno. U slučaju detekcije višekorisničkog pristupa, nalog će biti trajno deaktiviran. Online podrška dostupna je svakodnevno 8-17h.\n\nBudite brži i efikasniji u svom svakodnevnom radu uz podršku savremenih govornih tehnologija. Isprobajte Iurisdicta aplikaciju već danas!",
-        "transcripta": "Za individualne korisnike nudimo dva paketa pretplate za korišćenje Transcripte putem jednostavnog i pristupačnog web portala, bez potrebe za dodatnim instalacijama.Portal omogućava automatsku transkripciju govora u tekst iz audio i video snimaka, dijarizaciju (razdvajanje transkripta po govorniku), kao i online editor za pregled i uređivanje transkripta uz simultano preslušavanje audio snimka.\nPrvih 5 minuta je besplatno, pa napravite nalog i isprobajte sve funkcionalnosti i pre same pretplate. Prepoznavanje se obavlja na našim serverima, a pristup portalu je omogućen sa bilo kog uređaja (računar, tablet ili telefon) putem web browser-a – jednostavno, brzo i efikasno.",
-        "ansintetizator": "Za individualne korisnike, dostupan je TTS web portal kroz dva paketa pretplate, sa jednostavnim pristupom svim funkcionalnostima direktno iz browser-a – bez instalacije. U okviru demo aplikacije, možete isprobati kvalitet sinteze govora, dok detaljan prikaz funkcionalnosti portala možete pogledati putem video snimka.\nPortal nudi više govornika, nekoliko jezika (srpski, hrvatski i crnogorski), kao i intuitivno korisničko okruženje za brzo generisanje govora iz teksta. Sinteza se izvršava na našim serverima, pa portalu možete pristupiti sa bilo kog uređaja (računar, telefon, tablet) koristeći web browser."
+        "transcripta": "Za individualne korisnike nudimo dva paketa pretplate za korišćenje Transcripte putem jednostavnog i pristupačnog <a href='https://transcripta.alfanum.co.rs/portal/' target='_blank' rel='noopener noreferrer' class='download-link'>web portala</a>, bez potrebe za dodatnim instalacijama.Portal omogućava automatsku transkripciju govora u tekst iz audio i video snimaka, dijarizaciju (razdvajanje transkripta po govorniku), kao i online editor za pregled i uređivanje transkripta uz simultano preslušavanje audio snimka.\nPrvih 5 minuta je besplatno, pa napravite nalog i isprobajte sve funkcionalnosti i pre same pretplate. Prepoznavanje se obavlja na našim serverima, a pristup portalu je omogućen sa bilo kog uređaja (računar, tablet ili telefon) putem web browser-a – jednostavno, brzo i efikasno.",
+        "ansintetizator": "Za individualne korisnike, dostupan je <a href='https://tts6_portal.alfanum.co.rs/login.php' target='_blank' rel='noopener noreferrer' class='download-link'>TTS web portal</a> kroz dva paketa pretplate, sa jednostavnim pristupom svim funkcionalnostima direktno iz browser-a – bez instalacije. U okviru demo aplikacije, možete isprobati kvalitet sinteze govora, dok detaljan prikaz funkcionalnosti portala možete pogledati putem video snimka.\nPortal nudi više govornika, nekoliko jezika (srpski, hrvatski i crnogorski), kao i intuitivno korisničko okruženje za brzo generisanje govora iz teksta. Sinteza se izvršava na našim serverima, pa portalu možete pristupiti sa bilo kog uređaja (računar, telefon, tablet) koristeći web browser."
     },
     "mesecna": {
         "naslov": "Mesečna pretplata",
@@ -454,17 +467,18 @@
         "ansintetizator": "AN sintetizator - Jer tvoj sadržaj zaslužuje da ga čuju.",
         "transcripta": "Transcripta - Sve što se kaže, ostaje zapisano.",
         "medicta": "Medicta - Od govora do gotovog nalaza u jednom dahu.",
-        "prednostiInstitucije": "Prednosti za institucije",
+        "iurisdicta": "Iurisdicta - Od izgovorene misli do pravnog dokumenta.",
+        "prednostiInstitucije": "Prednosti za institucije.",
         "videoIurisdicta": "Pogledajte kako funkcioniše IURISDICTA.",
         "videoAnsintetizator": "Pogledajte kako funkcioniše ANsintetizator.",
         "videoTranscripta": "Pogledajte kako funkcioniše TRANSCRIPTA.",
         "videoMedicta": "Pogledajte kako funkcioniše MEDICTA.",
-        "karakteristikeSistema": "Karakteristike sistema",
+        "karakteristikeSistema": "Karakteristike sistema.",
         "pretplate": {
-            "medicta": "Paketi pretplate za MEDICTA aplikaciju",
-            "iurisdicta": "Paketi pretplate za IURISDICTA aplikaciju",
-            "transcripta": "Paketi pretplate za TRANSCRIPTA web portal",
-            "ansintetizator": "Paketi pretplate za TTS web portal"
+            "medicta": "Paketi pretplate za MEDICTA aplikaciju.",
+            "iurisdicta": "Paketi pretplate za IURISDICTA aplikaciju.",
+            "transcripta": "Paketi pretplate za TRANSCRIPTA web portal.",
+            "ansintetizator": "Paketi pretplate za TTS web portal."
            
             
         }
