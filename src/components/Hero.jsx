@@ -10,7 +10,7 @@ const Hero = ({ imageSrc, altText, text}) => {
             <hr className="hero-line" />
           </>
         )}
-        {text && <h1 className="hero-text">{text}</h1>}
+        {/* {text && <h1 className="hero-text">{text}</h1>} */}
       </div>
     </section>
   );

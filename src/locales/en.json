@@ -284,7 +284,7 @@
     }
 },"transcripta": {
         "naslov": "Softver za pretvaranje govora u tekst od sada i na srpskom jeziku za sve vrste audio i video snimaka",
-        "naslovResource": "Nabavka softvera",
+        "naslovResource": "Fleksibilna rešenja za poslovne korisnike.",
         "tekstPrimena1": "TRANSCRIPTA je napredni sistem za automatsku transkripciju govora, razvijen bez ograničenja na specifičan domen. Zahvaljujući širokom vokabularu i moćnim modelima prepoznavanja, idealna je za različite vrste zvučnih sadržaja – od telefonskih razgovora, sastanaka i intervjua, do emisija, ročišta i skupštinskih sednica.",
         "tekstPrimena2": "\n\nTRANSCRIPTA se odlikuje izuzetnom fleksibilnošću u radu sa govorom raznih stilova i tematika, što je čini pogodnom za raznolike profesionalne i medijske potrebe. Sistem podržava transkripciju govora bez tematskih ograničenja, dijarizaciju – automatsko razdvajanje govornika unutar snimka i preciznu vremensku lokalizaciju svake izgovorene reči. Sistem automatski primenjuje postprocesing mehanizme koji koriguju tipične greške u transkriptu, poboljšavajući čitljivost i tačnost rezultata. Za dodatnu kontrolu, korisnicima je na raspolaganju intuitivan online tekstualni editor koji omogućava pregled i preslušavanje snimka i jednostavno uređivanje prepoznatog teksta.\n\nTRANSCRIPTA vam omogućava da brzo i pouzdano pretvorite zvuk u tekst – bez obzira na kontekst, govornike ili okruženje.",
         "tekstVideo": "Ovaj kratak video demonstrira rad TRANSCRIPTA web portala. Upoznajte se sa ključnim funkcionalnostima portala: od otpremanja audio fajlova i automatske transkripcije, preko dijarizacije i do jednostavnog uređivanja transkripta putem preglednog online editora.\n\nOd snimka do struktuiranog teksta – bez ograničenja, bez čekanja, bez komplikacija.",
@@ -469,10 +469,10 @@
         "medicta": "Medicta - Od govora do gotovog nalaza u jednom dahu.",
         "iurisdicta": "Iurisdicta - Od izgovorene misli do pravnog dokumenta.",
         "prednostiInstitucije": "Prednosti za institucije.",
-        "videoIurisdicta": "Pogledajte kako funkcioniše IURISDICTA.",
-        "videoAnsintetizator": "Pogledajte kako funkcioniše ANsintetizator.",
-        "videoTranscripta": "Pogledajte kako funkcioniše TRANSCRIPTA.",
-        "videoMedicta": "Pogledajte kako funkcioniše MEDICTA.",
+        "videoIurisdicta": "Prikaz funkcionalnosti IURISDICTA aplikacije.",
+        "videoAnsintetizator": "Prikaz funkcionalnosti ANsintetizator web portal.",
+        "videoTranscripta": "Prikaz funkcionalnosti TRANSCRIPTA web portal.",
+        "videoMedicta": "Prikaz funkcionalnosti MEDICTA aplikacije.",
         "karakteristikeSistema": "Karakteristike sistema.",
         "pretplate": {
             "medicta": "Paketi pretplate za MEDICTA aplikaciju.",
