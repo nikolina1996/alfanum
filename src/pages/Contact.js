@@ -43,7 +43,7 @@ const Contact = () => {
         <div className="left-div">
           <form
             className="contactForm"
-            action="https://formsubmit.co/tijana.nosek@alanum.co.rs"
+            action="https://formsubmit.co/info@alfanum.co.rs"
             method="POST"
           >
             <div className="left-text">
