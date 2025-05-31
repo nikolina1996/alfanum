@@ -59,7 +59,7 @@ function Iurisdicta() {
         cardsPerPage={cardsPerPage}
       />
       <PrimenaSaVideom
-        title={texts.velikinaslovi.iurisdicta}
+        title={texts.velikinaslovi.videoIurisdicta}
         text={texts.iurisdicta.tekstVideo}
         videoUrl="https://www.youtube.com/embed/uBeCkWphY_o?start=152"
         />
