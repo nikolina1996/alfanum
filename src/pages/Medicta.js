@@ -38,13 +38,13 @@ function Medicta() {
   const subscriptionPackages = [
     {
         title: [texts.mesecna.naslov],
-        price:  [`60e / ${texts.mesecna.mesec}`],
+        price:  [`60€ / ${texts.mesecna.mesec}`],
         features: [texts.mesecna.koriscenje, texts.mesecna.govornik, texts.mesecna.podrska],
         buttonText: [texts.dugme.izaberi]
     },
     {
         title: [texts.godisnja.naslov],
-        price: [`600e / ${texts.godisnja.godina}`],
+        price: [`600€ / ${texts.godisnja.godina}`],
         features: [texts.godisnja.koriscenje, texts.godisnja.govornik, texts.godisnja.podrska],
         buttonText: [texts.dugme.izaberi]
     }
