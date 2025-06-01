@@ -21,30 +21,30 @@
     "aboutus": {
       "iskustvo": {
         "key": "Iskustvo",
-        "value": "Domaća kompanija koja preko 20 godina razvija svoje proizvode. Zahvaljujući dugogodišnjem radu, posedujemo ogromne resurse za srpski i njemu srodne jezike koji nam omogućuju da imamo najkvalitetnija rešenja."
+        "value": "Domaća kompanija koja preko 20 godina razvija svoje proizvode. Zahvaljujući dugogodišnjem radu posedujemo ogromne resurse za srpski i njemu srodne jezike, koji nam omogućuju da imamo najkvalitetnija rešenja."
       },
       "uspeh": {
         "key": "Uspeh",
-        "value": "Činjenica da je kompanija opstala već 20 godina radeći isključivo na svojim proizvodima, vrlo je jasan pokazatelj uspešnosti i kvaliteta proizvoda koje nudi."
+        "value": "Činjenica da je kompanija opstala već 20 godina radeći isključivo na svojim proizvodima vrlo je jasan pokazatelj uspešnosti i kvaliteta proizvoda koje nudi."
       },
       "sigurnost": {
         "key": "Sigurnost",
-        "value": "Sa svojim resursima, svojim data centrom i timom, pruža apsolutnu sigurnost svojim klijentima. U ponudi imamo i \"in-house\" rešenja za sve kako Vaši podaci ne moraju izlaziti na internet."
+        "value": "Sa svojim resursima, svojim data centrom i timom, kompanija pruža apsolutnu sigurnost svojim klijentima. U ponudi imamo i \"in-house\" varijante svih proizvoda, za sve one koji ne žele da njihovi podaci izlaze na internet."
       },
       "prilagodljivost": {
         "key": "Prilagodljivost",
-        "value": "Prepoznavanje i sinteza govora su tehnologije koje uspešno razvijamo, a proizvodi su ugradnja istih - stoga tehnologiju možemo da prilagodimo kako Vašim proizvodima tako i Vašim potrebama."
+        "value": "Prepoznavanje i sinteza govora su tehnologije koje uspešno razvijamo, a implementiramo ih u proizvode - stoga tehnologiju možemo da prilagodimo kako Vašim proizvodima tako i Vašim potrebama."
       }
     },
   
     "main": {
       "naslovjedan": "Govorne tehnologije",
       "naslovdva": "AlfaNum",
-      "podnaslov": "Kompanija sa dugogodišnjim iskustvom u razvoju govornih tehnologija za srpski i srodne jezike. Naša rešenja, zasnovana na veštačkoj inteligenciji i ekspertizi tima, obuhvataju vrhunske sisteme za sintezu (engl. Text To Speech - TTS) i prepoznavanje govora (engl. Automatic Speech Recognition - ASR), u specifičnim domenima, ali i za opštu namenu."
+      "podnaslov": "Kompanija sa dugogodišnjim iskustvom u razvoju govornih tehnologija za srpski i srodne jezike. Naša rešenja, zasnovana na veštačkoj inteligenciji i ekspertizi razvojnog tima, obuhvataju vrhunske sisteme za sintezu govora (engl. Text To Speech - TTS) i prepoznavanje govora (engl. Automatic Speech Recognition - ASR), kako u specifičnim domenima tako i za opštu namenu."
     },
   
-    "proizvodiNaslov": "Proizvodi bazirani na ASR.",
-    "proizvodiNaslovTts": "Proizvodi bazirani na TTS.",
+    "proizvodiNaslov": "Proizvodi zasnovani na prepoznavanju govora (ASR).",
+    "proizvodiNaslovTts": "Proizvodi zasnovani na sintezi govora (TTS).",
   
     "proizvodi": {
       "saznajVise": "Saznaj više",
@@ -61,19 +61,19 @@
   
     "partneri": {
       "naslov": "AlfaNum partneri.",
-      "podnaslov": "Sarađujemo sa malim i velikim preduzećima u Srbiji i šire i zajedno činimo govorne tehnologije dostupne svima."
+      "podnaslov": "Sarađujemo sa malim i velikim preduzećima u Srbiji i šire i zajedno činimo govorne tehnologije dostupnim svima."
     },
   
     "kompanija": {
       "naslov": "Profil kompanije.",
-      "tekst1": "AlfaNum je inovativna kompanija koja od 2003. godine razvija savremene govorne tehnologije, s ciljem da ih približi širokom krugu korisnika. Naš tim čine eksperti iz oblasti obrade signala, veštačke inteligencije i lingvistike, a posvećenost kvalitetu i primenljivosti naših rešenja prepoznata je širom regiona.",
-      "tekst2": "Kao pioniri u razvoju softverskih komponenti za prepoznavanje i sintezu govora na srpskom, hrvatskom i crnogorskom jeziku, prvi smo u regionu ponudili ovakve tehnologije, koje su u početku bile namenjene slepim i slabovidim osobama, a danas se uspešno primenjuju u raznim oblastima – od medicine i prava, do edukacije i korisničke podrške.",
-      "tekst3": "Na stranama o našim proizvodima možete saznati više o funkcionalnostima koje nudimo, a osnovnu upotrebu govornih tehnologija koje razvijamo možete isprobati kroz demo apikacije. Ako želite da unapredite svoj sistem savremenim tehnološkim rešenjima – kontaktirajte nas - Vaše poverenje ćemo opravdati.",
-      "tekst4": "Zahvaljujući napretku računarske tehnologije, danas su i obični PC računari dovoljno moćni za kvalitetno prepoznavanje i sintezu govora, a pristupačnost ovih uređaja omogućila je širu primenu govornih tehnologija. Ipak, specifičnosti južnoslovenskih jezika čine razvoj takvih sistema posebno izazovnim, dok ograničena veličina tržišta predstavlja dodatnu prepreku za velike svetske kompanije. AlfaNum je prepoznao ovu priliku i odlučno krenuo u razvoj lokalizovanih, visokokvalitetnih rešenja. Ključne oblasti razvoja na kojima radimo uključuju sisteme za sintezu govora iz teksta (engl. Text To Speech - TTS) i automatsko prepoznavanje govora (engl. Automatic Speech Recognition - ASR ili Speech To Text - STT) kako za specijalizovane domene, tako i na velikim rečnicima. Naša tehnologija nalazi primenu u:",
-      "li1": "Interaktivnim govornim sistemima, pametnim telefonima i pametnim kućama",
-      "li2": "Aplikacijama za čitanje, diktiranje i transkripciju govora",
-      "li3": "Asistivnim tehnologijama za osobe sa oštećenjem vida, sluha ili govora",
-      "bold": "AlfaNum se oslanja na snažnu saradnju sa akademskom zajednicom. Naši istraživači su ujedno i predavači i saradnici sa Katedre za telekomunikacije i obradu signala Fakulteta tehničkih nauka u Novom Sadu, koji iza sebe imaju veliki broj naučnih radova, a učesnici su i raznih nacionalnih i internacionalnih naučnih projekata."
+      "tekst1": "AlfaNum je inovativna kompanija koja od 2003. godine razvija savremene govorne tehnologije s ciljem da ih približi širokom krugu korisnika. Naš tim čine eksperti iz oblasti obrade signala, veštačke inteligencije i lingvistike, a posvećenost kvalitetu i primenljivosti naših rešenja prepoznata je širom regiona.",
+      "tekst2": "Kao pioniri u razvoju softverskih komponenti za prepoznavanje i sintezu govora na srpskom, hrvatskom i crnogorskom jeziku, prvi smo u regionu ponudili ovakve tehnologije, koje su u početku bile namenjene slepim i slabovidim osobama, a danas se uspešno primenjuju u raznim oblastima – od medicine i prava do edukacije i korisničke podrške.",
+      "tekst3": "Na stranama o našim proizvodima možete saznati više o funkcionalnostima koje nudimo, a osnovnu upotrebu govornih tehnologija koje razvijamo možete isprobati kroz demo apikacije. Ako želite da unapredite svoj sistem savremenim tehnološkim rešenjima, kontaktirajte nas - sigurni smo da ćemo opravdati Vaše poverenje.",
+      "tekst4": "Zahvaljujući napretku računarske tehnologije, danas su i obični PC računari dovoljno moćni za kvalitetno prepoznavanje i sintezu govora, a pristupačnost ovih uređaja omogućila je širu primenu govornih tehnologija. Ipak, specifičnosti južnoslovenskih jezika čine razvoj proizvoda u ovoj oblasti posebno izazovnim, dok ograničena veličina tržišta predstavlja dodatnu prepreku za velike svetske kompanije. AlfaNum je prepoznao ovu priliku i odlučno krenuo u razvoj lokalizovanih, visokokvalitetnih rešenja. Ključne oblasti razvoja na kojima radimo uključuju sisteme za sintezu govora na osnovu teksta (engl. Text-to-Speech - TTS) i automatsko prepoznavanje govora (engl. Automatic Speech Recognition - ASR ili Speech-to-Text - STT) kako za specijalizovane domene, tako i na velikim rečnicima. Naša tehnologija nalazi primenu:",
+      "li1": "U interaktivnim govornim sistemima, pametnim telefonima i pametnim kućama",
+      "li2": "U aplikacijama za čitanje, diktiranje i transkripciju govora",
+      "li3": "U okviru asistivnih tehnologija za osobe sa oštećenjem vida, sluha ili govora",
+      "bold": "AlfaNum se oslanja na snažnu saradnju sa akademskom zajednicom. Većina naših istraživača ujedno su i predavači i saradnici na Katedri za telekomunikacije i obradu signala Fakulteta tehničkih nauka u Novom Sadu, koji iza sebe imaju velik broj naučnih radova, a učesnici su i većeg broja nacionalnih i međunarodnih naučnih projekata."
     },
   
     "kartice": {
@@ -83,7 +83,7 @@
       },
       "vizija": {
         "naslov": "Vizija",
-        "tekst": "Naša vizija je da ostanemo lider u regionu po pitanju govornih tehnologija za srpski i srodne jezike, neprestano unapređujući svoje proizvode i usluge."
+        "tekst": "Naša vizija je da učvrstimo lidersku poziciju u regionu u oblasti razvoja govornih tehnologija za srpski i srodne jezike tako što ćemo neprestano unapređivati svoje proizvode i usluge."
       },
       "rezultati": {
         "naslov": "Rezultati",
@@ -95,15 +95,15 @@
       "naslov": "Osnivači.",
       "direktor1": {
         "ime": "Prof. dr Vlado Delić",
-        "biografija": "Vlado Delić je redovni profesor na Fakultetu tehničkih nauka Univerziteta u Novom Sadu i jedan od osnivača kompanije AlfaNum. Rukovodilac je na nekoliko razvojno-istraživačkih projekata na ovom fakultetu, a uža oblast rada profesora Delića je akustika, audio inženjerstvo i obrada signala, kao i razvoj govornih tehnologija. Kombinujući akademsku ekspertizu sa primenjenim istraživanjima, okupio je tim izuzetnih mladih stručnjaka i sa njima izgradio poziciju regionalnog lidera u razvoju i primeni govornih tehnologija. Autor je i koautor više knjiga, 4 patenta i 10 tehničkih rešenja, kao i više od 250 naučnih radova objavljenih u naučnim časopisima i na konferencijama."
+        "biografija": "Vlado Delić je redovni profesor na Fakultetu tehničkih nauka Univerziteta u Novom Sadu i jedan od osnivača kompanije AlfaNum. Rukovodilac je na nekoliko razvojno-istraživačkih projekata na ovom fakultetu, a njegove uže oblasti rada obuhvataju akustiku, audio-inženjerstvo i obradu signala, kao i razvoj govornih tehnologija. Kombinujući akademsku ekspertizu sa primenjenim istraživanjima, Vlado Delić je okupio tim izuzetnih mladih stručnjaka i sa njima izgradio poziciju regionalnog lidera u razvoju i primeni govornih tehnologija. Autor je i koautor više knjiga, 4 patenta i 10 tehničkih rešenja, kao i više od 250 naučnih radova objavljenih u naučnim časopisima i na konferencijama."
       },
       "direktor2": {
         "ime": "dr Darko Pekar",
-        "biografija": "Darko Pekar je direktor kompanije AlfaNum i jedan od njenih osnivača. Diplomirao je i doktorirao na Fakultetu tehničkih nauka u Novom Sadu, gde je bio deo vodećeg tima za govorne tehnologije. Od 2003. godine vodi AlfaNum, upravljajući razvojem ASR i TTS sistema za srpski i srodne jezike. Fokusiran je na razvoj tržišno primenljivih rešenja, a iza sebe ima više uspešnih proizvoda i usluga. Autor je preko 70 naučnih radova, 20 tehničkih rešenja i 5 patenata u oblasti obrade govora."
+        "biografija": "Darko Pekar je direktor kompanije AlfaNum i jedan od njenih osnivača. Diplomirao je i doktorirao na Fakultetu tehničkih nauka u Novom Sadu, gde je bio jedan od ključnih članova tima za govorne tehnologije. Od 2003. godine vodi AlfaNum, upravljajući razvojem ASR i TTS sistema za srpski i srodne jezike. Fokusiran je na razvoj tržišno primenljivih rešenja, a iza sebe ima velik broj uspešnih proizvoda i usluga. Autor je preko 70 naučnih radova, 20 tehničkih rešenja i 5 patenata u oblasti obrade govora."
       },
       "direktor3": {
         "ime": "Prof. dr Milan Sečujski",
-        "biografija": "Milan Sečujski je redovni profesor na Fakultetu tehničkih nauka u Novom Sadu i već više od 15 godina predvodi istraživačko-razvojni tim na FTN i u AlfaNumu u oblasti sinteze govora. Njegova ekspertiza obuhvata razvoj govornih tehnologija sa fokusom na lingvističke aspekte, uključujući fonetiku, morfologiju, sintaksu i prozodiju južnoslovenskih jezika. Radi na razvoju govorno-jezičkih resursa na koje se oslanjaju brojna razvijena rešenja u oblasti govornih tehnologija. Autor je i koautor preko 100 naučnih radova i desetine tehničkih rešenja."
+        "biografija": "Milan Sečujski je redovni profesor na Fakultetu tehničkih nauka u Novom Sadu i već više od 15 godina predvodi istraživačko-razvojni tim na Fakultetu tehničkih nauka i u kompaniji AlfaNum u oblasti sinteze govora. Njegova ekspertiza obuhvata razvoj govornih tehnologija sa fokusom na lingvističke aspekte, uključujući fonetiku, morfologiju, sintaksu i prozodiju južnoslovenskih jezika. Radi na razvoju govorno-jezičkih resursa na koje se oslanjaju brojna razvijena rešenja u oblasti govornih tehnologija. Autor je i koautor preko 100 naučnih radova i desetine tehničkih rešenja."
       },
       "direktor4": {
         "ime": "Goran Đaković",
@@ -129,7 +129,7 @@
     "medicta": {
         "naslov": "Softver za diktiranje medicinskih nalaza od sada i na srpskom jeziku sa podržanim latinskim izrazima i skraćenicama",
         "tekstPrimena1": "MEDICTA je specijalizovani sistem za automatsku transkripciju diktiranih medicinskih nalaza, razvijen kako bi zdravstvenim radnicima omogućio da se više fokusiraju na klinički rad, a manje na administraciju. Sistem je specijalizovan za medicinsku terminologiju, pa sa izuzetnom tačnošću prepoznaje prirodno izgovoren tekst u realnom vremenu, čak i na računarima prosečnih performansi.\n",
-        "tekstPrimena2": "\n\nSvakom korisniku je omogućen besplatan test period, kako bi se lično uverio u preciznost i korisnost sistema. Isprobajte MEDICTA aplikaciju i unapredite svoj svakodnevni rad uz pomoć savremenih govornih tehnologija.",
+        "tekstPrimena2": "\n\nSvakom korisniku je omogućen besplatan test period kako bi se lično uverio u preciznost i korisnost sistema. Isprobajte MEDICTA aplikaciju i unapredite svoj svakodnevni rad uz pomoć savremenih govornih tehnologija.",
         "strana": "korisničkom uputstvu",
         "description": {
             "intro": "U zavisnosti od potreba ustanove, Medicta se isporučuje u više varijanti:",
@@ -138,11 +138,11 @@
                 "<b>On-premise rešenje</b>, idealno za ustanove koje zahtevaju potpunu kontrolu i bezbednost podataka"
                 
         ],
-            "middle": "Zbog osetljivosti medicinskih podataka, mnoge zdravstvene ustanove biraju on-premise varijantu. U tom slučaju, aplikacija se instalira na namenski računar (server) unutar vaše interne mreže. Snimci diktata se sa bilo kog računara u mreži automatski šalju na taj server radi prepoznavanja, čime se podaci nikada ne izlažu internetu, čime je privatnost je u potpunosti zagarantovana.\n\nBez obzira na to da li vaša ustanova zapošljava nekoliko lekara ili više stotina, Medicta se prilagođava vašim <b>kapacitetima</b>. Naš tim će vam pripremiti optimalnu ponudu u skladu sa potrebama vaše ustanove. Iako Medicta poseduje moderan i intuitivan korisnički interfejs, kao i rad u tzv. režimu trake, koji omogućava unos transkripta direktno u bilo koji tekstualni editor (npr. zdravstveni informacioni sistem, Word, itd.), nudimo i mogućnost funkcionalnih i vizuelnih prilagođavanja, u skladu sa internim procedurama i radnim tokovima korisnika.",
-            "conclusion": "Kontaktirajte nas i pošaljite upit – sa zadovoljstvom ćemo pripremiti rešenje koje u potpunosti odgovara vašim zahtevima."
+            "middle": "Zbog osetljivosti medicinskih podataka, mnoge zdravstvene ustanove biraju on-premise varijantu. U tom slučaju, aplikacija se instalira na namenski računar (server) unutar Vaše interne mreže. Snimci diktata se sa bilo kog računara u mreži automatski šalju na taj server radi prepoznavanja, što znači da Vaši podaci nikada ne izlaze na internetu i samim tim je njihova privatnost u potpunosti zagarantovana.\n\nBez obzira na to da li Vaša ustanova zapošljava nekoliko lekara ili više stotina, Medicta se prilagođava Vašim <b>kapacitetima</b>. Naš tim će Vam pripremiti optimalnu ponudu u skladu sa potrebama Vaše ustanove. Iako Medicta poseduje moderan i intuitivan korisnički interfejs, a podržava i rad u tzv. režimu trake, odnosno, direktan rad sa transkriptom u bilo kom standardnom tekstualnom editoru (npr. u zdravstvenom informacionom sistemu, MS Wordu, itd.), nudimo i mogućnost funkcionalnih i vizuelnih prilagođavanja u skladu sa internim procedurama i procesom rada korisnika.",
+            "conclusion": "Kontaktirajte nas i pošaljite upit – sa zadovoljstvom ćemo pripremiti rešenje koje u potpunosti odgovara Vašim zahtevima."
    
 },
-        "tekstVideo": "Ovaj kratak video demonstrira rad MEDICTA aplikacije u stvarnim uslovima. Upoznajte se sa njenim ključnim funkcionalnostima, pogledajte kako izgleda proces diktiranja i transkripcije nalaza u realnom vremenu i procenite na koji način ova tehnologija može unaprediti vaš svakodnevni rad.\n\nBrže do gotovog nalaza - bez prekida, bez tipkanja, bez greške.",
+        "tekstVideo": "Ovaj kratak video demonstrira rad MEDICTA aplikacije u stvarnim uslovima. Upoznajte se sa njenim ključnim funkcionalnostima, pogledajte kako izgleda proces diktiranja i transkripcije nalaza u realnom vremenu i procenite na koji način ova tehnologija može unaprediti Vaš svakodnevni rad.\n\nBrže do gotovog nalaza - bez prekida, bez tipkanja, bez greške.",
         "naslovResource": "Fleksibilna rešenja za poslovne korisnike.",
         "featuresPrimena": {
             "akronim": {
@@ -171,11 +171,11 @@
             },
             "personalizacija": {
                 "key": "Personalizacija",
-                "value": "Formiranje rečnika na osnovu Vaših prethodnih nalaza."
+                "value": "Moguće je automatski dopuniti rečnik na osnovu Vaših prethodnih nalaza."
             },
             "recnik": {
                 "key": "Rečnik",
-                "value": "Samostalno možete dodati reč u rečnik ili izbaciti neku koju ne koristite, a često se javi kao pogrešno prepoznata."
+                "value": "Možete sami dodati reč u rečnik ili izbaciti neku koja Vam ne odgovara."
             },
             "rezim": {
                 "key": "Režim trake",
@@ -183,7 +183,7 @@
             }
 
         },
-        "tekstPrednosti1": "Za rad sa MEDICTA sistemom nije potreban snažan ili skup računar – obrada glasa se ne vrši lokalno, već na serveru koji je povezan sa računarom korisnika. Za pojedinačne korisnike i manje ordinacije, preporučujemo povezivanje na AlfaNum cloud server, uz jednostavan pristup putem interneta. Za veće institucije, MEDICTA se može instalirati kao on-premise rešenje, odnosno na interni server unutar ustanove, čime se omogućava upotreba sistema od strane većeg broja korisnika, uz potpunu kontrolu nad podacima.\n\nMEDICTA koristi savremene metode za uklanjanje buke i personalizaciju prema glasu korisnika, što znači da sistem radi pouzdano i sa mikrofonima prosečnog kvaliteta, uspešno prepoznaje tih govor - što je posebno značajno u deljenim ordinacijama i podržava rad i u prisustvu standardne kancelarijske buke. Za dodatnu preciznost i komfor, AlfaNum nudi i specijalizovane naglavne i usmerene mikrofone, po i dalje pristupačnim cenama.\n\nViše informacija o mogućnostima, opcijama podešavanja i tehničkim detaljima možete pronaći u ",
+        "tekstPrednosti1": "Za rad sa MEDICTA sistemom nije potreban snažan ili skup računar – obrada govora se ne vrši lokalno, već na serveru koji je povezan sa računarom korisnika. Pojedinačnim korisnicima i manjim ordinacijama preporučujemo povezivanje na AlfaNum cloud server, uz jednostavan pristup putem interneta. Za veće institucije MEDICTA se može instalirati kao on-premise rešenje, odnosno na interni server unutar ustanove, čime se omogućava upotreba sistema od strane većeg broja korisnika uz potpunu kontrolu nad podacima.\n\nMEDICTA koristi najsavremenije algoritme za uklanjanje buke i prilagođava se na glas korisnika, zahvaljujući čemu sistem radi pouzdano i sa mikrofonima prosečnog kvaliteta. MEDICTA uspešno prepoznaje i tih govor, što je posebno značajno u deljenim ordinacijama i u prisustvu standardne kancelarijske buke. Za dodatnu preciznost i udobnost u korišćenju, AlfaNum nudi i specijalizovane naglavne i usmerene mikrofone po i dalje sasvim pristupačnim cenama.\n\nViše informacija o mogućnostima, opcijama podešavanja i tehničkim detaljima možete pronaći u ",
         "tekstPrednosti2": ", koje detaljno opisuje način korišćenja, kao i sve funkcionalnosti koje možete prilagoditi Vašim specifičnim potrebama.",
         "featuresPrednosti": {
             "prilagodjenja": {
@@ -192,38 +192,38 @@
             },
             "integracija": {
                 "key": "Integracija",
-                "value": "Može se lako integrisati u bilo koji postojeći sistem i aplikaciju koje su već u upotrebi."
+                "value": "Može se lako integrisati u bilo koji postojeći sistem ili aplikaciju koja je već u upotrebi."
             },
             "klijentserver": {
                 "key": "Klijent-server",
-                "value": "Ovakva arhitektura omogućava da se prepoznavanje radi na jednom centralizovanom serveru, u cloud-u ili fizički lociranom u instituciji."
+                "value": "Ovakva arhitektura omogućava da se obrada govora vrši na jednom centralizovanom serveru, u cloud-u ili fizički lociranom u instituciji, a ne na samim korisničkim računarima."
             },
             "sigurnost": {
                 "key": "Sigurnost",
-                "value": "Sa serverom lociranim u instituciji, snimci ne izlaze na javnu mrežu, čime je sigurnost apsolutno garantovana."
+                "value": "Sa serverom lociranim u instituciji, snimci ne izlaze na javnu mrežu, čime je njihova bezbednost apsolutno garantovana."
             },
             "racunari": {
                 "key": "Računari",
-                "value": "Sam server mora da ima određene hardverske zahteve, dok su računari za krajnje korisnike prosečni računari, nema potrebe za nabavkom novih i jačih."
+                "value": "Sam server mora da ispunjava određene hardverske zahteve, dok računari krajnjih korisnika mogu biti i sasvim prosečnih karakteristika, odnosno, nema potrebe za nabavkom novih i jačih."
             }
         }
 }, "iurisdicta": {
-        "naslov": "Softver za diktiranje pravnih dokumenata od sada i na srpskom jeziku sa podržanim vlastitim imenima i skraćenicama",
-        "tekstPrimena1": "IURISDICTA je specijalizovani sistem za automatsko sastavljanje pravnih dokumenata na osnovu diktiranog teksta. Osmišljen je da poveća efikasnost pravnika – sudija, advokata, javnih beležnika i drugih – i omogući im da se fokusiraju na suštinu svog posla, umesto na dugotrajan unos teksta. Sistem koristi rečnik prilagođen pravu, što omogućava da sa visokom preciznošću prepoznaje prirodno izgovoren pravni jezik u realnom vremenu, čak i na računarima prosečnih karakteristika.\n",
-        "tekstPrimena2": "\n\nBesplatan test period dostupan je svim korisnicima, kako bi se lično uverili u efikasnost i tačnost sistema. Isprobajte IURISDICTA aplikaciju i otkrijte kako govor može postati najbrži način za sastavljanje pravnih akata, podnesaka i zapisnika.",
-        "tekstVideo": "Ovaj kratak video prikazuje rad IURISDICTA sistema u realnim uslovima. Upoznajte se sa njegovim ključnim funkcionalnostima, pogledajte kako izgleda diktiranje i automatsko kreiranje pravnih dokumenata i procenite kako ovaj alat može unaprediti vašu svakodnevnu praksu.\n\nBrže sastavite podnesak - imajte više vremena za pravnu analizu.",
+        "naslov": "Softver za diktiranje pravnih dokumenata od sada i na srpskom jeziku, sa podržanim vlastitim imenima i skraćenicama",
+        "tekstPrimena1": "IURISDICTA je specijalizovani sistem za automatsko sastavljanje pravnih dokumenata na osnovu diktata. Osmišljen je da poveća efikasnost pravnika – sudija, advokata, javnih beležnika i drugih – i omogući im da se fokusiraju na suštinu svog posla umesto na dugotrajan i zamoran unos teksta. Rečnik sistema dopunjen je pojmovima iz oblasti prava, što omogućava sistemu da sa visokom preciznošću pretvara prirodan govor u tekstove pravne i administrativne sadržine u realnom vremenu, čak i na računarima prosečnih karakteristika.\n",
+        "tekstPrimena2": "\n\nBesplatan test period dostupan je svim korisnicima kako bi se lično uverili u efikasnost i tačnost sistema. Isprobajte IURISDICTA aplikaciju i otkrijte kako govor može postati najbrži način za sastavljanje pravnih akata kao što su podnesci i zapisnici.",
+        "tekstVideo": "Ovaj kratak video prikazuje rad IURISDICTA sistema u realnim uslovima. Upoznajte se sa njegovim ključnim funkcionalnostima, pogledajte kako izgleda diktiranje i automatsko kreiranje pravnih dokumenata i procenite kako ovaj alat može unaprediti Vašu svakodnevnu praksu.\n\nBrže sastavite podnesak - imajte više vremena za pravnu analizu.",
         "featuresPrimena": {
             "akronim": {
                 "key": "Akronimi",
-                "value": "Prepoznaje i interpretira akronime, merne jedinice, pravnu terminologiju i dr."
+                "value": "Podržana je pravilna interpretacija akronima, mernih jedinica i dr."
             },
             "imena": {
                 "key": "Imena",
-                "value": "Rečnik je obogađen mnoštvom vlastitih imena karakterističnih za srpsko područje."
+                "value": "Rečnik je obogaćen mnoštvom vlastitih imena karakterističnih za srpsko govorno područje."
             },
             "formatiranje": {
                 "key": "Formatiranje",
-                "value": "Diktirajte interpunkciju i glasom formatirajte tekst."
+                "value": "Podržava diktiranje interpunkcije i formatiranje teksta glasom."
             },
             "komande": {
                 "key": "Komande",
@@ -239,11 +239,11 @@
             },
             "personalizacija": {
                 "key": "Personalizacija",
-                "value": "Formiranje rečnika na osnovu Vaših prethodnih nalaza."
+                "value": "Moguće je automatski dopuniti rečnik na osnovu Vaših postojećih dokumenata."
             },
             "recnik": {
                 "key": "Rečnik",
-                "value": "Samostalno možete dodati reč u rečnik ili izbaciti neku koju ne koristite, a često se javi kao pogrešno prepoznata."
+                "value": "Možete sami dodati reč u rečnik ili izbaciti neku koja Vam ne odgovara."
             },
             "rezim": {
                 "key": "Režim trake",
@@ -253,62 +253,62 @@
         },
         "naslovResource": "Fleksibilna rešenja za poslovne korisnike.",
          "description": {
-            "intro": "U zavisnosti od potreba vaše organizacije, <b>IURISDICTA</b> je dostupna u više konfiguracija koje omogućavaju jednostavnu integraciju u postojeće radne tokove:",
+            "intro": "U zavisnosti od potreba Vaše organizacije, <b>IURISDICTA</b> je dostupna u više konfiguracija koje omogućavaju jednostavnu integraciju u postojeće procese rada:",
             "list": [
                 "<b>Cloud-based paketi</b> – idealni za brzu implementaciju i udaljeni rad pojedinaca i manjih kancelarija",
-                "<b>On-premise rešenje</b> – preporučeno za institucije koje zahtevaju potpunu kontrolu nad poverljivim podacima"
+                "<b>On-premise rešenje</b> – preporučuje se organizacijama koje zahtevaju potpunu kontrolu nad poverljivim podacima"
                 
         ],
-            "middle": "Zbog osetljivosti pravnih informacija, mnoge ustanove biraju on-premise varijantu, u kojoj se aplikacija instalira na namenski server unutar vaše interne mreže. Diktati sa bilo kog računara u mreži šalju se direktno na taj server radi transkripcije, bez ikakvog izlaganja podataka internetu, što obezbeđuje maksimalnu bezbednost i poverljivost.\n\nBez obzira na to da li vaša kancelarija ima nekoliko korisnika ili čitav pravni tim sa više stotina zaposlenih, IURISDICTA se skalira prema vašim potrebama. Naš tim će pripremiti tehnički i cenovno optimalnu ponudu, u skladu sa vašom infrastrukturom i organizacijom rada.\n\nPored modernog i intuitivnog interfejsa, IURISDICTA omogućava rad u tzv. režimu trake, što znači da transkript diktata možete direktno unositi u bilo koji tekstualni editor (npr. Word, dokumentacioni softver, interni CMS). Takođe, nudimo i vizuelna i funkcionalna prilagođavanja za lakšu integraciju u postojeće interne procedure.",
-            "conclusion": "Kontaktirajte nas i pošaljite upit – sa zadovoljstvom ćemo pripremiti rešenje koje u potpunosti odgovara potrebama vašim zahtevima."
+            "middle": "Zbog osetljivosti pravnih informacija mnoge ustanove biraju on-premise varijantu, u kojoj se aplikacija instalira na namenski server unutar Vaše interne mreže. Diktati sa bilo kog računara u mreži šalju se direktno na taj server radi transkripcije, bez ikakvog izlaganja podataka internetu, što obezbeđuje maksimalnu bezbednost i poverljivost.\n\nBez obzira na to da li Vaša kancelarija ima nekoliko korisnika ili čitav pravni tim sa više stotina zaposlenih, IURISDICTA se skalira prema Vašim potrebama. Naš tim će pripremiti tehnički i cenovno optimalnu ponudu, u skladu sa Vašom infrastrukturom i organizacijom rada.\n\nPored modernog i intuitivnog interfejsa, IURISDICTA omogućava rad u tzv. režimu trake, što znači da se transkript diktata može direktno ispisivati u bilo kom tekstualnom editoru (npr. u MS Wordu, dokumentacionom softveru, internom CMS-u). Takođe, nudimo i vizuelna i funkcionalna prilagođavanja za lakšu integraciju u postojeće interne procedure.",
+            "conclusion": "Kontaktirajte nas i pošaljite upit – sa zadovoljstvom ćemo pripremiti rešenje koje u potpunosti odgovara Vašim potrebama i zahtevima."
    
 },
-        "tekstPrednosti": "IURISDICTA aplikacija je osmišljena tako da se lako prilagođava različitim organizacionim i tehničkim okruženjima – od pojedinačnih korisnika do velikih pravnih institucija. Više detalja o funkcionalnostima i opcijama prilagođavanja dostupno je u korisničkom uputstvu.\n\nZa korišćenje sistema nije potreban računar visokih performansi, jer se konverzija govora u tekst ne vrši lokalno već na serveru sa kojim je korisnikov uređaj povezan. Pojedinačnim korisnicima i manjim kancelarijama preporučuje se korišćenje AlfaNum cloud servera, uz jednostavno povezivanje preko interneta. Većim institucijama (sudovi, advokatske kancelarije, pravne službe) preporučuje se postavljanje internog IURISDICTA servera u okviru sopstvene mreže, koji može istovremeno služiti velikom broju korisnika – uz potpunu kontrolu nad podacima.\n\nIURISDICTA koristi najsavremenije algoritme za uklanjanje buke i personalizaciju po glasu korisnika, što omogućava pouzdan rad čak i sa mikrofonima prosečnog kvaliteta, korišćenje u uslovima standardne kancelarijske buke i precizno prepoznavanje i tihog govora, što je naročito važno u prostorijama koje dele više zaposlenih. Kompanija AlfaNum nudi i specijalizovane mikrofone (usmerene ili naglavne) po povoljnim cenama, kako bi se postigla dodatna preciznost i udobnost u radu.",
+        "tekstPrednosti": "IURISDICTA aplikacija je osmišljena tako da se lako prilagođava različitim organizacionim i tehničkim okruženjima – od pojedinačnih korisnika do velikih pravnih institucija. Više detalja o funkcionalnostima i opcijama prilagođavanja dostupno je u korisničkom uputstvu.\n\nZa korišćenje sistema nije potreban računar visokih performansi, jer se konverzija govora u tekst ne vrši lokalno već na serveru sa kojim je korisnikov uređaj povezan. Pojedinačnim korisnicima i manjim kancelarijama preporučuje se korišćenje AlfaNum cloud servera uz jednostavno povezivanje preko interneta. Većim institucijama (sudovi, advokatske kancelarije, pravne službe) preporučuje se postavljanje internog IURISDICTA servera u okviru sopstvene mreže, koji može istovremeno opslužiti velik broju korisnika, uz potpunu bezbednost podataka.\n\nIURISDICTA koristi najsavremenije algoritme za uklanjanje buke i prilagođava se na glas korisnika, zahvaljujući čemu sistem radi pouzdano i sa mikrofonima prosečnog kvaliteta. MEDICTA uspešno prepoznaje i tih govor, što je posebno značajno u deljenim ordinacijama i u prisustvu standardne kancelarijske buke. Za dodatnu preciznost i udobnost u korišćenju, AlfaNum nudi i specijalizovane naglavne i usmerene mikrofone po i dalje sasvim pristupačnim cenama.",
         "featuresPrednosti": {
             "integracija": {
                 "key": "Integracija",
-                "value": "Može se lako integrisati u bilo koji postojeći sistem i aplikaciju koje su već u upotrebi."
+                "value": "Može se lako integrisati u bilo koji postojeći sistem ili aplikaciju koja je već u upotrebi."
             },
             "klijentserver": {
                 "key": "Klijent-server",
-                "value": "Ovakva arhitektura omogućava da se prepoznavanje radi na jednom centralizovanom serveru, u cloud-u ili fizički lociranom u instituciji."
+                "value": "Ovakva arhitektura omogućava da se obrada govora vrši na jednom centralizovanom serveru, u cloud-u ili fizički lociranom u instituciji, a ne na samim korisničkim računarima."
             },
             "sigurnost": {
                 "key": "Sigurnost",
-                "value": "Sa serverom lociranim u instituciji, snimci ne izlaze na javnu mrežu, čime je sigurnost apsolutno garantovana."
+                "value": "Sa serverom lociranim u instituciji, snimci ne izlaze na javnu mrežu, čime je njihova bezbednost apsolutno garantovana."
             },
             "racunari": {
                 "key": "Računari",
-                "value": "Sam server mora da ima određene hardverske zahteve, dok su računari za krajnje korisnike prosečni računari, nema potrebe za nabavkom novih i jačih."
+                "value": "Sam server mora da ispunjava određene hardverske zahteve, dok računari krajnjih korisnika mogu biti i sasvim prosečnih karakteristika, odnosno, nema potrebe za nabavkom novih i jačih."
             }
     }
 },"transcripta": {
         "naslov": "Softver za pretvaranje govora u tekst od sada i na srpskom jeziku za sve vrste audio i video snimaka",
         "naslovResource": "Fleksibilna rešenja za poslovne korisnike.",
-        "tekstPrimena1": "TRANSCRIPTA je napredni sistem za automatsku transkripciju govora, razvijen bez ograničenja na specifičan domen. Zahvaljujući širokom vokabularu i moćnim modelima prepoznavanja, idealna je za različite vrste zvučnih sadržaja – od telefonskih razgovora, sastanaka i intervjua, do emisija, ročišta i skupštinskih sednica.",
-        "tekstPrimena2": "\n\nTRANSCRIPTA se odlikuje izuzetnom fleksibilnošću u radu sa govorom raznih stilova i tematika, što je čini pogodnom za raznolike profesionalne i medijske potrebe. Sistem podržava transkripciju govora bez tematskih ograničenja, dijarizaciju – automatsko razdvajanje govornika unutar snimka i preciznu vremensku lokalizaciju svake izgovorene reči. Sistem automatski primenjuje postprocesing mehanizme koji koriguju tipične greške u transkriptu, poboljšavajući čitljivost i tačnost rezultata. Za dodatnu kontrolu, korisnicima je na raspolaganju intuitivan online tekstualni editor koji omogućava pregled i preslušavanje snimka i jednostavno uređivanje prepoznatog teksta.\n\nTRANSCRIPTA vam omogućava da brzo i pouzdano pretvorite zvuk u tekst – bez obzira na kontekst, govornike ili okruženje.",
-        "tekstVideo": "Ovaj kratak video demonstrira rad TRANSCRIPTA web portala. Upoznajte se sa ključnim funkcionalnostima portala: od otpremanja audio fajlova i automatske transkripcije, preko dijarizacije i do jednostavnog uređivanja transkripta putem preglednog online editora.\n\nOd snimka do struktuiranog teksta – bez ograničenja, bez čekanja, bez komplikacija.",
+        "tekstPrimena1": "TRANSCRIPTA je napredni sistem za automatsku transkripciju govora, razvijen bez ograničenja na specifičan domen. Zahvaljujući širokom vokabularu i moćnim modelima prepoznavanja, idealan je za različite vrste zvučnih sadržaja – od telefonskih razgovora, sastanaka i intervjua, do emisija, ročišta i skupštinskih sednica.",
+        "tekstPrimena2": "\n\nTRANSCRIPTA se odlikuje izuzetnom fleksibilnošću u radu sa govorom raznih stilova i tematika, što je čini pogodnom za raznovrsne profesionalne i medijske potrebe. Sistem podržava transkripciju govora bez tematskih ograničenja, dijarizaciju (automatsko razdvajanje govornika unutar snimka) i preciznu vremensku lokalizaciju svake izgovorene reči. Sistem automatski primenjuje postprocesing mehanizme koji koriguju tipične greške u transkriptu, poboljšavajući čitljivost i tačnost rezultata. Za dodatnu kontrolu, korisnicima je na raspolaganju intuitivan online tekstualni editor koji omogućava pregled i preslušavanje snimka i jednostavno uređivanje prepoznatog teksta.\n\nTRANSCRIPTA Vam omogućava da brzo i pouzdano pretvorite zvuk u tekst – bez obzira na kontekst, govornike ili okruženje.",
+        "tekstVideo": "Ovaj kratak video demonstrira rad TRANSCRIPTA web portala. Upoznajte se sa ključnim funkcionalnostima portala: od otpremanja audio-fajlova i automatske transkripcije, preko dijarizacije i do jednostavnog uređivanja transkripta putem preglednog online editora.\n\nOd snimka do struktuiranog teksta – bez ograničenja, bez čekanja, bez komplikacija.",
         "description": {
-        "intro": "<b>TRANSCRIPTA</b> je osmišljena kao profesionalno rešenje za automatsku transkripciju, koje se u potpunosti prilagođava potrebama vaše organizacije – bilo da se radi o medijskoj kući, kontakt centru, privatnoj ili državnoj instituciji. Sistem je dostupan u više varijanti implementacije:",
+        "intro": "<b>TRANSCRIPTA</b> je osmišljena kao profesionalno rešenje za automatsku transkripciju koje se u potpunosti prilagođava potrebama Vaše organizacije – bilo da se radi o medijskoj kući, kontakt centru, privatnoj ili državnoj instituciji. Sistem je dostupan u više varijanti implementacije:",
         "list": [
-            "<b>Cloud-based paket</b>, idealni za brzu implementaciju",
-            "<b>On-premise rešenje</b>, namenjeno organizacijama koje zahtevaju <b>punu kontrolu nad podacima i infrastrukturom</b>"
+            "<b>Cloud-based paket</b> - idealni za brzu implementaciju",
+            "<b>On-premise rešenje</b> - preporučuje se organizacijama koje zahtevaju <b>potpunu kontrolu nad poverljivim podacima i infrastrukturom</b>"
     ],
-        "middle": "Zbog osetljivosti sadržaja koji se transkribuje (sudski zapisi, intervjui, poslovni sastanci, korisnički pozivi), mnoge institucije biraju <b>on-premise</b> varijantu. U tom slučaju, TRANSCRIPTA se instalira na lokalni server unutar vaše mreže, a svi podaci se obrađuju interno, bez izlaska na internet, čime je privatnost u potpunosti zagarantovana.\n\nBez obzira na to da li dnevno transkribujete nekoliko minuta ili više stotina sati snimaka, naš tim kreira ponudu u skladu sa očekivanim opterećenjem sistema, potrebnim brojem paralelnih linija za obradu i specifičnostima vašeg radnog toka. Na osnovu ovih parametara, formira se cena softvera, ali i hardverska specifikacija servera, uz opcionalno balansiranje opterećenja za visoko opterećene sisteme. TRANSCRIPTA je dostupna i kroz API, što omogućava potpunu integraciju sa postojećim sistemima – bilo da je reč o voicebot rešenjima, pozivnim centrima, CRM, helpdesk ili internim platformama. Naš tim pruža punu podršku za integraciju u vaše poslovno okruženje.\n\nTRANSCRIPTA podržava više modela licenciranja u zavisnosti od tipa primene, pa tako postoje godišnje ili trajne licence, tarifiranje po broju istovremenih linija i tarifiranje po utrošku. Bez obzira na obim, delatnost ili strukturu vašeg tima – TRANSCRIPTA se prilagođava vašem poslovanju.\n\n",
-        "conclusion": "Kontaktirajte nas kako bismo pripremili optimalno rešenje za vaše potrebe – sa fokusom na efikasnost, bezbednost i jednostavnu integraciju."
+        "middle": "Zbog osetljivosti sadržaja koji se transkribuje (sudski zapisi, intervjui, poslovni sastanci, korisnički pozivi), mnoge institucije opredeljuju se za <b>on-premise</b> varijantu. U tom slučaju, TRANSCRIPTA se instalira na lokalni server unutar Vaše mreže, a svi podaci se obrađuju interno, bez izlaska na internet, čime je njihova privatnost u potpunosti zagarantovana.\n\nBez obzira na to da li dnevno transkribujete nekoliko minuta ili više stotina sati snimaka, naš tim kreira ponudu u skladu sa očekivanim opterećenjem sistema, potrebnim brojem paralelnih linija za obradu i specifičnostima Vašeg procesa rada. Na osnovu ovih parametara formira se cena softvera, ali i hardverska specifikacija servera, uz opciju balansiranja opterećenja za visoko opterećene sisteme. TRANSCRIPTA je dostupna i kroz aplikacioni programski interfejs (API), što omogućava potpunu integraciju sa postojećim sistemima – bilo da je reč o voicebot rešenjima, pozivnim centrima, CRM, helpdesk ili internim platformama. Naš tim pruža punu podršku za integraciju u Vaše poslovno okruženje.\n\nTRANSCRIPTA podržava više modela licenciranja u zavisnosti od tipa primene, pa tako postoje godišnje ili trajne licence, tarifiranje po broju istovremenih linija i tarifiranje po utrošku. Bez obzira na obim, delatnost ili strukturu Vašeg tima – TRANSCRIPTA se prilagođava Vašem poslovanju.\n\n",
+        "conclusion": "Kontaktirajte nas kako bismo pripremili optimalno rešenje za Vaše potrebe – sa fokusom na efikasnost, bezbednost i jednostavnu integraciju."
     },
         "featuresPrimena": {
             "pojedinci": {
                 "key": "Pojedinci",
-                "value": "Transkripcija podkasta, emisija i ostalih audio i video materijala - povećajte SEO, unapredite vidljivost i povećajte svoju publiku."
+                "value": "Transkripcija podkasta, emisija i ostalih audio i video materijala - povećajte SEO, unapredite vidljivost i proširite svoju publiku."
             },
             "preduzeca": {
                 "key": "Preduzeća",
-                "value": "Snimanje sastanaka, predavanja i drugih događaja omogućava da sve ostane zabeleženo - transkripcija Vam omogućava kasnije brzo i jednostavno pretraživanje i analizu sadržaja."
+                "value": "Snimanje sastanaka, predavanja i drugih događaja omogućava da sve ostane zabeleženo - transkripcija Vam omogućava kasniju brzu i jednostavnu pretragu i analizu sadržaja."
             },
             "medijskekuce": {
                 "key": "Medijske kuće",
-                "value": "Omogućava titlovanje, lakši prevod i pravljenje arhiva koje se mogu jednostavno pretraživati."
+                "value": "Omogućava titlovanje, lakši prevod i formiranje arhiva koje se mogu jednostavno pretraživati."
             },
             "sudovi": {
                 "key": "Sudovi",
@@ -316,17 +316,17 @@
             },
             "ostali": {
                 "key": "Ostali",
-                "value": "Transkripcija intervjua, različitih uviđaja, nastavnih materijala i još mnogo toga."
+                "value": "Transkripcija intervjua, webinara, nastavnih materijala i još mnogo čega."
             }
         },
-        "tekstPrednosti": "TRANSCRIPTA funkcioniše u okviru klijent-server arhitekture, što omogućava visok stepen fleksibilnosti i skalabilnosti. Konverzija govora u tekst odvija se isključivo na serveru, dok se klijentske aplikacije mogu instalirati na više računara unutar mreže. Samo server zahteva specifičan hardver, dok radne stanice korisnika mogu biti bilo koje konfiguracije.\n\nSistem je moguće implementirati kao cloud rešenje – konverzija se obavlja na udaljenim serverima, uz slanje audio zapisa putem interneta ili kao on-premise rešenje – celokupan sistem funkcioniše lokalno, unutar mreže korisnika. Iako cloud varijanta omogućava brzu implementaciju, ona podrazumeva izmeštanje podataka van institucije, što je za neke korisnike neprihvatljivo. Kada su u pitanju poverljivi ili osetljivi podaci, izlazak podataka iz lokalne mreže predstavlja ozbiljan bezbednosni rizik. Zato je AlfaNum jedno od retkih domaćih preduzeća koje nudi pravo on-premise rešenje kada se server instalira direktno u vašoj instituciji, a svi podaci ostaju unutar vaše mreže. Konverzija govora u tekst se vrši lokalno, bez slanja podataka na internet, čime je privatnost podataka apsolutno zagarantovana.",
+        "tekstPrednosti": "TRANSCRIPTA funkcioniše u okviru klijent-server arhitekture, što omogućava visok stepen fleksibilnosti i skalabilnosti. Konverzija govora u tekst odvija se isključivo na serveru, dok se klijentske aplikacije mogu instalirati na više računara unutar mreže. Samo server zahteva specifičan hardver, dok korisnički računari mogu biti i sasvim prosečnih karakteristika.\n\nSistem se može implementirati kao cloud rešenje, kod kog se konverzija govora u tekst obavlja na udaljenim serverima, uz slanje audio-zapisa putem interneta, a može se implementirati i kao on-premise rešenje, gde u celini funkcioniše lokalno, unutar mreže korisnika. Iako cloud varijanta omogućava brzu implementaciju, ona podrazumeva izlazak podataka iz okvira institucije, što je za neke korisnike neprihvatljivo. Kada su u pitanju poverljivi ili osetljivi podaci, izlazak podataka iz lokalne mreže predstavlja ozbiljan bezbednosni rizik. Zato je AlfaNum jedno od retkih domaćih preduzeća koje nudi pravo on-premise rešenje, što znači da se server instalira na fizičkoj lokaciji korisnika, a svi podaci ostaju unutar njegove mreže. Konverzija govora u tekst se, dakle, vrši lokalno, bez slanja podataka na internet, čime je privatnost podataka apsolutno garantovana.",
         "featuresPrednosti": {
             "tacnost": {
                 "key": "Tačnost",
                 "value": "Tačnost sistema je 90% na nivou reči, a preko 95% na nivou karaktera (slova)."
             },
             "integracija": {
-                "key": "Integracija",
+                "key": "Interpunkcija",
                 "value": "Sistem postavlja znakove interpunkcije i velika slova na logična mesta."
             },
             "jezik": {
@@ -343,20 +343,20 @@
             }
         }
 },"ansintetizator": {
-    "naslov": "Softver za pretvaranje teksta u govor koji zvuči potpuno prirodno i to na srpskom jeziku, ali i hrvatskom i crnogorskom",
+    "naslov": "Softver za pretvaranje teksta u govor koji zvuči potpuno prirodno i to na srpskom, hrvatskom i crnogorskom jeziku",
     "naslovResource": "Mogućnosti za poslovne korisnike",
-    "tekstPrimena1": "AlfaNum TTS je napredni sistem za sintezu govora na osnovu teksta, sa prirodnom intonacijom i preciznom akcentuacijom, što ga čini najkvalitetnijim sintetizatorom na prostoru bivše Jugoslavije. Sistem je dostupan za srpski, hrvatski i crnogorski jezik, sa više muških i ženskih glasova na raspolaganju. Zahvaljujući ugrađenim elementima intonacije i akcentuacije, generisani govor je ne samo prijatan za slušanje, već i izuzetno razumljiv u najrazličitijim primenama.",
-    "tekstPrimena2": "\n\nAlfaNum TTS je jedna od ključnih softverskih komponenti koja izdvaja AlfaNum kao lidera u oblasti govornih tehnologija u regionu. Može se koristiti kao samostalna aplikacija putem intuitivnog web portala ali i putem API-ja za integraciju u raznovrsne aplikacije (mobilne, desktop, web, pozivne centre, pametne uređaje i asistivne tehnologije). Sinteza se može realizovati u cloud-u - na serverima AlfaNuma ili na lokalnom (on-premise) serveru, instaliranom u okviru vaše institucije, za slučajeve kada je bezbednost i privatnost podataka prioritet. AlfaNum TTS produkuje prirodan, jasan i izražajan govor – spreman za korišćenje u poslovnim, obrazovnim, asistivnim i tehnološkim okruženjima. Osobine AlfaNum TTS softvera su sledeće:",
-    "tekstVideo": "Ovaj kratak video prikazuje rad portala kroz jednostavan i pregledan korisnički interfejs. Upoznajte se sa njegovim ključnim funkcionalnostima: od unosa teksta i izbora govornika, do generisanja i preuzimanja audio zapisa – brzo, jasno i intuitivno.\n\nOd teksta do visokokvalitetnog, prirodnog govora – u samo nekoliko klikova.",
+    "tekstPrimena1": "AlfaNum TTS je napredni sistem za sintezu govora na osnovu teksta, sa prirodnom intonacijom i preciznom akcentuacijom, što ga čini najkvalitetnijim sintetizatorom govora na prostoru bivše Jugoslavije. Sistem je dostupan za srpski, hrvatski i crnogorski jezik, sa više muških i ženskih glasova na raspolaganju. Zahvaljujući ugrađenim elementima intonacije i akcentuacije, generisani govor je ne samo prijatan za slušanje, već i izuzetno razumljiv u najrazličitijim primenama.",
+    "tekstPrimena2": "\n\nAlfaNum TTS je jedna od ključnih softverskih komponenti koja izdvaja AlfaNum kao lidera u oblasti govornih tehnologija u regionu. Može se koristiti kao samostalna aplikacija putem intuitivnog web portala, ali i putem API-ja za integraciju u raznovrsne aplikacije (mobilne, desktop, web, pozivne centre, pametne uređaje i asistivne aplikacije). Sinteza se može realizovati u cloud-u (na serverima AlfaNuma) ili na lokalnom (on-premise) serveru instaliranom u okviru Vaše institucije, za slučajeve kada su bezbednost i privatnost podataka od presudnog značaja. AlfaNum TTS proizvodi prirodan, jasan i izražajan govor – spreman za korišćenje u poslovnim, obrazovnim, asistivnim i tehnološkim okruženjima. Osobine AlfaNum TTS softvera su sledeće:",
+    "tekstVideo": "Ovaj kratak video prikazuje rad portala kroz jednostavan i pregledan korisnički interfejs. Upoznajte se sa njegovim ključnim funkcionalnostima: od unosa teksta i izbora govornika do generisanja i preuzimanja audio-zapisa – brzo, jasno i intuitivno.\n\nOd teksta do visokokvalitetnog prirodnog govora – u samo nekoliko klikova.",
     "description": {
-    "intro": "AlfaNum TTS je napredno rešenje za automatsku sintezu govora na osnovu teksta, koje se u potpunosti prilagođava potrebama vaše organizacije – bilo da se radi o maloj privatnoj firmi, kontakt centru, medijskoj kući, obrazovnoj platformi ili državnoj instituciji. Sistem je dostupan u više modela implementacije:",
+    "intro": "AlfaNum TTS je napredno rešenje za automatsku sintezu govora na osnovu teksta, koje se u potpunosti prilagođava potrebama Vaše organizacije – bilo da se radi o maloj privatnoj firmi, kontakt centru, medijskoj kući, obrazovnoj platformi ili državnoj instituciji. Sistem je dostupan u više modela implementacije:",
     "list": [
-        "<b>Cloud-based paketi</b>, idealni za brzu implementaciju",
-        "<b>On-premise rešenje</b>, namenjeno organizacijama koje zahtevaju punu kontrolu nad podacima, performansama i odzivom sistema"
+        "<b>Cloud-based paketi</b> - idealni za brzu implementaciju",
+        "<b>On-premise rešenje</b> - preporučuje se organizacijama koje zahtevaju punu kontrolu nad podacima, performansama i odzivom sistema"
   ],
-    "middle": "Zbog potreba za real-time sintezom, čuvanjem poverljivih podataka i zahtevima visokog kapaciteta, brojne institucije biraju on-premise varijantu. U tom slučaju, TTS sistem se instalira na lokalni server unutar vaše mreže, čime se sinteza odvija interno, bez slanja podataka van institucije. Ovakav pristup obezbeđuje maksimalnu privatnost, brzinu i pouzdanost.\n\nBez obzira na to da li svakodnevno sintetizujete kraće poruke ili hiljade rečenica u realnom vremenu, naš tim izrađuje rešenje prilagođeno vašem poslovnom modelu:",
+    "middle": "Zbog potreba za sintezom u realnom vremenu, čuvanjem poverljivih podataka i visokim kapacitetom, brojne institucije opredeljuju se za on-premise varijantu. U tom slučaju, TTS sistem se instalira na lokalni server unutar Vaše mreže, i tada se sinteza govora odvija interno, bez slanja teksta van institucije. Ovakav pristup obezbeđuje maksimalnu privatnost, brzinu i pouzdanost sistema.\n\nBez obzira na to da li svakodnevno sintetizujete kraće poruke ili hiljade rečenica u realnom vremenu, naš tim izrađuje rešenje prilagođeno Vašem poslovnom modelu:",
     "extraList": ["Optimizacija prema količini sadržaja za sintezu", "Real-time obrada sa više istovremenih linija za potrebe pozivnih centara i voicebotova", "Balansiranje opterećenja i prilagođavanje hardverskih zahteva"],
-    "conclusion": "AlfaNum TTS podržava srpski, hrvatski i crnogorski jezik. Imamo na raspolaganju više muških i ženskih glasova, ali nudimo i mogućnost razvoja personalizovanog brend-glasa – prepoznatljivog i jedinstvenog glasa vašeg servisa ili brenda.\n\nSistem je dostupan i kroz API, što omogućava jednostavnu integraciju sa pozivnim centrima, voicebot i chatbot rešenjima, web i mobilnim aplikacijama, e-learning, helpdesk i interaktivnim sistemima. Naš tim pruža tehničku podršku prilikom integracije u vaše postojeće okruženje.\n\nU zavisnosti od primene i obima korišćenja, dostupne su različite licencne opcije, kako godišnje i trajne licence, tako i licenciranje po broju istovremenih linija ili tarifiranje po količini sintetizovanog govora (po potrošnji). Bez obzira na industriju, skalu poslovanja ili tehničke zahteve – AlfaNum TTS donosi pouzdanu, prirodnu i tehnološki naprednu sintezu govora koja se potpuno uklapa u vaš sistem.\n\nKontaktirajte nas i zajedno ćemo razviti rešenje koje najbolje odgovara vašim potrebama – uz maksimalnu efikasnost, sigurnost i kvalitet sintetizovanog govora."
+    "conclusion": "AlfaNum TTS podržava srpski, hrvatski i crnogorski jezik. Imamo na raspolaganju više muških i ženskih glasova, ali nudimo i mogućnost razvoja personalizovanog brend-glasa – prepoznatljivog i jedinstvenog glasa Vašeg servisa ili brenda.\n\nSistem je dostupan i kroz API, što omogućava jednostavnu integraciju sa pozivnim centrima, voicebot i chatbot rešenjima, web i mobilnim aplikacijama, e-learning, helpdesk i interaktivnim sistemima. Naš tim pruža tehničku podršku prilikom integracije u Vaše postojeće okruženje.\n\nU zavisnosti od primene i obima korišćenja dostupne su različite licencne opcije, kako godišnje i trajne licence, tako i licenciranje po broju istovremenih linija ili tarifiranje po količini sintetizovanog govora (po potrošnji). Bez obzira na industriju, skalu poslovanja ili tehničke zahteve, AlfaNum TTS donosi pouzdanu, prirodnu i tehnološki naprednu sintezu govora koja se potpuno uklapa u Vaš sistem.\n\nKontaktirajte nas i zajedno ćemo razviti rešenje koje najbolje odgovara Vašim potrebama – uz maksimalnu efikasnost, sigurnost podataka i kvalitet sintetizovanog govora."
 },
     "featuresPrimena": {
         "kvalitet": {
@@ -364,46 +364,46 @@
             "value": "Kvalitet glasa je približan ljudskom govoru."
         },
         "dijakritike": {
-            "key": "Dijakritike",
-            "value": "Čita čak i slova bez dijakritika na ispravan način."
+            "key": "Dijakritici",
+            "value": "Ispravno interpretira i reči napisane bez dijakritičkih znakova."
         },
         "stranereci": {
             "key": "Strane reči",
-            "value": "Ume da pročita na odgovarajuć način i mnoštvo stranih reči."
+            "value": "Na odgovarajući način čita i mnoštvo stranih reči."
         },
         "platforme": {
             "key": "Platforme",
-            "value": "Raspoloživ je na PC i Android platformama."
+            "value": "Dostupan je na PC i Android platformama."
         }
     }
    
 },"anreader": {
     "naslov": "Sistem za sintezu govora na srpskom jeziku, namenjen prevashodno slepim i slabovidim korisnicima",
     "naslovResource": "Nabavka softvera",
-    "tekstPrimena1": "AnReader je savremeni softver za sintezu govora na srpskom jeziku, namenjen prvenstveno slepim i slabovidim osobama, ali i svima koji imaju poteškoće sa čitanjem ili žele da svoj digitalni sadržaj slušaju umesto da ga čitaju. Oslanja se na dokazanu AlfaNum TTS tehnologiju i omogućava jasan, prirodan i prijatan govor – dostupan u više varijanti muških i ženskih glasova.",
-    "tekstPrimena2": "\n\nZahvaljujući podršci za Microsoft SAPI 4 i 5 interfejse, AnReader se neprimetno integriše sa najpoznatijim čitačima ekrana kao što su NVDA, JAWS, Window-Eyes i Dolphin ScreenReader. Zasnovan na AlfaNum TTS tehnologiji, AnReader nudi jasan i prirodan govor koji omogućava jednostavno i dugotrajno slušanje bez napora.\n\nSoftver je izuzetno koristan i za osobe sa drugim vrstama invaliditeta: osobe sa disleksijom, multiple sklerozom, dečijom i cerebralnom paralizom, pa čak i osobe koje ne mogu govoriti mogu ga koristiti kao sredstvo za komunikaciju. AnReader ima široku primenu i u obrazovanju – lekcije, članci i drugi materijali mogu se pretvoriti u zvučne fajlove dostupne učenicima i studentima bilo kada i bilo gde. Učenje tokom šetnje, putovanja ili fizičke aktivnosti postaje realnost, čineći obrazovanje fleksibilnijim i pristupačnijim.\n\nAnReader je dostupan i kao Android aplikacija, prilagođena za mobilno korišćenje i dostupna za preuzimanje putem Google Play prodavnice, čime dodatno proširuje svoju pristupačnost. Program za desktop računare možete preuzeti sa",
+    "tekstPrimena1": "AnReader je savremeni softver za sintezu govora na srpskom jeziku, namenjen prvenstveno slepim i slabovidim osobama, ali i svima koji imaju poteškoće sa čitanjem ili žele da svoj digitalni sadržaj slušaju umesto da ga čitaju. Oslanja se na proverenu AlfaNum TTS tehnologiju i proizvodi jasan, prirodan i prijatan govor – dostupan u više varijanti muških i ženskih glasova.",
+    "tekstPrimena2": "\n\nZahvaljujući podršci za Microsoft SAPI 4 i 5 interfejse, AnReader se neprimetno integriše u najpoznatije čitače ekrana kao što su NVDA, JAWS, Window-Eyes i Dolphin ScreenReader. Zasnovan na AlfaNum TTS tehnologiji, AnReader nudi jasan i prirodan govor, koji omogućava jednostavno i dugotrajno slušanje bez napora.\n\nSoftver je izuzetno koristan i osobama sa drugim vrstama invaliditeta: disleksijom, multiplom sklerozom, dečijom i cerebralnom paralizom, a kao sredstvo za komunikaciju mogu ga koristiti čak i neme osobe. AnReader ima široku primenu i u obrazovanju – lekcije, članci i drugi materijali mogu se pretvoriti u zvučne fajlove dostupne učenicima i studentima bilo kada i bilo gde. Učenje tokom šetnje, putovanja ili fizičke aktivnosti postaje realnost, što čini obrazovanje fleksibilnijim i pristupačnijim.\n\nAnReader je dostupan i kao Android aplikacija, prilagođena za mobilno korišćenje i dostupna za preuzimanje putem Google Play prodavnice. Verzija AnReadera za desktop računare može se preuzeti sa",
     "strana": "AnReader download strane",
     "description": {
-    "intro": "AnReader se može obezbediti kao pomagalo za slepe i slabovide preko Republičkog fonda za zdravstveno osiguranje (RFZO). Da biste ostvarili to pravo, potrebno je sledeće:",
+    "intro": "AnReader se može obezbediti kao pomagalo za slepe i slabovide preko Republičkog fonda za zdravstveno osiguranje (RFZO). Da bi osiguranik ostvario to pravo, potrebno mu je sledeće:",
     "list": [
         "obrazac za pomagalo overen u nadležnoj RFZO filijali (za šta je neophodan nalaz i mišljenje oftalmologa)",
-        "dokaz da je osiguranik i član saveza slepih",
+        "dokaz da je osiguranik član saveza slepih",
         "dokaz da je osiguranik učenik ili zaposlen"
   ],
-    "middle": "Dokumentacija se dostavlja na adresu AlfaNuma, a odmah po dobijanju dokumentacije mi Vam dostavljamo softver i otvaramo licencu za korišćenje. Za sve korisnike koji nemaju pravo na subvencionisano pomagalo, AnReader se može kupiti komercijalno, plaćanjem godišnje licence, dostupne u više različitih paketa – u zavisnosti od potreba korisnika.",
-    "conclusion": "Govor ne zna za barijere – AnReader ih pomaže prevazići."
+    "middle": "Dokumentacija se dostavlja na adresu AlfaNuma, a odmah po dobijanju dokumentacije mi Vam dostavljamo softver i otvaramo licencu za korišćenje. Za sve korisnike koji nemaju pravo na subvencionisano pomagalo, AnReader se može nabaviti komercijalno, uz plaćanje godišnje licence, dostupne u više različitih paketa – u zavisnosti od potreba korisnika.",
+    "conclusion": "Ako ne vidite svet - AnReader će vam pomoći da ga čujete."
    
 }
 },"citajmi": {
-    "tekstPrimena": "„Čitaj mi“ je pametno i lako integrisano rešenje koje omogućava posetiocima vašeg sajta da jednim klikom slušaju sadržaj umesto da ga čitaju. Zahvaljujući AlfaNum-ovoj visokokvalitetnoj sintezi govora na srpskom jeziku, korisnici dobijaju prirodan, razumljiv i prijatan glas koji omogućava jednostavno praćenje informacija – bilo da su u pokretu, rade više stvari odjednom ili imaju poteškoća sa čitanjem.\n\nOva funkcionalnost posebno je dragocena za slepe i slabovide osobe, koje koriste čitače ekrana, ali kvalitet zavisi od samog sintetizatora. AlfaNum jedini nudi rešenje koje pruža tečan i prirodan govor na srpskom i drugim južnoslovenskim jezicima, čime se značajno unapređuje pristupačnost sadržaja.\n\n„Čitaj mi“ je posebno koristan na sajtovima sa vestima i informativnim sadržajem – korisnik može zatražiti čitanje najnovijih ili najvažnijih vesti, čime se štedi vreme i povećava efikasnost. Osim toga, sistem je podrška i osobama sa disleksijom, multiple sklerozom, cerebralnom paralizom i drugim stanjima koja otežavaju čitanje.\n\nPrednosti ne staju tu – u brzom tempu svakodnevice, mnogi žele da ostanu informisani dok obavljaju druge poslove. „Čitaj mi“ omogućava upravo to: slušanje najnovijih informacija u vožnji, uz posao ili odmor.\n\nOzvučavanjem sajta ne samo da povećavate dostupnost, već i unapređujete korisničko iskustvo i društvenu odgovornost svoje organizacije. Učinite informacije dostupnije svima – dodajte dugme „Čitaj mi“ i neka vaš sajt progovori.",
+    "tekstPrimena": "„Čitaj mi“ je inteligentno rešenje lako za integraciju, koje omogućava posetiocima Vašeg sajta da jednim klikom na odgovarajuće dugme slušaju sadržaj umesto da ga čitaju. Zahvaljujući visokokvalitetnoj sintezi govora na srpskom, hrvatskom ili crnogorskom jeziku, korisnici dobijaju informacije prirodnim, razumljivim i prijatnim glasom, bilo da su u pokretu, rade više stvari odjednom ili imaju poteškoća sa čitanjem.\n\nOva funkcionalnost posebno je dragocena slepim i slabovidim osobama koje koriste čitače ekrana, imajući u vidu da kvalitet govora ne zavisi od čitača već od samog sintetizatora. AlfaNum jedini nudi rešenje koje proizvodi tečan i prirodan govor na srpskom i drugim južnoslovenskim jezicima, čime se pristupačnost tekstualnog sadržaja značajno unapređuje.\n\n„Čitaj mi“ daje novu dimenziju sajtovima sa vestima i informativnim sadržajem – korisnik može zatražiti čitanje najnovijih ili najvažnijih vesti, čime se štedi vreme i povećava efikasnost. Osim toga, sistem je podrška i osobama sa disleksijom, multiplom sklerozom, cerebralnom paralizom i drugim stanjima koja otežavaju čitanje.\n\nPrednosti se tu ne završavaju – u brzom tempu svakodnevice, mnogi žele da ostanu informisani dok obavljaju druge poslove. „Čitaj mi“ omogućava upravo to: slušanje najnovijih informacija u vožnji, uz posao ili odmor.\n\nOzvučavanjem svog sajta ne samo da povećavate njegovu dostupnost, već unapređujete i korisničko iskustvo i društvenu odgovornost svoje organizacije.",
     "naslov": "Omogućite preslušavanje sadržaja svog web sajta na srpskom jeziku dodavanjem opcije „Čitaj mi“",
     "ozvuceniSajtovi": "Primeri ozvučenih web sajtova"
 },
     "pretplata": {
-        "medicta": "Za individualne korisnike, Medicta je dostupna kroz mesečnu ili godišnju pretplatu, uz neograničeno korišćenje aplikacije tokom trajanja pretplatnog perioda.\nPrve dve nedelje su besplatne – dovoljno da isprobate sve funkcionalnosti i uverite se u kvalitet pre nego što se odlučite za pretplatu. Nakon prijave, aplikaciju i uputstvo za instalaciju dobićete na mejl u roku od 24h.\nPrepoznavanje govora se obavlja na našim serverima, što znači da aplikaciju možete koristiti sa bilo kog Windows računara, bez potrebe za dodatnom infrastrukturom. Ova pretplata je namenjena pojedinačnim korisnicima, tj. jednom lekaru. Možete je instalirati na više računara (npr. kod kuće i na poslu), ali korišćenje od strane više osoba nije dozvoljeno. U slučaju detekcije višekorisničkog pristupa, nalog će biti trajno deaktiviran. Online podrška dostupna je svakodnevno 8-17h.\n\nBudite brži, precizniji i efikasniji u svom svakodnevnom radu uz podršku savremenih govornih tehnologija. Isprobajte Medicta aplikaciju već danas!",
-        "iurisdicta": "Za individualne korisnike, Iurisdicta je dostupna kroz mesečnu ili godišnju pretplatu, uz neograničeno korišćenje aplikacije tokom trajanja pretplatnog perioda.\nPrve dve nedelje su besplatne – dovoljno da isprobate sve funkcionalnosti i uverite se u kvalitet pre nego što se odlučite za pretplatu. Nakon prijave, aplikaciju i uputstvo za instalaciju dobićete na mejl u roku od 24h.\nPrepoznavanje govora se obavlja na našim serverima, što znači da aplikaciju možete koristiti sa bilo kog Windows računara, bez potrebe za dodatnom infrastrukturom. Ova pretplata je namenjena pojedinačnim korisnicima, tj. jednom pravniku. Možete je instalirati na više računara (npr. kod kuće i na poslu), ali korišćenje od strane više osoba nije dozvoljeno. U slučaju detekcije višekorisničkog pristupa, nalog će biti trajno deaktiviran. Online podrška dostupna je svakodnevno 8-17h.\n\nBudite brži i efikasniji u svom svakodnevnom radu uz podršku savremenih govornih tehnologija. Isprobajte Iurisdicta aplikaciju već danas!",
-        "transcripta": "Za individualne korisnike nudimo dva paketa pretplate za korišćenje Transcripte putem jednostavnog i pristupačnog <a href='https://transcripta.alfanum.co.rs/portal/' target='_blank' rel='noopener noreferrer' class='download-link'>web portala</a>, bez potrebe za dodatnim instalacijama.Portal omogućava automatsku transkripciju govora u tekst iz audio i video snimaka, dijarizaciju (razdvajanje transkripta po govorniku), kao i online editor za pregled i uređivanje transkripta uz simultano preslušavanje audio snimka.\nPrvih 5 minuta je besplatno, pa napravite nalog i isprobajte sve funkcionalnosti i pre same pretplate. Prepoznavanje se obavlja na našim serverima, a pristup portalu je omogućen sa bilo kog uređaja (računar, tablet ili telefon) putem web browser-a – jednostavno, brzo i efikasno.",
-        "ansintetizator": "Za individualne korisnike, dostupan je <a href='https://tts6_portal.alfanum.co.rs/login.php' target='_blank' rel='noopener noreferrer' class='download-link'>TTS web portal</a> kroz dva paketa pretplate, sa jednostavnim pristupom svim funkcionalnostima direktno iz browser-a – bez instalacije. U okviru demo aplikacije, možete isprobati kvalitet sinteze govora, dok detaljan prikaz funkcionalnosti portala možete pogledati putem video snimka.\nPortal nudi više govornika, nekoliko jezika (srpski, hrvatski i crnogorski), kao i intuitivno korisničko okruženje za brzo generisanje govora iz teksta. Sinteza se izvršava na našim serverima, pa portalu možete pristupiti sa bilo kog uređaja (računar, telefon, tablet) koristeći web browser."
+        "medicta": "Za individualne korisnike, Medicta je dostupna kroz mesečnu ili godišnju pretplatu, uz neograničeno korišćenje aplikacije tokom trajanja pretplatnog perioda.\nPrve dve nedelje su besplatne, a to je dovoljno da isprobate sve funkcionalnosti i uverite se u kvalitet pre nego što se odlučite za pretplatu. Nakon prijave, aplikaciju i uputstvo za instalaciju dobićete na mejl u roku od 24h.\nKonverzija govora u tekst obavlja se na našim serverima, što znači da aplikaciju možete koristiti sa bilo kog Windows računara, bez potrebe za dodatnom infrastrukturom. Ova pretplata je namenjena pojedinačnim korisnicima, tj. jednom lekaru. Možete instalirati sistem na više računara (npr. kod kuće i na poslu), ali korišćenje od strane više osoba nije dozvoljeno. U slučaju detekcije višekorisničkog pristupa nalog će biti trajno deaktiviran. Online podrška dostupna je svakodnevno u terminu 8-17h.\n\nBudite brži, precizniji i efikasniji u svakodnevnom radu uz podršku savremenih govornih tehnologija. Isprobajte Medicta aplikaciju već danas!",
+        "iurisdicta": "Za individualne korisnike, Iurisdicta je dostupna kroz mesečnu ili godišnju pretplatu, uz neograničeno korišćenje aplikacije tokom trajanja pretplatnog perioda.\nPrve dve nedelje su besplatne, što je dovoljno da isprobate sve funkcionalnosti i uverite se u kvalitet pre nego što se odlučite za pretplatu. Nakon prijave, aplikaciju i uputstvo za instalaciju dobićete na mejl u roku od 24h.\nKonverzija govora u tekst obavlja se na našim serverima, što znači da aplikaciju možete koristiti sa bilo kog Windows računara, bez potrebe za dodatnom infrastrukturom. Ova pretplata je namenjena pojedinačnim korisnicima, tj. jednom pravniku. Možete je instalirati na više računara (npr. kod kuće i na poslu), ali korišćenje od strane više osoba nije dozvoljeno. U slučaju detekcije višekorisničkog pristupa nalog će biti trajno deaktiviran. Online podrška dostupna je svakodnevno u terminu 8-17h.\n\nBudite brži i efikasniji u svakodnevnom radu uz podršku savremenih govornih tehnologija. Isprobajte Iurisdicta aplikaciju već danas!",
+        "transcripta": "Za individualne korisnike nudimo dva paketa pretplate za korišćenje Transcripte putem jednostavnog i pristupačnog <a href='https://transcripta.alfanum.co.rs/portal/' target='_blank' rel='noopener noreferrer' class='download-link'>web portala</a>, bez potrebe za dodatnim instalacijama. Portal omogućava automatsku transkripciju govora u tekst iz audio i video snimaka, dijarizaciju (razdvajanje transkripta po govorniku), kao i online editor za pregled i uređivanje transkripta uz simultano preslušavanje audio-snimka.\nPrvih 5 minuta je besplatno, tako da možete otvoriti nalog i isprobati sve funkcionalnosti i pre nego što odlučite da se pretplatite. Konverzija govora u tekst obavlja se na našim serverima, a pristup portalu je omogućen sa bilo kog uređaja (računar, tablet ili telefon) putem web browsera – jednostavno, brzo i efikasno.",
+        "ansintetizator": "Za individualne korisnike, dostupan je <a href='https://tts6_portal.alfanum.co.rs/login.php' target='_blank' rel='noopener noreferrer' class='download-link'>TTS web portal</a> kroz dva paketa pretplate, sa jednostavnim pristupom svim funkcionalnostima direktno iz browsera – bez instalacije. U okviru demo aplikacije, možete isprobati kvalitet sinteze govora, dok se sa svim funkcionalnostima portala možete upoznati kroz video-snimak.\nPortal nudi više govornika, nekoliko jezika (srpski, hrvatski i crnogorski), kao i intuitivno korisničko okruženje za brzu konverziju teksta u govor. Sinteza govora izvršava se na našim serverima, tako da portalu možete pristupiti sa bilo kog uređaja (računar, telefon, tablet) koristeći web browser."
     },
     "mesecna": {
         "naslov": "Mesečna pretplata",
@@ -431,27 +431,27 @@
     "osnovni": {
         "naslov": "Osnovni paket",
         "h30": "30h mesečno",
-        "nakonh30": "1.2e/h nakon toga",
+        "nakonh30": "1.2€/h nakon toga",
         "dijarizacija": "Dijarizacija",
         "online": "Online editor"
     },
     "premium": {
         "naslov": "Premium paket",
         "h60": "60h mesečno",
-        "nakonh60": "1e/h nakon toga",
+        "nakonh60": "1€/h nakon toga",
         "dijarizacija": "Dijarizacija",
         "online": "Online editor"
     },
     "paket1": {
         "naslov": "Paket 1",
         "karakteri": "200.000 karaktera/mes",
-        "karakterinakon": "0.25e/1000 karaktera nakon toga",
+        "karakterinakon": "0.25€/1000 karaktera nakon toga",
         "glas": "Izbor glasa"
     },
     "paket2": {
         "naslov": "Paket 2",
         "karakteri": "600.000 karaktera/mes",
-        "karakterinakon": "0.17e/1000 karaktera nakon toga",
+        "karakterinakon": "0.17€/1000 karaktera nakon toga",
         "glas": "Izbor glasa"
     },
     "tromesecni": "Tromesečni paket",
@@ -463,7 +463,7 @@
     "velikinaslovi": {
         "primena": "Primena",
         "anreader": "AnReader – Govor koji otvara svet.",
-        "citajmi": "Čitaj mi – Pretvorite tekst u govor, učinite sajt pristupačnijim.",
+        "citajmi": "Čitaj mi – Pretvorite tekst u govor, učinite svoj sajt pristupačnijim.",
         "ansintetizator": "AN sintetizator - Jer tvoj sadržaj zaslužuje da ga čuju.",
         "transcripta": "Transcripta - Sve što se kaže, ostaje zapisano.",
         "medicta": "Medicta - Od govora do gotovog nalaza u jednom dahu.",
