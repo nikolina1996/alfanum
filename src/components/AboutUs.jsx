@@ -69,7 +69,7 @@ const AboutUs = () => {
           <h2>{texts.aboutus.uspeh.key}</h2>
         </div>
         <div>
-          <h3>{texts.aboutus.iskustvo.value}</h3>
+          <h3>{texts.aboutus.uspeh.value}</h3>
         </div>
       </div>
       <div
