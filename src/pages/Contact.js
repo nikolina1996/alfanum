@@ -65,7 +65,7 @@ const Contact = () => {
             <div className="contactInfo">
               <p><strong>AlfaNum d.o.o</strong></p>
               <p><FaHome className="icon" /> Krajiška 41, 21132 Petrovaradin</p>
-              <p><FaPhone className="icon" /> {texts.kontakt.forma.prodaja}: 064/809-5758</p>
+              <p><FaPhone className="icon" /> {texts.kontakt.forma.prodaja}: +381640550184</p>
               <p><FaPhone className="icon" /> {texts.kontakt.forma.podrska}: 066/809-6324</p>
             </div>
           </div>
